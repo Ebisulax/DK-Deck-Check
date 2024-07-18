@@ -33,6 +33,9 @@
         .rule-check th {
             background-color: #e6e6e6;
         }
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -41,7 +44,7 @@
     <input type="file" id="fileInput" accept=".xml">
     <button onclick="uploadFile()">Deck Check!</button>
     <div class="container">
-        <div class="card-list">
+        <div class="card-list hidden" id="cardList">
             <table id="cardTable">
                 <thead>
                     <tr>
@@ -52,7 +55,7 @@
                 <tbody></tbody>
             </table>
         </div>
-        <div class="rule-check">
+        <div class="rule-check hidden" id="ruleCheck">
             <table>
                 <thead>
                     <tr>
@@ -108,14 +111,14 @@
                     try {
                         const parser = new DOMParser();
                         const xml = parser.parseFromString(event.target.result, "application/xml");
-                        
+
                         // Get all card elements within the <main> part
                         const mainElement = xml.getElementsByTagName('main')[0];
                         if (!mainElement) {
                             console.error('No <main> element found in the uploaded file.');
                             return;
                         }
-                        
+
                         const mainCards = mainElement.getElementsByTagName('card');
                         const database = await fetchDatabase();
 
@@ -213,6 +216,10 @@
                         rule3Sum.textContent = `${midAtkSum}`;
                         rule3Result.innerHTML = '';
                         rule3Result.appendChild(createIcon(midAtkCount <= 3 && midAtkSum <= 4700));
+
+                        // Make the tables visible
+                        document.getElementById('cardList').classList.remove('hidden');
+                        document.getElementById('ruleCheck').classList.remove('hidden');
                     } catch (error) {
                         console.error('Error parsing XML:', error);
                     }
