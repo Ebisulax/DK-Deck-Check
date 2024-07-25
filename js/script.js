@@ -55,6 +55,7 @@ async function uploadFile() {
                 let midAtkSum = 0;
                 let value5Count = 0;
                 let totalValueSum = 0;
+                let invalidCards = [];
 
                 // Loop through the cards and add their values to the list
                 for (let i = 0; i < mainCards.length; i++) {
@@ -104,6 +105,8 @@ async function uploadFile() {
                                 value5Count++;
                             }
                             totalValueSum += cardData.value;
+                        } else {
+                            invalidCards.push(cardName);
                         }
                     } else {
                         atkCell.textContent = '';
@@ -113,6 +116,8 @@ async function uploadFile() {
                                 value5Count++;
                             }
                             totalValueSum += cardData.value;
+                        } else {
+                            invalidCards.push(cardName);
                         }
                     }
 
@@ -167,6 +172,15 @@ async function uploadFile() {
                 rule3Tip.textContent = `${midAtkCount < 3 ? `Du dürfest noch ${3 - midAtkCount} monster mehr im Deck haben. ` : ''} ${midAtkSum < 4700 ? `Sie dürften noch um ${4700 - midAtkSum} ATK stärker sein.` : ''}`;
                 rule3Result.innerHTML = '';
                 rule3Result.appendChild(createIcon(midAtkCount <= 3 && midAtkSum <= 4700));
+
+                // Check rule 4
+                const rule4Value = document.getElementById('allowedCardsValue');
+                const rule4Tip = document.getElementById('allowedCardsTip');
+                const rule4Result = document.getElementById('allowedCardsResult');
+                rule4Value.textContent = invalidCards.length ? invalidCards.join(', ') : 'Alle Karten sind erlaubt';
+                rule4Tip.textContent = invalidCards.length ? 'Einige Karten sind nicht erlaubt' : 'Alle Karten sind in der Liste der erlaubten Karten';
+                rule4Result.innerHTML = '';
+                rule4Result.appendChild(createIcon(invalidCards.length === 0));
 
                 // Check rule 5
                 const rule5Value = document.getElementById('value5Count');
