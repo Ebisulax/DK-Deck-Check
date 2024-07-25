@@ -62,6 +62,7 @@
                         <th>Regel</th>
                         <th>Erlaubt</th>
                         <th>Deck</th>
+                        <th>Tipp</th>
                         <th>Ergebnis</th>
                     </tr>
                 </thead>
@@ -70,18 +71,21 @@
                         <td>⌀ ATK deiner Monster</td>
                         <td>≤ 1200</td>
                         <td><span id="avgAtkValue"></span></td>
+                        <td><span id="avgAtkTip"></span></td>
                         <td><span id="avgAtkResult"></span></td>
                     </tr>
                     <tr id="rule2">
                         <td>1700+ Monster</td>
                         <td>Anz.: 2, Summe ATK: 3650</td>
                         <td>Anz.: <span id="highAtkCount"></span>, Summe ATK: <span id="highAtkSum"></span></td>
+                        <td><span id="highAtkTip"></span></td>
                         <td><span id="highAtkResult"></span></td>
                     </tr>
                     <tr id="rule3">
                         <td>1500-1650 Monster</td>
                         <td>Anz.: 3, Summe ATK: 4700</td>
                         <td>Anz.: <span id="midAtkCount"></span>, Summe ATK: <span id="midAtkSum"></span></td>
+                        <td><span id="midAtkTip"></span></td>
                         <td><span id="midAtkResult"></span></td>
                     </tr>
                 </tbody>
@@ -181,6 +185,8 @@
 
                         // Calculate average ATK
                         const avgAtk = count > 0 ? Math.ceil(totalAtk / count) : 0;
+                        const maxAvgAtk = 1200;
+                        const avgAtkDifference = maxAvgAtk * count - totalAtk;
 
                         // Function to create a check or cross icon
                         function createIcon(isCheck) {
@@ -194,26 +200,32 @@
 
                         // Check rule 1
                         const rule1Value = document.getElementById('avgAtkValue');
+                        const rule1Tip = document.getElementById('avgAtkTip');
                         const rule1Result = document.getElementById('avgAtkResult');
                         rule1Value.textContent = `${avgAtk}`;
+                        rule1Tip.textContent = `Deine Monster könnten noch ${avgAtkDifference} ATK mehr haben.`;
                         rule1Result.innerHTML = '';
                         rule1Result.appendChild(createIcon(avgAtk <= 1200));
 
                         // Check rule 2
                         const rule2Value = document.getElementById('highAtkCount');
                         const rule2Sum = document.getElementById('highAtkSum');
+                        const rule2Tip = document.getElementById('highAtkTip');
                         const rule2Result = document.getElementById('highAtkResult');
                         rule2Value.textContent = `${highAtkCount}`;
                         rule2Sum.textContent = `${highAtkSum}`;
+                        rule2Tip.textContent = `${highAtkCount < 2 ? `Du dürfest noch ${2 - highAtkCount} monster mehr im Deck haben. ` : ''} ${highAtkSum < 3650 ? `Sie dürften noch um ${3650 - highAtkSum} ATK stärker sein.` : ''}`;
                         rule2Result.innerHTML = '';
                         rule2Result.appendChild(createIcon(highAtkCount <= 2 && highAtkSum <= 3650));
 
                         // Check rule 3
                         const rule3Value = document.getElementById('midAtkCount');
                         const rule3Sum = document.getElementById('midAtkSum');
+                        const rule3Tip = document.getElementById('midAtkTip');
                         const rule3Result = document.getElementById('midAtkResult');
                         rule3Value.textContent = `${midAtkCount}`;
                         rule3Sum.textContent = `${midAtkSum}`;
+                        rule3Tip.textContent = `${midAtkCount < 3 ? `Du dürfest noch ${3 - midAtkCount} monster mehr im Deck haben. ` : ''} ${midAtkSum < 4700 ? `Sie dürften noch um ${4700 - midAtkSum} ATK stärker sein.` : ''}`;
                         rule3Result.innerHTML = '';
                         rule3Result.appendChild(createIcon(midAtkCount <= 3 && midAtkSum <= 4700));
 
