@@ -50,6 +50,7 @@
                     <tr>
                         <th>Name</th>
                         <th>ATK</th>
+                        <th>Value</th>
                     </tr>
                 </thead>
                 <tbody></tbody>
@@ -88,12 +89,37 @@
                         <td><span id="midAtkTip"></span></td>
                         <td><span id="midAtkResult"></span></td>
                     </tr>
+                    <tr id="rule5">
+                        <td>Karten mit Wert 5</td>
+                        <td>Anz.: 3</td>
+                        <td><span id="value5Count"></span></td>
+                        <td><span id="value5Tip"></span></td>
+                        <td><span id="value5Result"></span></td>
+                    </tr>
+                    <tr id="rule6">
+                        <td>Summe der Werte</td>
+                        <td>≤ 90</td>
+                        <td><span id="totalValueSum"></span></td>
+                        <td><span id="totalValueTip"></span></td>
+                        <td><span id="totalValueResult"></span></td>
+                    </tr>
                 </tbody>
             </table>
         </div>
     </div>
 
     <script>
+        let cardList = [];
+
+        async function loadCardList() {
+            try {
+                const response = await fetch('dk_card_list.json');
+                cardList = await response.json();
+            } catch (error) {
+                console.error('Error loading card list:', error);
+            }
+        }
+
         async function fetchDatabase() {
             try {
                 const response = await fetch('https://db.ygoprodeck.com/api/v7/cardinfo.php');
@@ -106,6 +132,8 @@
         }
 
         async function uploadFile() {
+            await loadCardList();
+
             const input = document.getElementById('fileInput');
             const file = input.files[0];
 
@@ -136,6 +164,8 @@
                         let highAtkSum = 0;
                         let midAtkCount = 0;
                         let midAtkSum = 0;
+                        let value5Count = 0;
+                        let totalValueSum = 0;
 
                         // Loop through the cards and add their values to the list
                         for (let i = 0; i < mainCards.length; i++) {
@@ -143,10 +173,13 @@
                             const tableRow = document.createElement('tr');
                             const nameCell = document.createElement('td');
                             const atkCell = document.createElement('td');
+                            const valueCell = document.createElement('td');
                             nameCell.textContent = cardName;
 
                             // Find match in database
                             const match = database.find(dbCard => dbCard.name === cardName);
+                            const cardData = cardList.find(card => card.name === cardName);
+
                             if (match && typeof match.atk === 'number') {
                                 const originalAtk = match.atk;
                                 const level = match.level;
@@ -174,12 +207,29 @@
                                         midAtkSum += originalAtk;
                                     }
                                 }
+
+                                // Check if the card is in the allowed list
+                                if (cardData) {
+                                    valueCell.textContent = cardData.value;
+                                    if (cardData.value === 5) {
+                                        value5Count++;
+                                    }
+                                    totalValueSum += cardData.value;
+                                }
                             } else {
                                 atkCell.textContent = '';
+                                valueCell.textContent = cardData ? cardData.value : '';
+                                if (cardData) {
+                                    if (cardData.value === 5) {
+                                        value5Count++;
+                                    }
+                                    totalValueSum += cardData.value;
+                                }
                             }
 
                             tableRow.appendChild(nameCell);
                             tableRow.appendChild(atkCell);
+                            tableRow.appendChild(valueCell);
                             cardTableBody.appendChild(tableRow);
                         }
 
@@ -228,6 +278,24 @@
                         rule3Tip.textContent = `${midAtkCount < 3 ? `Du dürfest noch ${3 - midAtkCount} monster mehr im Deck haben. ` : ''} ${midAtkSum < 4700 ? `Sie dürften noch um ${4700 - midAtkSum} ATK stärker sein.` : ''}`;
                         rule3Result.innerHTML = '';
                         rule3Result.appendChild(createIcon(midAtkCount <= 3 && midAtkSum <= 4700));
+
+                        // Check rule 5
+                        const rule5Value = document.getElementById('value5Count');
+                        const rule5Tip = document.getElementById('value5Tip');
+                        const rule5Result = document.getElementById('value5Result');
+                        rule5Value.textContent = `${value5Count}`;
+                        rule5Tip.textContent = value5Count <= 3 ? `Du darfst noch ${3 - value5Count} limitierte Karten mehr spielen!` : `Du spielst ${value5Count - 3} limitierte Karten zu viel!`;
+                        rule5Result.innerHTML = '';
+                        rule5Result.appendChild(createIcon(value5Count <= 3));
+
+                        // Check rule 6
+                        const rule6Value = document.getElementById('totalValueSum');
+                        const rule6Tip = document.getElementById('totalValueTip');
+                        const rule6Result = document.getElementById('totalValueResult');
+                        rule6Value.textContent = `${totalValueSum}`;
+                        rule6Tip.textContent = totalValueSum <= 90 ? `Deine Karten dürften ${90 - totalValueSum} value mehr haben!` : `Deine Karten müssten ${totalValueSum - 90} value weniger haben!`;
+                        rule6Result.innerHTML = '';
+                        rule6Result.appendChild(createIcon(totalValueSum <= 90));
 
                         // Make the tables visible
                         document.getElementById('cardList').classList.remove('hidden');

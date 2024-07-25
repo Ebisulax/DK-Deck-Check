@@ -23292,7 +23292,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -30225,7 +30225,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -31108,7 +31108,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -38502,7 +38502,7 @@
       }
     ],
     "isSelected": true,
-    "value": 5,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -65135,7 +65135,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 77565204,
@@ -65469,7 +65469,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 41356845,
@@ -91344,5 +91344,45 @@
     "isSelected": true,
     "isInExtraDeck": false,
     "value": 3
+  },
+  {
+    "name": "Riefenstahl the luminated",
+    "type": "Effect Monster",
+    "race": "Warrior",
+    "desc": "You can treat this monster as 2 Tributes for the Tribute Summon of a Warrior monster. If a Level 5 or higher Warrior would be destroyed, you can banish this monster from your GY instead.",
+    "atk": 1600,
+    "def": 800,
+    "level": 4,
+    "attribute": "LIGHT",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 3
+  },
+  {
+    "name": "Who ys a Goode Boy?",
+    "type": "Spell Card",
+    "race": "Continuous",
+    "desc": "Your 'Shiba-Warrior Taro' is unaffected by your opponent's card effects as long as you control a Warrior. If 'Shiba-Warrior Taro' is returned from the field to your hand: Return a card from your GY that was sent there this turn to your hand.",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 2
+  },
+  {
+    "name": "(DM) Card of Sanctity",
+    "type": "Spell Card",
+    "race": "Continuous",
+    "desc": "Each player draws until they have 6 cards in their hand.",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 5
+  },
+  {
+    "name": "(Anime) Soul Rope",
+    "type": "Trap Card",
+    "race": "trap",
+    "desc": "Activate only by paying 1000 Life Points when your monster is destroyed. Special Summon 1 Level 4 monster from your Deck.",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 5
   }
 ]
