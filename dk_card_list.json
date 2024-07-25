@@ -21382,7 +21382,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -91346,7 +91346,7 @@
     "value": 3
   },
   {
-    "name": "Riefenstahl the luminated",
+    "name": "Riefenstahl the Luminated",
     "type": "Effect Monster",
     "race": "Warrior",
     "desc": "You can treat this monster as 2 Tributes for the Tribute Summon of a Warrior monster. If a Level 5 or higher Warrior would be destroyed, you can banish this monster from your GY instead.",
