@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+}
+.card-list, .rule-check {
+    margin: 20px;
+    width: 50%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.rule-check table {
+    width: 100%;
+}
+.rule-check th, .rule-check td {
+    text-align: center;
+}
+.rule-check th {
+    background-color: #e6e6e6;
+}
+.hidden {
+    display: none;
+}
