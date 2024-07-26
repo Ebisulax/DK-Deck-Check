@@ -11,26 +11,26 @@ async function loadCardList() {
 
 async function uploadFile() {
     await loadCardList();
-
+    
     const input = document.getElementById('fileInput');
     const file = input.files[0];
-
+    
     if (file) {
         const reader = new FileReader();
         reader.onload = async function(event) {
             try {
                 const parser = new DOMParser();
                 const xml = parser.parseFromString(event.target.result, "application/xml");
-
+                
                 // Get all card elements within the <main>, <side>, and <extra> parts
                 const mainElement = xml.getElementsByTagName('main')[0];
                 const sideElement = xml.getElementsByTagName('side')[0];
                 const extraElement = xml.getElementsByTagName('extra')[0];
-
+                
                 const mainCards = mainElement ? mainElement.getElementsByTagName('card') : [];
                 const sideCards = sideElement ? sideElement.getElementsByTagName('card') : [];
                 const extraCards = extraElement ? extraElement.getElementsByTagName('card') : [];
-
+                
                 // Get the table body elements
                 const mainDeckTableBody = document.getElementById('mainDeckTable').querySelector('tbody');
                 const sideDeckTableBody = document.getElementById('sideDeckTable').querySelector('tbody');
@@ -38,7 +38,7 @@ async function uploadFile() {
                 mainDeckTableBody.innerHTML = ''; // Clear the table
                 sideDeckTableBody.innerHTML = ''; // Clear the table
                 extraDeckTableBody.innerHTML = ''; // Clear the table
-
+                
                 let totalAtk = 0;
                 let count = 0;
                 let highAtkCount = 0;
@@ -48,7 +48,7 @@ async function uploadFile() {
                 let value5Count = 0;
                 let totalValueSum = 0;
                 let invalidCards = [];
-
+                
                 // Function to add cards to the table
                 function addCardsToTable(cards, tableBody, isMainDeck = false) {
                     for (let i = 0; i < cards.length; i++) {
@@ -59,14 +59,14 @@ async function uploadFile() {
                         const valueCell = document.createElement('td');
                         const allowedCell = document.createElement('td');
                         nameCell.textContent = cardName;
-
+                        
                         // Find match in card list
                         const cardData = cardList.find(card => card.name === cardName);
-
+                        
                         if (cardData) {
                             const originalAtk = cardData.atk;
                             const level = cardData.level;
-
+                            
                             if (!isNaN(originalAtk)) {
                                 // Adjust ATK based on level for calculation purposes (only for main deck)
                                 let adjustedAtk = originalAtk;
@@ -78,7 +78,7 @@ async function uploadFile() {
                                     }
                                     totalAtk += adjustedAtk;
                                     count++;
-
+                                    
                                     if (level >= 1 && level <= 4) {
                                         if (originalAtk >= 1700) {
                                             highAtkCount++;
@@ -89,12 +89,12 @@ async function uploadFile() {
                                         }
                                     }
                                 }
-
+                                
                                 atkCell.textContent = originalAtk;
                             } else {
                                 atkCell.textContent = '';
                             }
-
+                            
                             valueCell.textContent = cardData.value;
                             if (cardData.value === 5 && isMainDeck) {
                                 value5Count++;
@@ -102,7 +102,7 @@ async function uploadFile() {
                             if (isMainDeck) {
                                 totalValueSum += cardData.value;
                             }
-
+                            
                             allowedCell.appendChild(createIcon(true));
                         } else {
                             atkCell.textContent = '';
@@ -110,7 +110,7 @@ async function uploadFile() {
                             allowedCell.appendChild(createIcon(false));
                             invalidCards.push(cardName);
                         }
-
+                        
                         tableRow.appendChild(nameCell);
                         tableRow.appendChild(atkCell);
                         tableRow.appendChild(valueCell);
@@ -118,17 +118,17 @@ async function uploadFile() {
                         tableBody.appendChild(tableRow);
                     }
                 }
-
+                
                 // Add cards to respective tables
                 addCardsToTable(mainCards, mainDeckTableBody, true);
                 addCardsToTable(sideCards, sideDeckTableBody);
                 addCardsToTable(extraCards, extraDeckTableBody);
-
+                
                 // Calculate average ATK
                 const avgAtk = count > 0 ? Math.ceil(totalAtk / count) : 0;
                 const maxAvgAtk = 1200;
-                const avgAtkDifference = Math.abs(avgAtk - maxAvgAtk);
-
+                const avgAtkDifference = Math.abs(maxAvgAtk * count - totalAtk);
+                
                 // Function to create a check or cross icon
                 function createIcon(isCheck) {
                     const icon = document.createElement('img');
@@ -138,12 +138,13 @@ async function uploadFile() {
                     icon.height = 24;
                     return icon;
                 }
-
+                
                 // Check rule 1
                 const rule1Value = document.getElementById('avgAtkValue');
                 const rule1Tip = document.getElementById('avgAtkTip');
                 const rule1Result = document.getElementById('avgAtkResult');
                 rule1Value.textContent = `${avgAtk}`;
+                
                 if (avgAtk < maxAvgAtk) {
                     rule1Tip.textContent = `Deine Monster dürfen noch ${avgAtkDifference} ATK mehr haben!`;
                 } else if (avgAtk > maxAvgAtk) {
@@ -153,7 +154,8 @@ async function uploadFile() {
                 }
                 rule1Result.innerHTML = '';
                 rule1Result.appendChild(createIcon(avgAtk <= maxAvgAtk));
-
+                
+                
                 // Check rule 2
                 const rule2Value = document.getElementById('highAtkCount');
                 const rule2Sum = document.getElementById('highAtkSum');
@@ -178,7 +180,7 @@ async function uploadFile() {
                 }
                 rule2Result.innerHTML = '';
                 rule2Result.appendChild(createIcon(highAtkCount <= 2 && highAtkSum <= 3650));
-
+                
                 // Check rule 3
                 const rule3Value = document.getElementById('midAtkCount');
                 const rule3Sum = document.getElementById('midAtkSum');
@@ -203,7 +205,7 @@ async function uploadFile() {
                 }
                 rule3Result.innerHTML = '';
                 rule3Result.appendChild(createIcon(midAtkCount <= 3 && midAtkSum <= 4700));
-
+                
                 // Check rule 4
                 const rule4Value = document.getElementById('allowedCardsValue');
                 const rule4Tip = document.getElementById('allowedCardsTip');
@@ -212,7 +214,7 @@ async function uploadFile() {
                 rule4Tip.textContent = invalidCards.length === 0 ? 'Perfekt!' : 'Einige Karten sind nicht erlaubt';
                 rule4Result.innerHTML = '';
                 rule4Result.appendChild(createIcon(invalidCards.length === 0));
-
+                
                 // Check rule 5
                 const rule5Value = document.getElementById('value5Count');
                 const rule5Tip = document.getElementById('value5Tip');
@@ -227,7 +229,7 @@ async function uploadFile() {
                 }
                 rule5Result.innerHTML = '';
                 rule5Result.appendChild(createIcon(value5Count <= 3));
-
+                
                 // Check rule 6
                 const rule6Value = document.getElementById('totalValueSum');
                 const rule6Tip = document.getElementById('totalValueTip');
@@ -242,7 +244,7 @@ async function uploadFile() {
                 }
                 rule6Result.innerHTML = '';
                 rule6Result.appendChild(createIcon(totalValueSum <= 90));
-
+                
                 // Make the tables visible
                 document.getElementById('cardList').classList.remove('hidden');
                 document.getElementById('ruleCheck').classList.remove('hidden');

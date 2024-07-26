@@ -76940,7 +76940,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 4
   },
   {
     "id": 83957459,
@@ -89446,7 +89446,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 68078978,
@@ -91420,7 +91420,7 @@
     "desc": "Add 1 'Chomp' from your Deck to your hand, then you can target 1 Level 5 or lower monster your opponent controls, its effects are negated until the end of this turn.",
     "isInExtraDeck": false,
     "isSelected": true,
-    "value": 3
+    "value": 2
   },
   {
     "name": "\"ACG\" Dino Stomp [Anime]",
@@ -91430,5 +91430,54 @@
     "isInExtraDeck": false,
     "isSelected": true,
     "value": 3
+  },
+  {
+    "name": "Chomp/Battle Mode",
+    "type": "Normal Monster",
+    "race": "Dinosaur",
+    "desc": "\"Dino Slash! Triceratops, roar!\"",
+    "atk": 1500,
+    "def": 700,
+    "level": 5,
+    "attribute": "LIGHT",
+    "isInExtraDeck": true,
+    "isSelected": true,
+    "value": 0
+  },
+  {
+    "name": "Chomp/Dinotector",
+    "type": "Normal Monster",
+    "race": "Dinosaur",
+    "desc": "\"Element Booster! Dino! Tector! ON! Go!\"",
+    "atk": 2000,
+    "def": 1500,
+    "level": 7,
+    "attribute": "LIGHT",
+    "isInExtraDeck": true,
+    "isSelected": true,
+    "value": 0
+  },
+  {
+    "id": 86239173,
+    "name": "Horned Saurus",
+    "type": "Fusion Monster",
+    "frameType": "fusion",
+    "desc": "\"Kaitoptera\" + 1 Dinosaur or Dragon monster\r\nThis card can attack directly the turn it is Special Summoned. You can only use each of the following effects of \"Horned Saurus\" once per turn. If this card is Fusion Summoned: You can place 1 Field Spell from your Deck or GY face-up in your Field Zone. During your Main Phase, you can: Immediately after this effect resolves, Normal Summon 1 Dinosaur or Dragon monster.",
+    "atk": 2000,
+    "def": 1600,
+    "level": 6,
+    "race": "Dinosaur",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/horned-saurus-13853",
+    "card_images": [
+      {
+        "id": 86239173,
+        "image_url": "https://images.ygoprodeck.com/images/cards/86239173.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/86239173.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/86239173.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": true
   }
 ]
