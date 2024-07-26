@@ -22185,7 +22185,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -24535,7 +24535,7 @@
       }
     ],
     "isSelected": true,
-    "value": 5,
+    "value": 4,
     "isInExtraDeck": false
   },
   {
@@ -28833,7 +28833,7 @@
       }
     ],
     "isSelected": true,
-    "value": 5,
+    "value": 6,
     "isInExtraDeck": false
   },
   {
@@ -65115,7 +65115,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 5
+    "value": 4
   },
   {
     "id": 4440873,
@@ -67635,7 +67635,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 5
+    "value": 4
   },
   {
     "id": 49681811,
@@ -67890,7 +67890,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 42364374,
@@ -67976,7 +67976,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 4861205,
@@ -68093,7 +68093,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 102380,
@@ -88516,7 +88516,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 69319869,
@@ -88601,30 +88601,6 @@
         "image_url": "https://images.ygoprodeck.com/images/cards/58464739.jpg",
         "image_url_small": "https://images.ygoprodeck.com/images/cards_small/58464739.jpg",
         "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/58464739.jpg"
-      }
-    ],
-    "isSelected": true,
-    "isInExtraDeck": false,
-    "value": 2
-  },
-  {
-    "id": 18000338,
-    "name": "Re: EX",
-    "type": "Effect Monster",
-    "frameType": "effect",
-    "desc": "If this card battles a monster in the Extra Monster Zone, it gains 800 ATK and DEF during the Damage Step only.",
-    "atk": 1900,
-    "def": 1200,
-    "level": 4,
-    "race": "Dinosaur",
-    "attribute": "LIGHT",
-    "ygoprodeck_url": "https://ygoprodeck.com/card/re-ex-8792",
-    "card_images": [
-      {
-        "id": 18000338,
-        "image_url": "https://images.ygoprodeck.com/images/cards/18000338.jpg",
-        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/18000338.jpg",
-        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/18000338.jpg"
       }
     ],
     "isSelected": true,
