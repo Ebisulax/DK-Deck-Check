@@ -30826,7 +30826,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -39278,7 +39278,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 75560629,
@@ -41773,7 +41773,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 26205777,
@@ -42029,7 +42029,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 15090429,
@@ -42053,7 +42053,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 57116033,
@@ -54636,7 +54636,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 49905576,
@@ -67683,7 +67683,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 1
   },
   {
     "id": 37684215,
@@ -79701,7 +79701,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 40383551,
@@ -88006,26 +88006,6 @@
     "value": 2
   },
   {
-    "id": 80230510,
-    "name": "Tribute Burial",
-    "type": "Spell Card",
-    "frameType": "spell",
-    "desc": "You cannot Special Summon for the rest of this turn. Once during this turn, you can conduct a Tribute Summon that requires 2 Tributes by banishing 1 monster from each Graveyard instead of Tributing (it is still treated as a Tribute Summon).",
-    "race": "Normal",
-    "ygoprodeck_url": "https://ygoprodeck.com/card/tribute-burial-6729",
-    "card_images": [
-      {
-        "id": 80230510,
-        "image_url": "https://images.ygoprodeck.com/images/cards/80230510.jpg",
-        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/80230510.jpg",
-        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/80230510.jpg"
-      }
-    ],
-    "isSelected": true,
-    "isInExtraDeck": false,
-    "value": 3
-  },
-  {
     "id": 39890958,
     "name": "Heavy Mech Support Armor",
     "type": "Union Effect Monster",
@@ -91016,7 +90996,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 67853262,
@@ -91153,26 +91133,6 @@
     "value": 3
   },
   {
-    "id": 47961342,
-    "name": "Switch Point",
-    "type": "Trap Card",
-    "frameType": "trap",
-    "desc": "Choose 1 monster your opponent controls, and your opponent sends either of the following to the GY.\r\n● The chosen monster.\r\n● The other monsters they control.\r\nYour opponent must control 3 or more monsters for you to activate and resolve this effect.",
-    "race": "Normal",
-    "ygoprodeck_url": "https://ygoprodeck.com/card/switch-point-13499",
-    "card_images": [
-      {
-        "id": 47961342,
-        "image_url": "https://images.ygoprodeck.com/images/cards/47961342.jpg",
-        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/47961342.jpg",
-        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/47961342.jpg"
-      }
-    ],
-    "isSelected": true,
-    "isInExtraDeck": false,
-    "value": 3
-  },
-  {
     "id": 3461403,
     "name": "The Immortal Bushi Mourns the Mortal Body",
     "type": "Spell Card",
@@ -91210,7 +91170,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 47873397,
@@ -91246,31 +91206,6 @@
         "image_url": "https://images.ygoprodeck.com/images/cards/12682213.jpg",
         "image_url_small": "https://images.ygoprodeck.com/images/cards_small/12682213.jpg",
         "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/12682213.jpg"
-      }
-    ],
-    "isSelected": true,
-    "isInExtraDeck": false,
-    "value": 3
-  },
-  {
-    "id": 99529628,
-    "name": "Keaf, Murk of the Ghoti",
-    "type": "Effect Monster",
-    "frameType": "effect",
-    "desc": "If a Fish monster is on the field: You can Special Summon this card from your hand. If a monster(s) is Special Summoned to your opponent's field (except during the Damage Step): You can target 1 of those monsters and 1 of your banished Level 6 or lower Fish monsters; banish both that opponent's monster and this card, and if you do, Special Summon your targeted monster. During the Standby Phase of the next turn after this card was banished: You can Special Summon this banished card. You can only use each effect of \"Keaf, Murk of the Ghoti\" once per turn.",
-    "atk": 0,
-    "def": 1500,
-    "level": 2,
-    "race": "Fish",
-    "attribute": "WATER",
-    "archetype": "Ghoti",
-    "ygoprodeck_url": "https://ygoprodeck.com/card/keaf-murk-of-the-ghoti-14187",
-    "card_images": [
-      {
-        "id": 99529628,
-        "image_url": "https://images.ygoprodeck.com/images/cards/99529628.jpg",
-        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/99529628.jpg",
-        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/99529628.jpg"
       }
     ],
     "isSelected": true,
@@ -91356,7 +91291,7 @@
     "attribute": "LIGHT",
     "isInExtraDeck": false,
     "isSelected": true,
-    "value": 3
+    "value": 2
   },
   {
     "name": "Who ys a Goode Boy?",

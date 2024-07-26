@@ -22,18 +22,22 @@ async function uploadFile() {
                 const parser = new DOMParser();
                 const xml = parser.parseFromString(event.target.result, "application/xml");
 
-                // Get all card elements within the <main> part
+                // Get all card elements within the <main>, <side>, and <extra> parts
                 const mainElement = xml.getElementsByTagName('main')[0];
-                if (!mainElement) {
-                    console.error('No <main> element found in the uploaded file.');
-                    return;
-                }
+                const sideElement = xml.getElementsByTagName('side')[0];
+                const extraElement = xml.getElementsByTagName('extra')[0];
 
-                const mainCards = mainElement.getElementsByTagName('card');
+                const mainCards = mainElement ? mainElement.getElementsByTagName('card') : [];
+                const sideCards = sideElement ? sideElement.getElementsByTagName('card') : [];
+                const extraCards = extraElement ? extraElement.getElementsByTagName('card') : [];
 
-                // Get the table body element
-                const cardTableBody = document.getElementById('cardTable').querySelector('tbody');
-                cardTableBody.innerHTML = ''; // Clear the table
+                // Get the table body elements
+                const mainDeckTableBody = document.getElementById('mainDeckTable').querySelector('tbody');
+                const sideDeckTableBody = document.getElementById('sideDeckTable').querySelector('tbody');
+                const extraDeckTableBody = document.getElementById('extraDeckTable').querySelector('tbody');
+                mainDeckTableBody.innerHTML = ''; // Clear the table
+                sideDeckTableBody.innerHTML = ''; // Clear the table
+                extraDeckTableBody.innerHTML = ''; // Clear the table
 
                 let totalAtk = 0;
                 let count = 0;
@@ -45,64 +49,80 @@ async function uploadFile() {
                 let totalValueSum = 0;
                 let invalidCards = [];
 
-                // Loop through the cards and add their values to the list
-                for (let i = 0; i < mainCards.length; i++) {
-                    const cardName = mainCards[i].textContent.trim();
-                    const tableRow = document.createElement('tr');
-                    const nameCell = document.createElement('td');
-                    const atkCell = document.createElement('td');
-                    const valueCell = document.createElement('td');
-                    nameCell.textContent = cardName;
+                // Function to add cards to the table
+                function addCardsToTable(cards, tableBody, isMainDeck = false) {
+                    for (let i = 0; i < cards.length; i++) {
+                        const cardName = cards[i].textContent.trim();
+                        const tableRow = document.createElement('tr');
+                        const nameCell = document.createElement('td');
+                        const atkCell = document.createElement('td');
+                        const valueCell = document.createElement('td');
+                        const allowedCell = document.createElement('td');
+                        nameCell.textContent = cardName;
 
-                    // Find match in card list
-                    const cardData = cardList.find(card => card.name === cardName);
+                        // Find match in card list
+                        const cardData = cardList.find(card => card.name === cardName);
 
-                    if (cardData) {
-                        const originalAtk = cardData.atk;
-                        const level = cardData.level;
+                        if (cardData) {
+                            const originalAtk = cardData.atk;
+                            const level = cardData.level;
 
-                        if (!isNaN(originalAtk)) {
-                            // Adjust ATK based on level for calculation purposes
-                            let adjustedAtk = originalAtk;
-                            if (level >= 5 && level <= 6) {
-                                adjustedAtk = Math.max(adjustedAtk - 600, 0);
-                            } else if (level >= 7) {
-                                adjustedAtk = Math.max(adjustedAtk - 1000, 0);
-                            }
+                            if (!isNaN(originalAtk)) {
+                                // Adjust ATK based on level for calculation purposes (only for main deck)
+                                let adjustedAtk = originalAtk;
+                                if (isMainDeck) {
+                                    if (level >= 5 && level <= 6) {
+                                        adjustedAtk = Math.max(adjustedAtk - 600, 0);
+                                    } else if (level >= 7) {
+                                        adjustedAtk = Math.max(adjustedAtk - 1000, 0);
+                                    }
+                                    totalAtk += adjustedAtk;
+                                    count++;
 
-                            atkCell.textContent = originalAtk;
-
-                            // Include in average calculation
-                            totalAtk += adjustedAtk;
-                            count++;
-
-                            if (level >= 1 && level <= 4) {
-                                if (originalAtk >= 1700) {
-                                    highAtkCount++;
-                                    highAtkSum += originalAtk;
-                                } else if (originalAtk >= 1500 && originalAtk <= 1650) {
-                                    midAtkCount++;
-                                    midAtkSum += originalAtk;
+                                    if (level >= 1 && level <= 4) {
+                                        if (originalAtk >= 1700) {
+                                            highAtkCount++;
+                                            highAtkSum += originalAtk;
+                                        } else if (originalAtk >= 1500 && originalAtk <= 1650) {
+                                            midAtkCount++;
+                                            midAtkSum += originalAtk;
+                                        }
+                                    }
                                 }
+
+                                atkCell.textContent = originalAtk;
+                            } else {
+                                atkCell.textContent = '';
                             }
+
+                            valueCell.textContent = cardData.value;
+                            if (cardData.value === 5 && isMainDeck) {
+                                value5Count++;
+                            }
+                            if (isMainDeck) {
+                                totalValueSum += cardData.value;
+                            }
+
+                            allowedCell.appendChild(createIcon(true));
+                        } else {
+                            atkCell.textContent = '';
+                            valueCell.textContent = '';
+                            allowedCell.appendChild(createIcon(false));
+                            invalidCards.push(cardName);
                         }
 
-                        valueCell.textContent = cardData.value;
-                        if (cardData.value === 5) {
-                            value5Count++;
-                        }
-                        totalValueSum += cardData.value;
-                    } else {
-                        atkCell.textContent = '';
-                        valueCell.textContent = '';
-                        invalidCards.push(cardName);
+                        tableRow.appendChild(nameCell);
+                        tableRow.appendChild(atkCell);
+                        tableRow.appendChild(valueCell);
+                        tableRow.appendChild(allowedCell);
+                        tableBody.appendChild(tableRow);
                     }
-
-                    tableRow.appendChild(nameCell);
-                    tableRow.appendChild(atkCell);
-                    tableRow.appendChild(valueCell);
-                    cardTableBody.appendChild(tableRow);
                 }
+
+                // Add cards to respective tables
+                addCardsToTable(mainCards, mainDeckTableBody, true);
+                addCardsToTable(sideCards, sideDeckTableBody);
+                addCardsToTable(extraCards, extraDeckTableBody);
 
                 // Calculate average ATK
                 const avgAtk = count > 0 ? Math.ceil(totalAtk / count) : 0;
