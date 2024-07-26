@@ -19063,7 +19063,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -67809,7 +67809,7 @@
     "race": "Normal",
     "ygoprodeck_url": "https://ygoprodeck.com/card/reinforcement-of-the-army-2794",
     "banlist_info": {
-      "ban_tcg": "Limited",
+      "ban_tcg": "Limited", 
       "ban_ocg": "Limited",
       "ban_goat": "Semi-Limited"
     },
@@ -67823,7 +67823,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 81385346,
@@ -74752,7 +74752,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 5
+    "value": 3
   },
   {
     "id": 36750412,
@@ -76134,7 +76134,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 73729209,
@@ -91383,6 +91383,117 @@
     "desc": "Activate only by paying 1000 Life Points when your monster is destroyed. Special Summon 1 Level 4 monster from your Deck.",
     "isInExtraDeck": false,
     "isSelected": true,
-    "value": 5
+    "value": 3
+  },
+  {
+    "id": 63259351,
+    "name": "Miracle Jurassic Egg",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "While face-up on the field, this card cannot be banished. Each time a Dinosaur-Type monster(s) is sent to your Graveyard, place 2 counters on this card. You can Tribute this card; Special Summon 1 Dinosaur-Type monster from your Deck whose Level is less than or equal to the number of counters that were on this card.",
+    "atk": 0,
+    "def": 2000,
+    "level": 4,
+    "race": "Dinosaur",
+    "attribute": "EARTH",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/miracle-jurassic-egg-5345",
+    "card_images": [
+      {
+        "id": 63259351,
+        "image_url": "https://images.ygoprodeck.com/images/cards/63259351.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/63259351.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/63259351.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 92133240,
+    "name": "Dinomorphia Therizia",
+    "type": "Normal Monster",
+    "frameType": "normal",
+    "desc": "",
+    "atk": 1500,
+    "def": 0,
+    "level": 4,
+    "race": "Dinosaur",
+    "attribute": "DARK",
+    "archetype": "Dinomorphia",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/dinomorphia-therizia-12753",
+    "card_images": [
+      {
+        "id": 92133240,
+        "image_url": "https://images.ygoprodeck.com/images/cards/92133240.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/92133240.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/92133240.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 0
+  },
+  {
+    "id": 50834074,
+    "name": "Kaitoptera",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If your opponent controls 2 or more face-up monsters, except WIND monsters, those monsters cannot target this card for attacks. You can only use each of the following effects of \"Kaitoptera\" once per turn. During your Main Phase: You can add 1 \"Polymerization\" from your Deck to your hand. If this card is banished: You can Special Summon it, then you can add 1 \"Polymerization\" from your GY to your hand.",
+    "atk": 1400,
+    "def": 1000,
+    "level": 4,
+    "race": "Dinosaur",
+    "attribute": "WIND",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/kaitoptera-13854",
+    "card_images": [
+      {
+        "id": 50834074,
+        "image_url": "https://images.ygoprodeck.com/images/cards/50834074.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/50834074.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/50834074.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 58419204,
+    "name": "Survival Instinct",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Banish any number of Dinosaur-Type monsters from your Graveyard; gain 400 Life Points for each Dinosaur-Type monster banished to activate this card.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/survival-instinct-4966",
+    "card_images": [
+      {
+        "id": 58419204,
+        "image_url": "https://images.ygoprodeck.com/images/cards/58419204.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/58419204.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/58419204.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 1
+  },
+  {
+    "name": "Dino Holder",
+    "type": "Spell Card",
+    "race": "Normal",
+    "desc": "Add 1 'Chomp' from your Deck to your hand, then you can target 1 Level 5 or lower monster your opponent controls, its effects are negated until the end of this turn.",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 3
+  },
+  {
+    "name": "\"ACG\" Dino Stomp [Anime]",
+    "type": "Spell Card",
+    "race": "Quick-Play",
+    "desc": "Activate only when a Dinosaur-Type monster you control declares an attack. Select 1 Spell/Trap Card your opponent controls, and destroy it.",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 3
   }
 ]

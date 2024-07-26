@@ -9,17 +9,6 @@ async function loadCardList() {
     }
 }
 
-async function fetchDatabase() {
-    try {
-        const response = await fetch('https://db.ygoprodeck.com/api/v7/cardinfo.php');
-        const data = await response.json();
-        return data.data;
-    } catch (error) {
-        console.error('Error fetching the database:', error);
-        return [];
-    }
-}
-
 async function uploadFile() {
     await loadCardList();
 
@@ -41,7 +30,6 @@ async function uploadFile() {
                 }
 
                 const mainCards = mainElement.getElementsByTagName('card');
-                const database = await fetchDatabase();
 
                 // Get the table body element
                 const cardTableBody = document.getElementById('cardTable').querySelector('tbody');
@@ -66,59 +54,48 @@ async function uploadFile() {
                     const valueCell = document.createElement('td');
                     nameCell.textContent = cardName;
 
-                    // Find match in database
-                    const match = database.find(dbCard => dbCard.name === cardName);
+                    // Find match in card list
                     const cardData = cardList.find(card => card.name === cardName);
 
-                    if (match && typeof match.atk === 'number') {
-                        const originalAtk = match.atk;
-                        const level = match.level;
+                    if (cardData) {
+                        const originalAtk = cardData.atk;
+                        const level = cardData.level;
 
-                        // Adjust ATK based on level for calculation purposes
-                        let adjustedAtk = originalAtk;
-                        if (level >= 5 && level <= 6) {
-                            adjustedAtk = Math.max(adjustedAtk - 600, 0);
-                        } else if (level >= 7) {
-                            adjustedAtk = Math.max(adjustedAtk - 1000, 0);
-                        }
+                        if (!isNaN(originalAtk)) {
+                            // Adjust ATK based on level for calculation purposes
+                            let adjustedAtk = originalAtk;
+                            if (level >= 5 && level <= 6) {
+                                adjustedAtk = Math.max(adjustedAtk - 600, 0);
+                            } else if (level >= 7) {
+                                adjustedAtk = Math.max(adjustedAtk - 1000, 0);
+                            }
 
-                        atkCell.textContent = originalAtk;
+                            atkCell.textContent = originalAtk;
 
-                        // Include in average calculation
-                        totalAtk += adjustedAtk;
-                        count++;
+                            // Include in average calculation
+                            totalAtk += adjustedAtk;
+                            count++;
 
-                        if (level >= 1 && level <= 4) {
-                            if (originalAtk >= 1700) {
-                                highAtkCount++;
-                                highAtkSum += originalAtk;
-                            } else if (originalAtk >= 1500 && originalAtk <= 1650) {
-                                midAtkCount++;
-                                midAtkSum += originalAtk;
+                            if (level >= 1 && level <= 4) {
+                                if (originalAtk >= 1700) {
+                                    highAtkCount++;
+                                    highAtkSum += originalAtk;
+                                } else if (originalAtk >= 1500 && originalAtk <= 1650) {
+                                    midAtkCount++;
+                                    midAtkSum += originalAtk;
+                                }
                             }
                         }
 
-                        // Check if the card is in the allowed list
-                        if (cardData) {
-                            valueCell.textContent = cardData.value;
-                            if (cardData.value === 5) {
-                                value5Count++;
-                            }
-                            totalValueSum += cardData.value;
-                        } else {
-                            invalidCards.push(cardName);
+                        valueCell.textContent = cardData.value;
+                        if (cardData.value === 5) {
+                            value5Count++;
                         }
+                        totalValueSum += cardData.value;
                     } else {
                         atkCell.textContent = '';
-                        valueCell.textContent = cardData ? cardData.value : '';
-                        if (cardData) {
-                            if (cardData.value === 5) {
-                                value5Count++;
-                            }
-                            totalValueSum += cardData.value;
-                        } else {
-                            invalidCards.push(cardName);
-                        }
+                        valueCell.textContent = '';
+                        invalidCards.push(cardName);
                     }
 
                     tableRow.appendChild(nameCell);
@@ -130,7 +107,7 @@ async function uploadFile() {
                 // Calculate average ATK
                 const avgAtk = count > 0 ? Math.ceil(totalAtk / count) : 0;
                 const maxAvgAtk = 1200;
-                const avgAtkDifference = maxAvgAtk * count - totalAtk;
+                const avgAtkDifference = Math.abs(avgAtk - maxAvgAtk);
 
                 // Function to create a check or cross icon
                 function createIcon(isCheck) {
@@ -147,9 +124,15 @@ async function uploadFile() {
                 const rule1Tip = document.getElementById('avgAtkTip');
                 const rule1Result = document.getElementById('avgAtkResult');
                 rule1Value.textContent = `${avgAtk}`;
-                rule1Tip.textContent = `Deine Monster könnten noch ${avgAtkDifference} ATK mehr haben.`;
+                if (avgAtk < maxAvgAtk) {
+                    rule1Tip.textContent = `Deine Monster dürfen noch ${avgAtkDifference} ATK mehr haben!`;
+                } else if (avgAtk > maxAvgAtk) {
+                    rule1Tip.textContent = `Deine Monster müssen um ${avgAtkDifference} ATK weniger haben!`;
+                } else {
+                    rule1Tip.textContent = 'Perfekt!';
+                }
                 rule1Result.innerHTML = '';
-                rule1Result.appendChild(createIcon(avgAtk <= 1200));
+                rule1Result.appendChild(createIcon(avgAtk <= maxAvgAtk));
 
                 // Check rule 2
                 const rule2Value = document.getElementById('highAtkCount');
@@ -158,7 +141,21 @@ async function uploadFile() {
                 const rule2Result = document.getElementById('highAtkResult');
                 rule2Value.textContent = `${highAtkCount}`;
                 rule2Sum.textContent = `${highAtkSum}`;
-                rule2Tip.textContent = `${highAtkCount < 2 ? `Du dürfest noch ${2 - highAtkCount} monster mehr im Deck haben. ` : ''} ${highAtkSum < 3650 ? `Sie dürften noch um ${3650 - highAtkSum} ATK stärker sein.` : ''}`;
+                if (highAtkCount < 2) {
+                    rule2Tip.textContent = `Du dürftest noch ${2 - highAtkCount} mehr spielen!`;
+                } else if (highAtkCount > 2) {
+                    rule2Tip.textContent = `Du müsstest ${highAtkCount - 2} weniger spielen!`;
+                } else {
+                    rule2Tip.textContent = '';
+                }
+                if (highAtkSum < 3650) {
+                    rule2Tip.textContent += ` Sie dürften noch ${3650 - highAtkSum} ATK mehr haben!`;
+                } else if (highAtkSum > 3650) {
+                    rule2Tip.textContent += ` Sie müssten ${highAtkSum - 3650} ATK weniger haben!`;
+                }
+                if (highAtkCount === 2 && highAtkSum === 3650) {
+                    rule2Tip.textContent = 'Perfekt!';
+                }
                 rule2Result.innerHTML = '';
                 rule2Result.appendChild(createIcon(highAtkCount <= 2 && highAtkSum <= 3650));
 
@@ -169,7 +166,21 @@ async function uploadFile() {
                 const rule3Result = document.getElementById('midAtkResult');
                 rule3Value.textContent = `${midAtkCount}`;
                 rule3Sum.textContent = `${midAtkSum}`;
-                rule3Tip.textContent = `${midAtkCount < 3 ? `Du dürfest noch ${3 - midAtkCount} monster mehr im Deck haben. ` : ''} ${midAtkSum < 4700 ? `Sie dürften noch um ${4700 - midAtkSum} ATK stärker sein.` : ''}`;
+                if (midAtkCount < 3) {
+                    rule3Tip.textContent = `Du dürftest noch ${3 - midAtkCount} mehr spielen!`;
+                } else if (midAtkCount > 3) {
+                    rule3Tip.textContent = `Du müsstest ${midAtkCount - 3} weniger spielen!`;
+                } else {
+                    rule3Tip.textContent = '';
+                }
+                if (midAtkSum < 4700) {
+                    rule3Tip.textContent += ` Sie dürften noch ${4700 - midAtkSum} ATK mehr haben!`;
+                } else if (midAtkSum > 4700) {
+                    rule3Tip.textContent += ` Sie müssten ${midAtkSum - 4700} ATK weniger haben!`;
+                }
+                if (midAtkCount === 3 && midAtkSum === 4700) {
+                    rule3Tip.textContent = 'Perfekt!';
+                }
                 rule3Result.innerHTML = '';
                 rule3Result.appendChild(createIcon(midAtkCount <= 3 && midAtkSum <= 4700));
 
@@ -178,7 +189,7 @@ async function uploadFile() {
                 const rule4Tip = document.getElementById('allowedCardsTip');
                 const rule4Result = document.getElementById('allowedCardsResult');
                 rule4Value.textContent = invalidCards.length ? invalidCards.join(', ') : 'Alle Karten sind erlaubt';
-                rule4Tip.textContent = invalidCards.length ? 'Einige Karten sind nicht erlaubt' : 'Alle Karten sind in der Liste der erlaubten Karten';
+                rule4Tip.textContent = invalidCards.length === 0 ? 'Perfekt!' : 'Einige Karten sind nicht erlaubt';
                 rule4Result.innerHTML = '';
                 rule4Result.appendChild(createIcon(invalidCards.length === 0));
 
@@ -187,7 +198,13 @@ async function uploadFile() {
                 const rule5Tip = document.getElementById('value5Tip');
                 const rule5Result = document.getElementById('value5Result');
                 rule5Value.textContent = `${value5Count}`;
-                rule5Tip.textContent = value5Count <= 3 ? `Du darfst noch ${3 - value5Count} limitierte Karten mehr spielen!` : `Du spielst ${value5Count - 3} limitierte Karten zu viel!`;
+                if (value5Count < 3) {
+                    rule5Tip.textContent = `Du dürftest noch ${3 - value5Count} mehr spielen!`;
+                } else if (value5Count > 3) {
+                    rule5Tip.textContent = `Du müsstest ${value5Count - 3} weniger spielen!`;
+                } else {
+                    rule5Tip.textContent = 'Perfekt!';
+                }
                 rule5Result.innerHTML = '';
                 rule5Result.appendChild(createIcon(value5Count <= 3));
 
@@ -196,7 +213,13 @@ async function uploadFile() {
                 const rule6Tip = document.getElementById('totalValueTip');
                 const rule6Result = document.getElementById('totalValueResult');
                 rule6Value.textContent = `${totalValueSum}`;
-                rule6Tip.textContent = totalValueSum <= 90 ? `Deine Karten dürften ${90 - totalValueSum} value mehr haben!` : `Deine Karten müssten ${totalValueSum - 90} value weniger haben!`;
+                if (totalValueSum < 90) {
+                    rule6Tip.textContent = `Deine Karten dürften einen höheren value von ${90 - totalValueSum} haben!`;
+                } else if (totalValueSum > 90) {
+                    rule6Tip.textContent = `Deine Karten müssen einen niedrigeren value von ${totalValueSum - 90} haben!`;
+                } else {
+                    rule6Tip.textContent = 'Perfekt!';
+                }
                 rule6Result.innerHTML = '';
                 rule6Result.appendChild(createIcon(totalValueSum <= 90));
 
