@@ -73133,7 +73133,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 2
   },
   {
     "id": 66337215,
@@ -91493,5 +91493,88 @@
     "isInExtraDeck": false,
     "isSelected": true,
     "value": 2
-  }  
+  },
+  {
+    "id": 17259470,
+    "name": "Zombie Master",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Once per turn: You can send 1 monster from your hand to the GY, then target 1 Level 4 or lower Zombie monster in either GY; Special Summon that target. This monster must be face-up on the field to activate and to resolve this effect.",
+    "atk": 1800,
+    "def": 0,
+    "level": 4,
+    "race": "Zombie",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/zombie-master-1494",
+    "card_images": [
+      {
+        "id": 17259470,
+        "image_url": "https://images.ygoprodeck.com/images/cards/17259470.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/17259470.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/17259470.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 30037118,
+    "name": "Devouring Sarcoughagus",
+    "type": "Effect Monster",
+    "race": "Zombie",
+    "desc": "When this card is destroyed by battle with an opponent's monster: You can take control of that opponent's monster, and if you do, it becomes a Zombie monster, also its ATK/DEF become 0. When your Zombie monster is destroyed by battle with an opponent's monster, while this card is in your GY: You can banish this card; take control of that opponent's monster, and if you do, it becomes a Zombie monster, also its ATK/DEF become 0. You can only use this effect of 'Devouring Sarcoughagus' once per turn.",
+    "atk": 0,
+    "def": 0,
+    "level": 3,
+    "attribute": "DARK",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 3
+  },
+  {
+    "id": 66835946,
+    "name": "Pyramid of Wonders",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "All Zombie monsters you control gain 200 ATK for each monster your opponent controls. If exactly 1 Zombie monster you control (and no other cards) would be destroyed, you can send this card to the GY instead.",
+    "race": "Continuous",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/pyramid-of-wonders-5614",
+    "card_images": [
+      {
+        "id": 66835946,
+        "image_url": "https://images.ygoprodeck.com/images/cards/66835946.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/66835946.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/66835946.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 36021814,
+    "name": "King of the Skull Servants",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "The original ATK of this card is the combined number of \"King of the Skull Servants\" and \"Skull Servant\" in your GY x 1000. When this card is destroyed by battle and sent to the GY: You can banish 1 other \"King of the Skull Servants\" or 1 \"Skull Servant\" from your GY; Special Summon this card.",
+    "atk": 0,
+    "def": 0,
+    "level": 1,
+    "race": "Zombie",
+    "attribute": "DARK",
+    "archetype": "Skull Servant",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/king-of-the-skull-servants-3045",
+    "card_images": [
+      {
+        "id": 36021814,
+        "image_url": "https://images.ygoprodeck.com/images/cards/36021814.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/36021814.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/36021814.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  }
 ]

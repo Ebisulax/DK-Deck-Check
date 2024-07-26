@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload XML File</title>
+    <title>Upload File</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <h1>Duelist Kingdom Deck Check</h1>
     <h3>Lade deine Deckliste hoch und schaue, ob sie den Regeln des Duelist Kingdom entsprechen!</h3>
-    <input type="file" id="fileInput" accept=".xml">
+    <input type="file" id="fileInput" accept=".xml,.ydk">
     <button onclick="uploadFile()">Deck Check!</button>
     <div class="container">
         <div class="card-list hidden" id="cardList">
@@ -114,7 +114,8 @@
                 </tbody>
             </table>
         </div>
-        <script src="js/script.js"></script>
-    </body>
-    </html>
-    
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

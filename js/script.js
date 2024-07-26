@@ -16,20 +16,49 @@ async function uploadFile() {
     const file = input.files[0];
 
     if (file) {
+        const fileName = file.name.toLowerCase();
+        const fileExtension = fileName.split('.').pop();
         const reader = new FileReader();
+
         reader.onload = async function(event) {
             try {
-                const parser = new DOMParser();
-                const xml = parser.parseFromString(event.target.result, "application/xml");
+                let mainCards = [], sideCards = [], extraCards = [];
 
-                // Get all card elements within the <main>, <side>, and <extra> parts
-                const mainElement = xml.getElementsByTagName('main')[0];
-                const sideElement = xml.getElementsByTagName('side')[0];
-                const extraElement = xml.getElementsByTagName('extra')[0];
+                if (fileExtension === 'xml') {
+                    const parser = new DOMParser();
+                    const xml = parser.parseFromString(event.target.result, "application/xml");
 
-                const mainCards = mainElement ? mainElement.getElementsByTagName('card') : [];
-                const sideCards = sideElement ? sideElement.getElementsByTagName('card') : [];
-                const extraCards = extraElement ? extraElement.getElementsByTagName('card') : [];
+                    const mainElement = xml.getElementsByTagName('main')[0];
+                    const sideElement = xml.getElementsByTagName('side')[0];
+                    const extraElement = xml.getElementsByTagName('extra')[0];
+
+                    mainCards = mainElement ? Array.from(mainElement.getElementsByTagName('card')).map(card => card.textContent.trim()) : [];
+                    sideCards = sideElement ? Array.from(sideElement.getElementsByTagName('card')).map(card => card.textContent.trim()) : [];
+                    extraCards = extraElement ? Array.from(extraElement.getElementsByTagName('card')).map(card => card.textContent.trim()) : [];
+                } else if (fileExtension === 'ydk') {
+                    const ydkContent = event.target.result;
+                    const lines = ydkContent.split('\n');
+                    let deckType = 'main';
+
+                    lines.forEach(line => {
+                        if (line.startsWith('#main')) {
+                            deckType = 'main';
+                        } else if (line.startsWith('#extra')) {
+                            deckType = 'extra';
+                        } else if (line.startsWith('!side')) {
+                            deckType = 'side';
+                        } else if (line.trim() && !line.startsWith('#')) {
+                            const cardId = line.trim();
+                            if (deckType === 'main') {
+                                mainCards.push(cardId);
+                            } else if (deckType === 'extra') {
+                                extraCards.push(cardId);
+                            } else if (deckType === 'side') {
+                                sideCards.push(cardId);
+                            }
+                        }
+                    });
+                }
 
                 // Get the table body elements
                 const mainDeckTableBody = document.getElementById('mainDeckTable').querySelector('tbody');
@@ -51,21 +80,21 @@ async function uploadFile() {
 
                 // Function to add cards to the table
                 function addCardsToTable(cards, tableBody, isMainDeck = false) {
-                    for (let i = 0; i < cards.length; i++) {
-                        const cardName = cards[i].textContent.trim();
+                    cards.forEach(cardIdOrName => {
                         const tableRow = document.createElement('tr');
                         const nameCell = document.createElement('td');
                         const atkCell = document.createElement('td');
                         const valueCell = document.createElement('td');
                         const allowedCell = document.createElement('td');
-                        nameCell.textContent = cardName;
 
                         // Find match in card list
-                        const cardData = cardList.find(card => card.name === cardName);
+                        const cardData = fileExtension === 'xml' ? cardList.find(card => card.name === cardIdOrName) : cardList.find(card => card.id === parseInt(cardIdOrName));
 
                         if (cardData) {
                             const originalAtk = cardData.atk;
                             const level = cardData.level;
+
+                            nameCell.textContent = cardData.name;
 
                             if (!isNaN(originalAtk)) {
                                 // Adjust ATK based on level for calculation purposes (only for main deck)
@@ -105,10 +134,11 @@ async function uploadFile() {
 
                             allowedCell.appendChild(createIcon(true));
                         } else {
+                            nameCell.textContent = fileExtension === 'xml' ? cardIdOrName : `Unknown ID: ${cardIdOrName}`;
                             atkCell.textContent = '';
                             valueCell.textContent = '';
                             allowedCell.appendChild(createIcon(false));
-                            invalidCards.push(cardName);
+                            invalidCards.push(fileExtension === 'xml' ? cardIdOrName : `Unknown ID: ${cardIdOrName}`);
                         }
 
                         tableRow.appendChild(nameCell);
@@ -116,7 +146,7 @@ async function uploadFile() {
                         tableRow.appendChild(valueCell);
                         tableRow.appendChild(allowedCell);
                         tableBody.appendChild(tableRow);
-                    }
+                    });
                 }
 
                 // Add cards to respective tables
@@ -263,7 +293,7 @@ async function uploadFile() {
                 document.getElementById('cardList').classList.remove('hidden');
                 document.getElementById('ruleCheck').classList.remove('hidden');
             } catch (error) {
-                console.error('Error parsing XML:', error);
+                console.error('Error parsing file:', error);
             }
         };
         reader.readAsText(file);
