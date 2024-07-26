@@ -18176,7 +18176,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -42296,7 +42296,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 2
   },
   {
     "id": 38699854,
@@ -56786,7 +56786,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 43708640,
@@ -67976,7 +67976,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 4861205,
@@ -83906,7 +83906,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 50920465,
@@ -84074,7 +84074,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 51852507,
@@ -87827,7 +87827,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 93966624,
@@ -89876,7 +89876,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 83682209,
@@ -91455,5 +91455,43 @@
     ],
     "isSelected": true,
     "isInExtraDeck": true
-  }
+  },
+  {
+    "id": 71978434,
+    "name": "Deep Sea Minstrel",
+    "type": "Tuner Monster",
+    "frameType": "effect",
+    "desc": "You can discard this card and 1 WATER monster; look at your opponent's hand and banish 1 card from their hand face-up, until the End Phase. If this card is Special Summoned: You can send the top 3 cards of your Deck to the GY, then target 1 Level 4 or lower WATER monster in your GY, except \"Deep Sea Minstrel\"; place it on the top or bottom of the Deck. You can only use each effect of \"Deep Sea Minstrel\" once per turn.",
+    "atk": 1200,
+    "def": 1500,
+    "level": 3,
+    "race": "Sea Serpent",
+    "attribute": "WATER",
+    "archetype": "Deep Sea",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/deep-sea-minstrel-10775",
+    "card_images": [
+      {
+        "id": 71978434,
+        "image_url": "https://images.ygoprodeck.com/images/cards/71978434.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/71978434.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/71978434.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "name": "Flying Red Carp",
+    "type": "Effect Monster",
+    "race": "Fish",
+    "desc": "(Quick Effect): You can discard 1 WATER monster; this card gains 500 ATK. When this card destroys an opponent's monster by battle: You can Tribute this card; Special Summon 1 Fish, Sea Serpent, or Aqua monster from your hand or Deck. You can only use each effect of 'Flying Red Carp' once per turn.",
+    "atk": 500,
+    "def": 500,
+    "level": 4,
+    "attribute": "WATER",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 2
+  }  
 ]
