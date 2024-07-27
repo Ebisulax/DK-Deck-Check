@@ -91576,5 +91576,43 @@
     "isSelected": true,
     "isInExtraDeck": false,
     "value": 2
-  }
+  },
+  {
+    "id": 30829071,
+    "name": "Amazement Ambassador Bufo",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card is Normal Summoned: You can target 1 Trap in your GY that can be treated as an Equip and 1 monster on the field; equip that Trap to that monster. You can target 1 of your Traps equipped to a monster; equip it to another monster that it can be equipped to. You can only use this effect of \"Amazement Ambassador Bufo\" once per turn.",
+    "atk": 1600,
+    "def": 900,
+    "level": 3,
+    "race": "Beast",
+    "attribute": "EARTH",
+    "archetype": "Amazement",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/amazement-ambassador-bufo-11833",
+    "card_images": [
+      {
+        "id": 30829071,
+        "image_url": "https://images.ygoprodeck.com/images/cards/30829071.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/30829071.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/30829071.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "name": "[DK] Danger! Bigfoot!",
+    "type": "Effect Monster",
+    "race": "Beast",
+    "desc": "Must first be Special Summoned by its own effect. If you control a 'Forest' Spell that has been face-up on your field for 3 turns: You can reveal this card in your hand; your opponent randomly chooses 1 card from your entire hand, then you discard the chosen card. Then, if the discarded card was not 'Danger! Bigfoot!', Special Summon 1 'Danger! Bigfoot!' from your hand. If this card is discarded: You can target 1 face-up card your opponent controls; destroy it. You can only use this effect of 'Danger! Bigfoot!' once per turn.",
+    "atk": 3000,
+    "def": 0,
+    "level": 8,
+    "attribute": "DARK",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 3
+  }  
 ]
