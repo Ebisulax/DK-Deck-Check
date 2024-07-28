@@ -26823,7 +26823,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -27059,7 +27059,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -27694,7 +27694,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -31631,7 +31631,7 @@
       }
     ],
     "isSelected": true,
-    "value": 4,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -51820,7 +51820,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 98956134,
@@ -66095,7 +66095,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 95144193,
@@ -76984,7 +76984,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 20474741,
@@ -77229,7 +77229,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 10000010,
@@ -87915,7 +87915,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 94535485,
@@ -91614,5 +91614,122 @@
     "isInExtraDeck": false,
     "isSelected": true,
     "value": 3
-  }  
-]
+  },
+  {
+    "id": 70479321,
+    "name": "Performapal Drummerilla",
+    "type": "Pendulum Effect Monster",
+    "frameType": "effect_pendulum",
+    "desc": "[ Monster Effect ] \nIf there are no monsters on the field, you can Normal Summon this card without Tributing. If this card is Normal Summoned without Tributing, its Level becomes 4. Once per turn, when an attack is declared involving a monster you control and an opponent's monster: You can target that monster you control; it gains 600 ATK until the end of the Battle Phase.",
+    "atk": 1600,
+    "def": 900,
+    "level": 5,
+    "race": "Beast",
+    "attribute": "EARTH",
+    "archetype": "Performapal",
+    "scale": 2,
+    "ygoprodeck_url": "https://ygoprodeck.com/card/performapal-drummerilla-5929",
+    "card_images": [
+      {
+        "id": 70479321,
+        "image_url": "https://images.ygoprodeck.com/images/cards/70479321.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/70479321.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/70479321.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 21350571,
+    "name": "Horn of the Phantom Beast",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Target 1 Beast or Beast-Warrior monster you control; equip this card to that target. It gains 800 ATK. If the equipped monster destroys your opponent's monster by battle and sends it to the GY: Draw 1 card.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/horn-of-the-phantom-beast-1837",
+    "card_images": [
+      {
+        "id": 21350571,
+        "image_url": "https://images.ygoprodeck.com/images/cards/21350571.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/21350571.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/21350571.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 4587638,
+    "name": "Roaring Earth",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "If a Beast-Type monster you control attacks a Defense Position monster, inflict piercing battle damage to your opponent. If you inflict battle damage to your opponent with this effect: Target 1 face-up monster your opponent controls; that target loses 500 ATK and DEF. (This remains even if this card leaves the field.)",
+    "race": "Continuous",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/roaring-earth-411",
+    "card_images": [
+      {
+        "id": 4587638,
+        "image_url": "https://images.ygoprodeck.com/images/cards/4587638.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/4587638.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/4587638.jpg"
+      }
+    ],
+    "isSelected": true,
+    "value": 2
+  },
+  {
+    "name": "Bear Trap",
+    "type": "Trap Card",
+    "race": "Normal",
+    "desc": "When an opponent's monster with 1500 or less ATK declares an attack: Destroy it.",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 2
+  },
+  {
+    "name": "Delayed Bear Trap",
+    "type": "Trap Card",
+    "race": "Normal",
+    "desc": "When your opponent Summons a monster with 2000 or more ATK: Negate its effects, also destroy it during the End Phase. You can only activate \"Delayed Bear Trap\" once per turn.",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 2
+  },
+  {
+    "name": "(DM) Card of Demise",
+    "type": "Spell Card",
+    "race": "Normal",
+    "desc": "Draw cards until you have 5 cards in your hand. During your 5th Standby Phase after activation, send all cards in your hand to the Graveyard.",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 5
+    },
+    {
+      "id": 3841833,
+      "name": "Fluffal Bear",
+      "type": "Effect Monster",
+      "frameType": "effect",
+      "desc": "You can send this card from your hand to the Graveyard; Set 1 \"Toy Vendor\" directly from your Deck to your Spell & Trap Zone. You can Tribute this card, then target 1 \"Polymerization\" in your Graveyard; add it to your hand. You can only use 1 \"Fluffal Bear\" effect per turn, and only once that turn.",
+      "atk": 1200,
+      "def": 800,
+      "level": 3,
+      "race": "Fairy",
+      "attribute": "EARTH",
+      "archetype": "Fluffal",
+      "ygoprodeck_url": "https://ygoprodeck.com/card/fluffal-bear-345",
+      "card_images": [
+        {
+          "id": 3841833,
+          "image_url": "https://images.ygoprodeck.com/images/cards/3841833.jpg",
+          "image_url_small": "https://images.ygoprodeck.com/images/cards_small/3841833.jpg",
+          "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/3841833.jpg"
+        }
+      ],
+      "isSelected": true,
+      "isInExtraDeck": false,
+      "value": 2
+    }
+  ]
