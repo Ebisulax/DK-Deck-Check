@@ -18024,7 +18024,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -18064,7 +18064,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -18715,7 +18715,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -54444,7 +54444,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 67270095,
@@ -77913,7 +77913,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 73178098,
@@ -80188,7 +80188,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 51405049,
@@ -83694,7 +83694,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 43225434,
@@ -91706,30 +91706,80 @@
     "isInExtraDeck": false,
     "isSelected": true,
     "value": 5
-    },
-    {
-      "id": 3841833,
-      "name": "Fluffal Bear",
-      "type": "Effect Monster",
-      "frameType": "effect",
-      "desc": "You can send this card from your hand to the Graveyard; Set 1 \"Toy Vendor\" directly from your Deck to your Spell & Trap Zone. You can Tribute this card, then target 1 \"Polymerization\" in your Graveyard; add it to your hand. You can only use 1 \"Fluffal Bear\" effect per turn, and only once that turn.",
-      "atk": 1200,
-      "def": 800,
-      "level": 3,
-      "race": "Fairy",
-      "attribute": "EARTH",
-      "archetype": "Fluffal",
-      "ygoprodeck_url": "https://ygoprodeck.com/card/fluffal-bear-345",
-      "card_images": [
-        {
-          "id": 3841833,
-          "image_url": "https://images.ygoprodeck.com/images/cards/3841833.jpg",
-          "image_url_small": "https://images.ygoprodeck.com/images/cards_small/3841833.jpg",
-          "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/3841833.jpg"
-        }
-      ],
-      "isSelected": true,
-      "isInExtraDeck": false,
-      "value": 2
-    }
-  ]
+  },
+  {
+    "id": 3841833,
+    "name": "Fluffal Bear",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "You can send this card from your hand to the Graveyard; Set 1 \"Toy Vendor\" directly from your Deck to your Spell & Trap Zone. You can Tribute this card, then target 1 \"Polymerization\" in your Graveyard; add it to your hand. You can only use 1 \"Fluffal Bear\" effect per turn, and only once that turn.",
+    "atk": 1200,
+    "def": 800,
+    "level": 3,
+    "race": "Fairy",
+    "attribute": "EARTH",
+    "archetype": "Fluffal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/fluffal-bear-345",
+    "card_images": [
+      {
+        "id": 3841833,
+        "image_url": "https://images.ygoprodeck.com/images/cards/3841833.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/3841833.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/3841833.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "name": "[DK] Carpiponica, Mystical Beast of the Forest",
+    "type": "Effect Monster",
+    "race": "Beast",
+    "desc": "If this card is sent from the hand to the GY: You can target 2 other Beast, Beast-Warrior, Winged Beast, Insect, and/or Plant monsters with different Types in your GY; shuffle them into the Deck, and if you do, Special Summon this card. If this card is Normal or Special Summoned: You can add 1 'Forest' card from your Deck to your hand. You can only use each effect of 'Carpiponica, Mystical Beast of the Forest' once per turn.",
+    "atk": 1000,
+    "def": 2600,
+    "level": 8,
+    "attribute": "EARTH",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 2
+  },
+  {
+    "id": 65303664,
+    "name": "[DK] Yellow Baboon, Archer of the Forest",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When a Beast-Type monster you control is destroyed by battle and sent to the Graveyard, and you have a 'Forest' Spell face-up on the field: Banish 2 Beast-Type monsters in your Graveyard; Special Summon this card from your hand.",
+    "atk": 2600,
+    "def": 1800,
+    "level": 7,
+    "race": "Beast",
+    "attribute": "EARTH",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/yellow-baboon-archer-of-the-forest-5504",
+    "card_images": [
+      {
+        "id": 65303664,
+        "image_url": "https://images.ygoprodeck.com/images/cards/65303664.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/65303664.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/65303664.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "name": "[DK] Owlbear Cub",
+    "type": "Normal Monster",
+    "race": "Beast",
+    "desc": "An owlbear cub. No matter how big a pair of eyes it gives you, it will claw yours out.",
+    "atk": 1450,
+    "def": 1050,
+    "level": 3,
+    "attribute": "EARTH",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 0
+  }  
+]
