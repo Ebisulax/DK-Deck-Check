@@ -36092,7 +36092,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -36176,7 +36176,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -36196,7 +36196,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -36216,7 +36216,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -36679,7 +36679,7 @@
       }
     ],
     "isSelected": true,
-    "value": 5,
+    "value": 4,
     "isInExtraDeck": false
   },
   {
@@ -39561,7 +39561,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 5
   },
   {
     "id": 57270476,
@@ -91917,6 +91917,77 @@
         "image_url": "https://images.ygoprodeck.com/images/cards/17418744.jpg",
         "image_url_small": "https://images.ygoprodeck.com/images/cards_small/17418744.jpg",
         "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/17418744.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 58996839,
+    "name": "Ashoka Pillar",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this card is Summoned: You can add 1 Equip Spell from your Deck to your hand, then if this card is in Attack Position, change it to Defense Position. You can only use this effect of \"Ashoka Pillar\" once per turn. If this card is destroyed by battle or card effect: Take 2000 damage.",
+    "atk": 0,
+    "def": 2200,
+    "level": 3,
+    "race": "Rock",
+    "attribute": "EARTH",
+    "archetype": "Ancient Treasure",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/ashoka-pillar-13848",
+    "card_images": [
+      {
+        "id": 58996839,
+        "image_url": "https://images.ygoprodeck.com/images/cards/58996839.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/58996839.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/58996839.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 19019586,
+    "name": "Gem-Elephant",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "During your Main Phase: You can return this face-up card on the field to the hand. During damage calculation, if this card attacked or was attacked: You can send 1 Normal Monster from your hand to the Graveyard; this card gains 1000 DEF.",
+    "atk": 400,
+    "def": 1900,
+    "level": 3,
+    "race": "Rock",
+    "attribute": "EARTH",
+    "archetype": "Gem-",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/gem-elephant-1641",
+    "card_images": [
+      {
+        "id": 19019586,
+        "image_url": "https://images.ygoprodeck.com/images/cards/19019586.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/19019586.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/19019586.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 99927991,
+    "name": "Adamancipator Friends",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Excavate the top cards of your Deck equal to the number of Rock monsters you control +5, and if you do, you can add to your hand 1 excavated Rock monster with a Level equal to or lower than the number of the excavated cards, also place the remaining cards on the bottom of your Deck in any order. For the rest of this turn after this card resolves, you cannot Special Summon monsters, except Rock monsters.",
+    "race": "Normal",
+    "archetype": "Adamancipator",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/adamancipator-friends-11068",
+    "card_images": [
+      {
+        "id": 99927991,
+        "image_url": "https://images.ygoprodeck.com/images/cards/99927991.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/99927991.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/99927991.jpg"
       }
     ],
     "isSelected": true,
