@@ -1898,7 +1898,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -3125,7 +3125,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -11440,7 +11440,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -18270,7 +18270,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": true
   },
   {
@@ -19441,7 +19441,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -19510,7 +19510,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -19770,7 +19770,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -20317,7 +20317,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -20987,7 +20987,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -21233,7 +21233,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -21274,7 +21274,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -23128,7 +23128,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -23153,7 +23153,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -23222,7 +23222,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -23247,7 +23247,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -23268,7 +23268,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -23620,7 +23620,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -23934,7 +23934,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -24009,7 +24009,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -24140,7 +24140,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -24354,8 +24354,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
-    "isInExtraDeck": false
+    "isInExtraDeck": true
   },
   {
     "id": 96890582,
@@ -24467,8 +24466,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
-    "isInExtraDeck": false
+    "isInExtraDeck": true
   },
   {
     "id": 37313786,
@@ -24692,7 +24690,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -24854,7 +24852,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -25299,7 +25297,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -25778,7 +25776,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -26269,7 +26267,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -26359,7 +26357,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -26428,7 +26426,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -26453,7 +26451,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -26480,7 +26478,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -27345,7 +27343,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -27536,7 +27534,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -27865,7 +27863,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -28291,7 +28289,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -28396,7 +28394,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -28557,7 +28555,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -28833,7 +28831,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -28970,7 +28968,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -29194,7 +29192,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -29243,7 +29241,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -29292,7 +29290,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -29545,7 +29543,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -29566,7 +29564,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -29979,7 +29977,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -30317,7 +30315,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -30875,7 +30873,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -31967,7 +31965,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -31988,7 +31986,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -32009,7 +32007,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -32030,7 +32028,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -32492,8 +32490,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
-    "isInExtraDeck": false
+    "isInExtraDeck": true
   },
   {
     "id": 70797118,
@@ -32589,7 +32586,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -32610,7 +32607,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -32635,7 +32632,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -32656,7 +32653,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -33012,7 +33009,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -33036,7 +33033,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -33102,7 +33099,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -33177,7 +33174,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -33410,7 +33407,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -33592,7 +33589,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -33748,7 +33745,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -33769,7 +33766,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -33899,7 +33896,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -33998,7 +33995,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -34023,7 +34020,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -34386,7 +34383,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -34703,7 +34700,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -35378,7 +35375,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -35529,7 +35526,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -35863,7 +35860,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -35884,7 +35881,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -35905,7 +35902,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -35926,7 +35923,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -35951,7 +35948,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -36032,7 +36029,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -36072,7 +36069,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -36236,7 +36233,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -36309,7 +36306,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -36562,7 +36559,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -36587,7 +36584,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -36612,7 +36609,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -36913,7 +36910,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -36937,7 +36934,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -36961,7 +36958,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -36985,7 +36982,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -37013,7 +37010,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -37037,7 +37034,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -37349,7 +37346,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -37374,7 +37371,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -37399,7 +37396,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -37424,7 +37421,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -38390,7 +38387,7 @@
       }
     ],
     "isSelected": true,
-    "value": 6,
+    "isBanned": true,
     "isInExtraDeck": false
   },
   {
@@ -39091,7 +39088,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 61204971,
@@ -39116,7 +39113,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 99414168,
@@ -39140,8 +39137,7 @@
       }
     ],
     "isSelected": true,
-    "isInExtraDeck": false,
-    "value": 6
+    "isInExtraDeck": true
   },
   {
     "id": 26022485,
@@ -39719,7 +39715,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 27927359,
@@ -39744,7 +39740,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 54415063,
@@ -39769,7 +39765,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 23265594,
@@ -39814,7 +39810,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 82260502,
@@ -39939,7 +39935,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 9264485,
@@ -40029,7 +40025,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 26082229,
@@ -41563,7 +41559,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 89698120,
@@ -41865,7 +41861,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 25578802,
@@ -42084,7 +42080,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 37744402,
@@ -42519,7 +42515,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 14772491,
@@ -42540,7 +42536,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 16616620,
@@ -42561,7 +42557,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 22147147,
@@ -42582,7 +42578,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 43405287,
@@ -42603,7 +42599,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 8698851,
@@ -42624,7 +42620,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 89899996,
@@ -42645,7 +42641,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 53527835,
@@ -42666,7 +42662,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 55461064,
@@ -42691,7 +42687,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 81866673,
@@ -42716,7 +42712,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 54749427,
@@ -42741,7 +42737,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 28355718,
@@ -42766,7 +42762,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 15294090,
@@ -42787,7 +42783,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 84361420,
@@ -42808,7 +42804,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 55171412,
@@ -42833,7 +42829,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 28677304,
@@ -42858,7 +42854,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 81566151,
@@ -42883,7 +42879,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 35787450,
@@ -42903,7 +42899,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 78387742,
@@ -42924,7 +42920,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 10759529,
@@ -42945,7 +42941,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 11471117,
@@ -42986,7 +42982,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 89621922,
@@ -43011,7 +43007,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 73262676,
@@ -43032,7 +43028,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 58012107,
@@ -43057,7 +43053,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 72150572,
@@ -43680,7 +43676,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 77121851,
@@ -43818,7 +43814,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 48675364,
@@ -44021,7 +44017,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 25262697,
@@ -44046,7 +44042,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 99877698,
@@ -44071,7 +44067,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 50712728,
@@ -44096,7 +44092,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 37101832,
@@ -44121,7 +44117,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 63695531,
@@ -44146,7 +44142,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 99690140,
@@ -44171,7 +44167,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 26084285,
@@ -44196,7 +44192,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 30450531,
@@ -44217,7 +44213,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 72405967,
@@ -44238,7 +44234,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 62473983,
@@ -44263,7 +44259,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 24317029,
@@ -44288,7 +44284,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 17393207,
@@ -44313,7 +44309,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 68875140,
@@ -44378,7 +44374,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 69091732,
@@ -44849,7 +44845,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 501000006,
@@ -44873,7 +44869,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 501000007,
@@ -44897,7 +44893,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 111000561,
@@ -44917,7 +44913,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 22377815,
@@ -44966,7 +44962,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 16241441,
@@ -44991,7 +44987,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 42239546,
@@ -45016,7 +45012,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 43751755,
@@ -45041,7 +45037,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 29246354,
@@ -45066,7 +45062,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 95888876,
@@ -45111,7 +45107,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 43644025,
@@ -45132,7 +45128,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 56641453,
@@ -45153,7 +45149,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 18828179,
@@ -45453,7 +45449,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 78734254,
@@ -45478,7 +45474,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 81913510,
@@ -45499,7 +45495,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 45045866,
@@ -45775,7 +45771,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 48996569,
@@ -45800,7 +45796,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 79853073,
@@ -45995,7 +45991,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 22587018,
@@ -46278,7 +46274,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 80045583,
@@ -46324,7 +46320,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 67829249,
@@ -46345,7 +46341,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 30435145,
@@ -46366,7 +46362,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 13250922,
@@ -46431,7 +46427,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 29139104,
@@ -46649,7 +46645,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 66947414,
@@ -46670,7 +46666,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 32296881,
@@ -46913,7 +46909,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 69270537,
@@ -46933,7 +46929,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 68774379,
@@ -46957,7 +46953,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 10248389,
@@ -47053,7 +47049,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 2158562,
@@ -47122,7 +47118,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 62868900,
@@ -47143,7 +47139,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 99075257,
@@ -47164,7 +47160,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 9910360,
@@ -47278,7 +47274,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 13093792,
@@ -47303,7 +47299,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 41613948,
@@ -47328,7 +47324,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 40591390,
@@ -47353,7 +47349,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 35464895,
@@ -47374,7 +47370,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 62980542,
@@ -47511,7 +47507,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 14225239,
@@ -47536,7 +47532,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 81003500,
@@ -47561,7 +47557,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 5285665,
@@ -47586,7 +47582,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 41436536,
@@ -47611,7 +47607,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 47737087,
@@ -47636,7 +47632,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 88820235,
@@ -47661,7 +47657,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 83121692,
@@ -47686,7 +47682,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 55615891,
@@ -47711,7 +47707,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 10526791,
@@ -47736,7 +47732,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 86188410,
@@ -47761,7 +47757,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 36586443,
@@ -47782,7 +47778,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 57006589,
@@ -47851,7 +47847,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 21947653,
@@ -47876,7 +47872,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 984114,
@@ -47901,7 +47897,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 31887905,
@@ -48046,7 +48042,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 71060915,
@@ -48067,7 +48063,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 83778600,
@@ -48172,7 +48168,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 34460239,
@@ -48344,7 +48340,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 6924874,
@@ -48368,7 +48364,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 44676200,
@@ -48389,7 +48385,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 191749,
@@ -48410,7 +48406,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 67951831,
@@ -48431,7 +48427,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 32679370,
@@ -48548,7 +48544,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 67468948,
@@ -48940,7 +48936,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 24643836,
@@ -48961,7 +48957,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 98259197,
@@ -48982,7 +48978,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 33248692,
@@ -49071,7 +49067,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 66607691,
@@ -49092,7 +49088,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 54289683,
@@ -49179,7 +49175,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 56524813,
@@ -49408,7 +49404,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 67646312,
@@ -49566,7 +49562,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 98049038,
@@ -49591,7 +49587,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 29013526,
@@ -49879,7 +49875,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 84243274,
@@ -49904,7 +49900,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 96300057,
@@ -49929,7 +49925,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 85066822,
@@ -49954,7 +49950,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 28604635,
@@ -50047,7 +50043,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 30155789,
@@ -50111,7 +50107,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 35027493,
@@ -50336,7 +50332,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 94820406,
@@ -50356,7 +50352,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 80908502,
@@ -50381,7 +50377,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 58332301,
@@ -50406,7 +50402,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 50304345,
@@ -50431,7 +50427,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 50282757,
@@ -50456,7 +50452,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 86676862,
@@ -50481,7 +50477,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 13293158,
@@ -50506,7 +50502,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 75732622,
@@ -52791,7 +52787,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "value": 3
   },
   {
     "id": 19357125,
@@ -53100,7 +53096,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 85060248,
@@ -53167,8 +53163,7 @@
       }
     ],
     "isSelected": true,
-    "isInExtraDeck": false,
-    "value": 6
+    "isInExtraDeck": true
   },
   {
     "id": 74115234,
@@ -54290,7 +54285,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 18752938,
@@ -54379,7 +54374,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 10097168,
@@ -54542,7 +54537,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 72892473,
@@ -54612,7 +54607,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 11662742,
@@ -54787,7 +54782,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 27416701,
@@ -55678,7 +55673,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 42956963,
@@ -56401,7 +56396,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "value": 2
   },
   {
     "id": 26725158,
@@ -56445,7 +56440,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 7576264,
@@ -57167,7 +57162,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 88619463,
@@ -57219,7 +57214,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 32207100,
@@ -57374,7 +57369,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 20470500,
@@ -57423,7 +57418,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 62742651,
@@ -57512,7 +57507,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 42256406,
@@ -57736,7 +57731,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "value": 3
   },
   {
     "id": 98147766,
@@ -58174,7 +58169,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 32271987,
@@ -58246,7 +58241,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 68786330,
@@ -58875,7 +58870,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 96565487,
@@ -59232,7 +59227,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 63851864,
@@ -59899,7 +59894,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 88264978,
@@ -59930,7 +59925,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 89731911,
@@ -60847,7 +60842,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 79965360,
@@ -60868,7 +60863,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 20138923,
@@ -61296,7 +61291,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "value": 2
   },
   {
     "id": 87102774,
@@ -61464,7 +61459,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 21208154,
@@ -61489,7 +61484,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 71249758,
@@ -61685,8 +61680,7 @@
       }
     ],
     "isSelected": true,
-    "isInExtraDeck": false,
-    "value": 6
+    "isInExtraDeck": true
   },
   {
     "id": 89235196,
@@ -61961,7 +61955,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 5438492,
@@ -62828,7 +62822,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "value": 2
   },
   {
     "id": 84177693,
@@ -65299,7 +65293,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 66788016,
@@ -65426,7 +65420,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 63102017,
@@ -65815,7 +65809,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 99551425,
@@ -67384,7 +67378,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 8131171,
@@ -68618,7 +68612,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 65622692,
@@ -68643,7 +68637,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 64500000,
@@ -68668,7 +68662,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 4149689,
@@ -68799,7 +68793,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 59744639,
@@ -69733,7 +69727,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 87774234,
@@ -70100,7 +70094,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 63995093,
@@ -70330,7 +70324,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 16956455,
@@ -70514,7 +70508,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 74157028,
@@ -70538,7 +70532,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 59023523,
@@ -71110,7 +71104,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 46427957,
@@ -71430,7 +71424,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 40384720,
@@ -71970,7 +71964,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 86445415,
@@ -71995,7 +71989,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 13955608,
@@ -72016,7 +72010,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 13839120,
@@ -72041,7 +72035,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 57728570,
@@ -72840,7 +72834,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 34334692,
@@ -72989,7 +72983,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 72677437,
@@ -73014,7 +73008,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 75500286,
@@ -73038,7 +73032,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 4923662,
@@ -73716,7 +73710,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 30834988,
@@ -76538,7 +76532,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 79337169,
@@ -77266,7 +77260,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 97783659,
@@ -79255,7 +79249,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "value": 2
   },
   {
     "id": 99004752,
@@ -79603,7 +79597,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 72580321,
@@ -80228,7 +80222,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 76792184,
@@ -80249,7 +80243,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 30208479,
@@ -80274,7 +80268,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 88409165,
@@ -87235,7 +87229,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 93775296,
@@ -87574,7 +87568,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "isBanned": true
   },
   {
     "id": 75902998,
@@ -87766,7 +87760,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 6
+    "value": 2
   },
   {
     "id": 18809562,
@@ -87959,7 +87953,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 67547370,
@@ -90412,7 +90406,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 84125619,
