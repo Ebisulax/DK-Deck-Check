@@ -198,7 +198,7 @@ async function uploadFile() {
                 const rule3Value = document.getElementById('totalValueSum');
                 const rule3Tip = document.getElementById('totalValueTip');
                 const rule3Result = document.getElementById('totalValueResult');
-                rule3Value.textContent = `${totalValueSum}`;
+                rule3Value.textContent = `${totalValueSum} (Ø${(totalValueSum/mainDeckCount).toFixed(2)})`;
                 if (totalValueSum < 90) {
                     rule3Tip.textContent = `Deine Karten dürften einen höheren value von ${90 - totalValueSum} haben!`;
                 } else if (totalValueSum > 90) {

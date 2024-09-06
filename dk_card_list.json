@@ -24050,7 +24050,7 @@
       }
     ],
     "isSelected": true,
-    "value": 5,
+    "value": 4,
     "isInExtraDeck": false
   },
   {
@@ -25515,7 +25515,7 @@
     "isInExtraDeck": false
   },
   {
-    "id": 83011278,
+    "id": 83011277,
     "name": "Mystic Tomato",
     "type": "Effect Monster",
     "frameType": "effect",
@@ -25527,12 +25527,6 @@
     "attribute": "DARK",
     "ygoprodeck_url": "https://ygoprodeck.com/card/mystic-tomato-6969",
     "card_images": [
-      {
-        "id": 83011278,
-        "image_url": "https://images.ygoprodeck.com/images/cards/83011278.jpg",
-        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/83011278.jpg",
-        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/83011278.jpg"
-      },
       {
         "id": 83011277,
         "image_url": "https://images.ygoprodeck.com/images/cards/83011277.jpg",
@@ -28943,7 +28937,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -38455,7 +38449,7 @@
       }
     ],
     "isSelected": true,
-    "value": 4,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -43747,7 +43741,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 77754944,
@@ -46131,7 +46125,7 @@
     "value": 2
   },
   {
-    "id": 80604092,
+    "id": 80604091,
     "name": "Ultimate Offering",
     "type": "Trap Card",
     "frameType": "trap",
@@ -48300,7 +48294,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 1
   },
   {
     "id": 48653261,
@@ -52767,7 +52761,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 1
   },
   {
     "id": 60930169,
@@ -54963,7 +54957,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 37011715,
@@ -56592,7 +56586,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 51773900,
@@ -65316,7 +65310,7 @@
     "value": 4
   },
   {
-    "id": 83764719,
+    "id": 83764718,
     "name": "Monster Reborn",
     "type": "Spell Card",
     "frameType": "spell",
@@ -70299,7 +70293,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 80316585,
@@ -73750,7 +73744,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 28985331,
@@ -75156,7 +75150,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 83239739,
@@ -80559,7 +80553,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 2
   },
   {
     "id": 12836042,
@@ -91982,6 +91976,233 @@
         "image_url": "https://images.ygoprodeck.com/images/cards/99927991.jpg",
         "image_url_small": "https://images.ygoprodeck.com/images/cards_small/99927991.jpg",
         "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/99927991.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 75675029,
+    "name": "Memory Crush King",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card inflicts Battle Damage to your opponent by a direct attack, remove from play all Synchro Monsters in your opponent's Graveyard, and inflict 1000 damage to your opponent for each monster removed.",
+    "atk": 2000,
+    "def": 0,
+    "level": 5,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/memory-crush-king-6372",
+    "card_images": [
+      {
+        "id": 75675029,
+        "image_url": "https://images.ygoprodeck.com/images/cards/75675029.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/75675029.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/75675029.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 14824019,
+    "name": "Spellbook Magician of Prophecy",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this card is Normal Summoned or flipped face-up: Add 1 \"Spellbook\" Spell from your Deck to your hand.",
+    "atk": 500,
+    "def": 400,
+    "level": 2,
+    "race": "Spellcaster",
+    "attribute": "WATER",
+    "archetype": "Spellbook",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/spellbook-magician-of-prophecy-1273",
+    "card_images": [
+      {
+        "id": 14824019,
+        "image_url": "https://images.ygoprodeck.com/images/cards/14824019.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/14824019.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/14824019.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 41386308,
+    "name": "Mathematician",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card is Normal Summoned: You can send 1 Level 4 or lower monster from your Deck to the GY. When this card is destroyed by battle and sent to the GY: You can draw 1 card.",
+    "atk": 1500,
+    "def": 500,
+    "level": 3,
+    "race": "Spellcaster",
+    "attribute": "EARTH",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/mathematician-3532",
+    "card_images": [
+      {
+        "id": 41386308,
+        "image_url": "https://images.ygoprodeck.com/images/cards/41386308.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/41386308.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/41386308.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 23314220,
+    "name": "Spellbook of Knowledge",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Send to the GY either 1 Spellcaster monster you control, or 1 other \"Spellbook\" card from your hand or face-up field, except \"Spellbook of Knowledge\", and if you do, draw 2 cards. You can only activate 1 \"Spellbook of Knowledge\" per turn.",
+    "race": "Normal",
+    "archetype": "Spellbook",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/spellbook-of-knowledge-8883",
+    "card_images": [
+      {
+        "id": 23314220,
+        "image_url": "https://images.ygoprodeck.com/images/cards/23314220.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/23314220.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/23314220.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 3280747,
+    "name": "Sixth Sense",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Declare 2 numbers from 1 to 6, then your opponent rolls a six-sided die, and if the result is one of the numbers you declared, you draw that many cards. Otherwise, send a number of cards from the top of your Deck to the Graveyard equal to the result.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/sixth-sense-295",
+    "banlist_info": {
+      "ban_tcg": "Banned",
+      "ban_ocg": "Banned"
+    },
+    "card_images": [
+      {
+        "id": 3280747,
+        "image_url": "https://images.ygoprodeck.com/images/cards/3280747.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/3280747.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/3280747.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 5
+  },
+  {
+    "id": 70916046,
+    "name": "Linear Equation Cannon",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "During the Battle Phase: Declare a whole number from 1 to 6; choose 1 Effect Monster your opponent controls. Multiply the Effect Monster's Level x the declared number, then add the number of cards your opponent controls, and check if the result equals the number of cards in your GY.\r\n● If yes: Send cards from the top of your Deck to the GY, up to the declared number, and if you do, shuffle cards your opponent controls into the Deck, up to the number sent to the GY.\r\n● If no: You lose LP equal to the declared number x 500.\r\nYou can only activate 1 \"Linear Equation Cannon\" per turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/linear-equation-cannon-11654",
+    "card_images": [
+      {
+        "id": 70916046,
+        "image_url": "https://images.ygoprodeck.com/images/cards/70916046.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/70916046.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/70916046.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 46448938,
+    "name": "[DK] Spellbook of Judgment",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "During the End Phase of the turn this card was activated: Special Summon 1 Spellcaster from your Deck whose Level is less than or equal to the number of Spells activated after this card's resolution. You can only activate 1 \"Spellbook of Judgment\" per turn.",
+    "race": "Quick-Play",
+    "archetype": "Spellbook",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/spellbook-of-judgment-3960",
+    "card_images": [
+      {
+        "id": 46448938,
+        "image_url": "https://images.ygoprodeck.com/images/cards/46448938.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/46448938.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/46448938.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 24413299,
+    "name": "The Suppression Pluto",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Once per turn: You can declare 1 card name; look at your opponent's hand, then if they have the declared card in their hand, apply 1 of these effects.\r\n● Take control of 1 monster your opponent controls.\r\n● Destroy 1 Spell/Trap Card your opponent controls, then you can Set the destroyed Spell/Trap Card on your field.",
+    "atk": 2600,
+    "def": 2000,
+    "level": 8,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/the-suppression-pluto-2108",
+    "card_images": [
+      {
+        "id": 24413299,
+        "image_url": "https://images.ygoprodeck.com/images/cards/24413299.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/24413299.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/24413299.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 48686504,
+    "name": "Lonefire Blossom",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Once per turn: You can Tribute 1 face-up Plant monster; Special Summon 1 Plant monster from your Deck.",
+    "atk": 500,
+    "def": 1400,
+    "level": 3,
+    "race": "Plant",
+    "attribute": "FIRE",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/lonefire-blossom-4158",
+    "card_images": [
+      {
+        "id": 48686504,
+        "image_url": "https://images.ygoprodeck.com/images/cards/48686504.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/48686504.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/48686504.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 4
+  },
+  {
+    "id": 7133305,
+    "name": "Water of Life",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "If you control no monsters: Target 1 monster in your GY; Special Summon that target in Attack Position, also, for the rest of this turn after this card resolves, you cannot activate monster effects, except the effects of that Special Summoned monster on the field. You can only activate 1 \"Water of Life\" per turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/water-of-life-10350",
+    "card_images": [
+      {
+        "id": 7133305,
+        "image_url": "https://images.ygoprodeck.com/images/cards/7133305.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/7133305.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/7133305.jpg"
       }
     ],
     "isSelected": true,
