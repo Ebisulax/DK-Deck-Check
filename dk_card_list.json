@@ -21538,7 +21538,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -24200,7 +24200,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -27961,7 +27961,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -29757,7 +29757,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -50262,7 +50262,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 5
+    "value": 4
   },
   {
     "id": 38992735,
@@ -56045,7 +56045,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 52286175,
@@ -80508,7 +80508,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 87564935,
@@ -81852,7 +81852,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 1
   },
   {
     "id": 45651298,
@@ -88079,7 +88079,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 1
   },
   {
     "id": 37626500,
@@ -92203,6 +92203,70 @@
         "image_url": "https://images.ygoprodeck.com/images/cards/7133305.jpg",
         "image_url_small": "https://images.ygoprodeck.com/images/cards_small/7133305.jpg",
         "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/7133305.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 81223446,
+    "name": "Necro Fusion",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Fusion Summon 1 Fusion Monster from your Extra Deck, by banishing Fusion Materials listed on it from your GY face-down, but it cannot attack this turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/necro-fusion-9652",
+    "card_images": [
+      {
+        "id": 81223446,
+        "image_url": "https://images.ygoprodeck.com/images/cards/81223446.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/81223446.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/81223446.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 54239282,
+    "name": "Old Mind",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Look at 1 random card in your opponent's hand, then apply 1 of the following effects.\r\n● Discard both that opponent's card and 1 card from your hand of the same type (Monster, Spell, or Trap), then add this card from the field to your opponent's hand, and if you do, draw 1 card.\r\n● Lose 1000 LP.\r\nYou can only activate 1 \"Old Mind\" per turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/old-mind-10473",
+    "card_images": [
+      {
+        "id": 54239282,
+        "image_url": "https://images.ygoprodeck.com/images/cards/54239282.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/54239282.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/54239282.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 1
+  },
+  {
+    "id": 41224658,
+    "name": "Ambitious Gofer",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Once per turn: You can target up to 2 monsters your opponent controls; your opponent can reveal 1 monster in their hand to negate this card's effect, otherwise destroy those monsters.",
+    "atk": 2400,
+    "def": 100,
+    "level": 6,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/ambitious-gofer-3519",
+    "card_images": [
+      {
+        "id": 41224658,
+        "image_url": "https://images.ygoprodeck.com/images/cards/41224658.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/41224658.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/41224658.jpg"
       }
     ],
     "isSelected": true,
