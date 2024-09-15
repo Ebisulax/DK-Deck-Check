@@ -21786,7 +21786,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -23668,7 +23668,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -26003,7 +26003,7 @@
     "isInExtraDeck": false
   },
   {
-    "id": 18807109,
+    "id": 18807108,
     "name": "Spellbinding Circle",
     "type": "Trap Card",
     "frameType": "trap",
@@ -26025,7 +26025,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -26743,7 +26743,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -30470,7 +30470,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -41695,7 +41695,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 88696724,
@@ -41719,7 +41719,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 88089103,
@@ -41811,7 +41811,7 @@
     "value": 2
   },
   {
-    "id": 35686188,
+    "id": 35686187,
     "name": "Tragedy",
     "type": "Trap Card",
     "frameType": "trap",
@@ -62732,7 +62732,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 1
   },
   {
     "id": 94716515,
@@ -62864,7 +62864,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 1
   },
   {
     "id": 50785356,
@@ -65364,7 +65364,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 1
   },
   {
     "id": 55144522,
@@ -70406,7 +70406,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 36361633,
@@ -92272,5 +92272,244 @@
     "isSelected": true,
     "isInExtraDeck": false,
     "value": 3
+  },
+  {
+    "id": 82685480,
+    "name": "Rage of Kairyu-Shin",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "If \"Umi\" is on the field: Target monsters your opponent controls, up to the number of WATER monsters you control whose original Levels are 5 or higher; destroy them, and if you do, the zones they were in cannot be used until the end of the next turn. You can only activate 1 \"Rage of Kairyu-Shin\" per turn.",
+    "race": "Quick-Play",
+    "archetype": "Umi",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/rage-of-kairyu-shin-8505",
+    "card_images": [
+      {
+        "id": 82685480,
+        "image_url": "https://images.ygoprodeck.com/images/cards/82685480.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/82685480.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/82685480.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 29265962,
+    "name": "The League of Uniform Nomenclature Strikes",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Target 1 face-up monster you control; equip 2 monsters with the same original name as that target from your hand, Deck, and/or GY to that target as Equip Spells, and if you do, it cannot attack or be destroyed by battle while equipped with those 2 cards. You cannot Special Summon for the rest of this turn after this card resolves, except monsters with the same original Type as the targeted monster. You can only activate 1 \"The League of Uniform Nomenclature Strikes\" per turn.",
+    "race": "Normal",
+    "archetype": "Uniform Nomenclature",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/the-league-of-uniform-nomenclature-strikes-14610",
+    "card_images": [
+      {
+        "id": 29265962,
+        "image_url": "https://images.ygoprodeck.com/images/cards/29265962.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/29265962.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/29265962.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 21
+  },
+  {
+    "id": 52472775,
+    "name": "Prayers of the Voiceless Voice",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "This card can be used to Ritual Summon any LIGHT Ritual Monster. You must also Tribute LIGHT monsters from your hand or field whose total Levels equal or exceed the Level of the Ritual Monster. If a face-up LIGHT Ritual Monster(s) you control leaves the field by an opponent's card effect (except during the Damage Step): You can banish this card from your GY; Special Summon 1 \"Sauravis, the Ancient and Ascended\", \"Saffira, Queen of Dragons\", or \"Skull Guardian, Protector of the Voiceless Voice\" from your hand or Deck, ignoring its Summoning conditions. You can only use this effect of \"Prayers of the Voiceless Voice\" once per turn.",
+    "race": "Ritual",
+    "archetype": "Voiceless Voice",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/prayers-of-the-voiceless-voice-14142",
+    "card_images": [
+      {
+        "id": 52472775,
+        "image_url": "https://images.ygoprodeck.com/images/cards/52472775.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/52472775.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/52472775.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 4
+  },
+  {
+    "id": 26866984,
+    "name": "[DK] Trias Hierarchia",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Once per duel, during the Main Phase, if this card is in your hand or GY (Quick Effect): You can Tribute up to 3 Fairy monsters; Special Summon this card (but banish it when it leaves the field), then, you can apply the following effect(s) in sequence, depending on the number of Tributed monsters.\r\n● 2+: Destroy 1 card your opponent controls. ● 3: Draw 2 cards.",
+    "atk": 1900,
+    "def": 2900,
+    "level": 9,
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/trias-hierarchia-10843",
+    "card_images": [
+      {
+        "id": 26866984,
+        "image_url": "https://images.ygoprodeck.com/images/cards/26866984.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/26866984.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/26866984.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": true,
+    "value": 0
+  },
+  {
+    "id": 51303014,
+    "name": "Wattsychic Fighting Porter",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Special Summon up to 2 Level 3 or lower LIGHT monsters from your hand. If you Summoned 2 monsters with the same original Type, those monsters can attack directly this turn. If they have the same original Level, they also cannot be destroyed by battle this turn. You can only activate 1 \"Wattsychic Fighting Porter\" per turn.",
+    "race": "Quick-Play",
+    "archetype": "Watt",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/wattsychic-fighting-porter-14184",
+    "card_images": [
+      {
+        "id": 51303014,
+        "image_url": "https://images.ygoprodeck.com/images/cards/51303014.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/51303014.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/51303014.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 27979109,
+    "name": "Gearbreed",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "During your Draw Phase, instead of conducting your normal draw: You can add 1 Equip Spell from your Deck or GY to your hand. If you control an Equip Spell: You can place 1 FIRE Warrior monster or 1 Gemini monster from your GY on the bottom of your Deck; draw 1 card. You can only use each effect of \"Gearbreed\" once per turn.",
+    "race": "Continuous",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/gearbreed-10597",
+    "card_images": [
+      {
+        "id": 27979109,
+        "image_url": "https://images.ygoprodeck.com/images/cards/27979109.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/27979109.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/27979109.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 6061630,
+    "name": "Magical Exemplar",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Each time a Spell Card is activated, place 2 Spell Counters on this card when that Spell resolves. Once per turn: You can remove any number of Spell Counters from this card; Special Summon 1 Spellcaster monster from your hand or GY whose Level is equal to the number of Spell Counters you removed.",
+    "atk": 1700,
+    "def": 1400,
+    "level": 4,
+    "race": "Spellcaster",
+    "attribute": "EARTH",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/magical-exemplar-529",
+    "card_images": [
+      {
+        "id": 6061630,
+        "image_url": "https://images.ygoprodeck.com/images/cards/6061630.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/6061630.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/6061630.jpg"
+      }
+    ],
+    "isSelected": true,
+    "value": 3
+  },
+  {
+    "id": 22923081,
+    "name": "Breaker the Dark Magical Warrior",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this card is Normal Summoned: Place 2 Spell Counters on it. If this card is Pendulum Summoned: Place 3 Spell Counters on it. Gains 400 ATK for each Spell Counter on it. You can remove 1 Spell Counter from this card, then target 1 Spell/Trap on the field; destroy it. You can only use this effect of \"Breaker the Dark Magical Warrior\" once per turn.",
+    "atk": 1600,
+    "def": 1000,
+    "level": 6,
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/breaker-the-dark-magical-warrior-1973",
+    "card_images": [
+      {
+        "id": 22923081,
+        "image_url": "https://images.ygoprodeck.com/images/cards/22923081.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/22923081.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/22923081.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 84962466,
+    "name": "[DK] Beast Rising",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Once per turn: Banish 1 face-up Beast or Beast-Warrior monster you control and target 1 other face-up Beast or Beast-Warrior monster you control: Increase the targeted monster's ATK by the banished monster's original ATK, until your opponent's next End Phase.",
+    "race": "Continuous",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/beast-rising-7125",
+    "card_images": [
+      {
+        "id": 84962466,
+        "image_url": "https://images.ygoprodeck.com/images/cards/84962466.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/84962466.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/84962466.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 97926515,
+    "name": "Emerging Emergency Rescute Rescue",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "If your LP is lower than your opponent's: Reveal 3 Beast monsters with 300 ATK and 100 DEF from your Deck, your opponent chooses 1 for you to add to your hand, and you shuffle the rest back into your Deck. You can only activate 1 \"Emerging Emergency Rescute Rescue\" per turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/emerging-emergency-rescute-rescue-8454",
+    "card_images": [
+      {
+        "id": 97926515,
+        "image_url": "https://images.ygoprodeck.com/images/cards/97926515.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/97926515.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/97926515.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 9551692,
+    "name": "Master of Ham",
+    "type": "Fusion Monster",
+    "frameType": "fusion",
+    "desc": "2 Beast monsters\r\nIf this card is Fusion Summoned or flipped face-up: You can Special Summon 1 Flip monster from your hand or Deck in face-down Defense Position. If this card is in your GY: You can banish 2 Flip monsters from your face-up field and/or GY; Special Summon this card in face-down Defense Position, but banish it when it leaves the field. You can only use each effect of \"Master of Ham\" once per turn.",
+    "atk": 2100,
+    "def": 1850,
+    "level": 5,
+    "race": "Beast",
+    "attribute": "EARTH",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/master-of-ham-14199",
+    "card_images": [
+      {
+        "id": 9551692,
+        "image_url": "https://images.ygoprodeck.com/images/cards/9551692.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/9551692.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/9551692.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": true,
+    "value": 0
   }
 ]
