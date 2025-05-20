@@ -1403,7 +1403,7 @@
     "name": "Beast of Talwar",
     "type": "Normal Monster",
     "frameType": "normal",
-    "desc": "Only the master of the sword among Fiend-Type monsters is permitted to hold the Talwar.\n\n\n(This card is always treated as an \"Archfiend\" card.)",
+    "desc": "Only the master of the sword among Fiend-Type monsters is permitted to hold the Talwar.\n(This card is always treated as an \"Archfiend\" card.)",
     "atk": 2400,
     "def": 2150,
     "level": 6,
@@ -16273,7 +16273,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -65317,11 +65317,6 @@
     "desc": "Target 1 monster in either GY; Special Summon it.",
     "race": "Normal",
     "ygoprodeck_url": "https://ygoprodeck.com/card/monster-reborn-7027",
-    "banlist_info": {
-      "ban_tcg": "Limited",
-      "ban_ocg": "Limited",
-      "ban_goat": "Banned"
-    },
     "card_images": [
       {
         "id": 83764719,
@@ -67249,7 +67244,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 1
   },
   {
     "id": 93920745,
@@ -86227,7 +86222,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 39276790,
@@ -92056,27 +92051,6 @@
     "value": 2
   },
   {
-    "id": 23314220,
-    "name": "Spellbook of Knowledge",
-    "type": "Spell Card",
-    "frameType": "spell",
-    "desc": "Send to the GY either 1 Spellcaster monster you control, or 1 other \"Spellbook\" card from your hand or face-up field, except \"Spellbook of Knowledge\", and if you do, draw 2 cards. You can only activate 1 \"Spellbook of Knowledge\" per turn.",
-    "race": "Normal",
-    "archetype": "Spellbook",
-    "ygoprodeck_url": "https://ygoprodeck.com/card/spellbook-of-knowledge-8883",
-    "card_images": [
-      {
-        "id": 23314220,
-        "image_url": "https://images.ygoprodeck.com/images/cards/23314220.jpg",
-        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/23314220.jpg",
-        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/23314220.jpg"
-      }
-    ],
-    "isSelected": true,
-    "isInExtraDeck": false,
-    "value": 3
-  },
-  {
     "id": 3280747,
     "name": "Sixth Sense",
     "type": "Trap Card",
@@ -92511,5 +92485,227 @@
     "isSelected": true,
     "isInExtraDeck": true,
     "value": 0
+  },
+  {
+    "id": 64977888,
+    "name": "Apprentice Piper",
+    "type": "Flip Effect Monster",
+    "frameType": "effect",
+    "desc": "FLIP: You can Special Summon 1 monster from your hand.\r\nIf this card is destroyed by battle or card effect and sent to the Graveyard: You can Special Summon 1 monster from your hand.",
+    "atk": 100,
+    "def": 1500,
+    "level": 2,
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/apprentice-piper-5479",
+    "card_images": [
+      {
+        "id": 64977888,
+        "image_url": "https://images.ygoprodeck.com/images/cards/64977888.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/64977888.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/64977888.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 35480699,
+    "name": "Book of Eclipse",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Change all face-up monsters on the field to face-down Defense Position. During the End Phase of this turn, change as many face-down Defense Position monsters your opponent controls as possible to face-up Defense Position, then your opponent draws cards equal to the number of monsters changed face-up by this effect.",
+    "race": "Quick-Play",
+    "archetype": "Book of",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/book-of-eclipse-3005",
+    "card_images": [
+      {
+        "id": 35480699,
+        "image_url": "https://images.ygoprodeck.com/images/cards/35480699.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/35480699.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/35480699.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 75014062,
+    "name": "Spell Power Grasp",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Target 1 face-up card on the field that you can place a Spell Counter on; place 1 Spell Counter on that target, then you can add 1 \"Spell Power Grasp\" from your Deck to your hand. You can only activate 1 \"Spell Power Grasp\" per turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/spell-power-grasp-6310",
+    "card_images": [
+      {
+        "id": 75014062,
+        "image_url": "https://images.ygoprodeck.com/images/cards/75014062.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/75014062.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/75014062.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 1
+  },
+  {
+    "id": 42149850,
+    "name": "Disposable Learner Device",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "The equipped monster gains 200 ATK for each monster in your GY. During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can Set this card, but banish it when it leaves the field. You can only use this effect of \"Disposable Learner Device\" once per turn.",
+    "race": "Equip",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/disposable-learner-device-10665",
+    "card_images": [
+      {
+        "id": 42149850,
+        "image_url": "https://images.ygoprodeck.com/images/cards/42149850.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/42149850.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/42149850.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 64977888,
+    "name": "[DK] Witchcrafter Genni",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Once per turn: You can banish this card and 1 \"Book\" Spell from your GY; this effect becomes that Spell's effect when that card is activated. This effect can be used as a Quick-Effect when you banish a Quick-Play Spell.",
+    "atk": 300,
+    "def": 500,
+    "level": 1,
+    "race": "Spellcaster",
+    "attribute": "WIND",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 42149850,
+    "name": "[DK] Spell Textbook",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Discard all cards in your hand (if any); excavate 1 card, then, if it is a Spell, activate it immediately. Otherwise, discard it.",
+    "race": "Quick-Play",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 42149850,
+    "name": "[DK] Spell Textbook",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Discard all cards in your hand (if any); excavate 1 card, then, if it is a Spell, activate it immediately. Otherwise, discard it.",
+    "race": "Quick-Play",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 42149850,
+    "name": "[DK] Spellbook of Secrets",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Add 1 \"Book\" card from your Deck to your hand. You can only activate 1 \"Spellbook of Secrets\" per turn.",
+    "race": "Normal",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 42149850,
+    "name": "[DK] Spell Textbook",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Discard all cards in your hand (if any); excavate 1 card, then, if it is a Spell, activate it immediately. Otherwise, discard it.",
+    "race": "Quick-Play",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 42149850,
+    "name": "[DK] Spellbook Star Hall",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Each time a \"Book\" Spell is activated, place 1 Spell Counter on this card. All Spellcaster monsters you control gain 100 ATK for each Spell Counter on this card. When this card with Spell Counter(s) is destroyed and sent to the Graveyard: You can add 1 Spellcaster-Type monster from your Deck to your hand, whose Level is less than or equal to the number of Spell Counters that were on this card.",
+    "race": "Continuous",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 42149850,
+    "name": "[DK] The Grand Spellbook Tower",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Once per turn, during your Standby Phase, if you have a Spellcaster monster on your side of the field or in your GY: You can place 1 \"Book\" Spell from your GY on the bottom of your Deck, then draw 1 card. When this card in your possession is destroyed by your opponent's card and sent to your GY: You can Special Summon 1 Spellcaster monster from your hand or Deck whose Level is less than or equal to the number of \"Book\" Spells in your GY.",
+    "race": "Field",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 42149850,
+    "name": "[DK] Spell Books from the Pot",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Each player draws 3 cards.",
+    "race": "Normal",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 42149850,
+    "name": "[DK] Magic Formula",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "(This card is always treated as a \"Book\" card)\nEquip only to a Spellcaster monster. It gains 500 ATK.",
+    "race": "Normal",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 42149850,
+    "name": "[DK] Intervention of Fate",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "When your opponent Summons a monster(s) and you have a Normal Spell in your hand: You can send this card from your hand to the GY; immediately after this effect resolves, activate 1 Normal Spell from your hand.",
+    "race": "Normal",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+    {
+    "id": 42149850,
+    "name": "[DK] Magical Academy",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Discard 2 cards; Normal Summon 1 Spellcaster monster from your hand, then increase its Level by 2 and ATK by 500. Negate the effects of your opponent's Spells/Traps that target the Summoned monster this turn.",
+    "race": "Quick-Play",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 1
+  },
+    {
+    "id": 23314220,
+    "name": "[DK] Spellbook of Knowledge",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Send to the GY either 1 Spellcaster monster you control, or 1 other \"Book\" card from your hand or face-up field, except \"Spellbook of Knowledge\", and if you do, draw 2 cards. You can only activate 1 \"Spellbook of Knowledge\" per turn.",
+    "race": "Normal",
+    "archetype": "Spellbook",
+     "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
   }
 ]
