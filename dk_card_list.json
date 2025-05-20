@@ -92685,7 +92685,7 @@
     "isInExtraDeck": false,
     "value": 2
   },
-    {
+  {
     "id": 42149850,
     "name": "[DK] Magical Academy",
     "type": "Spell Card",
@@ -92696,7 +92696,7 @@
     "isInExtraDeck": false,
     "value": 1
   },
-    {
+  {
     "id": 23314220,
     "name": "[DK] Spellbook of Knowledge",
     "type": "Spell Card",
@@ -92704,8 +92704,166 @@
     "desc": "Send to the GY either 1 Spellcaster monster you control, or 1 other \"Book\" card from your hand or face-up field, except \"Spellbook of Knowledge\", and if you do, draw 2 cards. You can only activate 1 \"Spellbook of Knowledge\" per turn.",
     "race": "Normal",
     "archetype": "Spellbook",
-     "isSelected": true,
+    "isSelected": true,
     "isInExtraDeck": false,
     "value": 3
-  }
+  },
+  {
+    "id": 23314220,
+    "name": "[DK] Spellbook of Knowledge",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Send to the GY either 1 Spellcaster monster you control, or 1 other \"Book\" card from your hand or face-up field, except \"Spellbook of Knowledge\", and if you do, draw 2 cards. You can only activate 1 \"Spellbook of Knowledge\" per turn.",
+    "race": "Normal",
+    "archetype": "Spellbook",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 89567993,
+    "name": "Amazoness Trainee",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Monsters destroyed by battle with this card are returned to the bottom of the Deck instead of going to the GY. If this card destroys an opponent's monster by battle: It gains 200 ATK.",
+    "atk": 1500,
+    "def": 1300,
+    "level": 4,
+    "race": "Warrior",
+    "attribute": "EARTH",
+    "archetype": "Amazoness",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/amazoness-trainee-7481",
+    "card_images": [
+      {
+        "id": 89567993,
+        "image_url": "https://images.ygoprodeck.com/images/cards/89567993.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/89567993.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/89567993.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 63528891,
+    "name": "Backup Secretary",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If you control a Cyberse monster, you can Special Summon this card (from your hand). You can only Special Summon \"Backup Secretary\" once per turn this way.",
+    "atk": 1200,
+    "def": 800,
+    "level": 3,
+    "race": "Cyberse",
+    "attribute": "LIGHT",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/backup-secretary-8490",
+    "card_images": [
+      {
+        "id": 63528891,
+        "image_url": "https://images.ygoprodeck.com/images/cards/63528891.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/63528891.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/63528891.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 44656450,
+    "name": "Condemned Witch",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card is Normal Summoned: You can add 1 \"Forbidden\" Quick-Play Spell from your Deck to your hand. During your opponent's Main Phase (Quick Effect): You can Tribute this card; Special Summon 1 Level 4 Fairy monster from your Deck, except \"Condemned Witch\". You can only use each effect of \"Condemned Witch\" once per turn.",
+    "atk": 100,
+    "def": 2000,
+    "level": 4,
+    "race": "Fairy",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/condemned-witch-9635",
+    "card_images": [
+      {
+        "id": 44656450,
+        "image_url": "https://images.ygoprodeck.com/images/cards/44656450.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/44656450.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/44656450.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 35960413,
+    "name": "Cupid Fore",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If all monsters you control are monsters with 600 DEF (min. 1): You can Special Summon this card from your hand. (Quick Effect): You can discard 1 card, then target 1 LIGHT Fairy monster you control and 1 face-up monster on the field; the Level of your monster becomes the other monster's Level, until the end of this turn. You can only use each effect of \"Cupid Fore\" once per turn.",
+    "atk": 2200,
+    "def": 600,
+    "level": 6,
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "archetype": "Cupid",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/cupid-fore-11401",
+    "card_images": [
+      {
+        "id": 35960413,
+        "image_url": "https://images.ygoprodeck.com/images/cards/35960413.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/35960413.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/35960413.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 1566817,
+    "name": "Cupid Serve",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Unaffected by the activated effects of monsters, except monsters whose Level is equal or lower than this card. You can banish up to 3 cards from your GY; increase this card's Level by that number, until the end of this turn. You can only use this effect of \"Cupid Serve\" once per turn.",
+    "atk": 1000,
+    "def": 600,
+    "level": 2,
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/cupid-serve-10669",
+    "card_images": [
+      {
+        "id": 1566817,
+        "image_url": "https://images.ygoprodeck.com/images/cards/1566817.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/1566817.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/1566817.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 11851647,
+    "name": "Cupid Volley",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "You can choose a number from 1 to 3, then send that many cards from the top of your Deck to the GY; increase this card's Level by the number of cards sent to the GY this way, until the end of this turn. If this card you control is destroyed by an opponent's card and sent to your GY: You gain 1500 LP. You can only use each effect of \"Cupid Volley\" once per turn.",
+    "atk": 600,
+    "def": 600,
+    "level": 1,
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/cupid-volley-9467",
+    "card_images": [
+      {
+        "id": 11851647,
+        "image_url": "https://images.ygoprodeck.com/images/cards/11851647.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/11851647.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/11851647.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 1
+  }  
 ]
