@@ -92866,7 +92866,7 @@
     "isInExtraDeck": false,
     "value": 1
   },
-    {
+  {
     "id": 11851647,
     "name": "Dawn Angel Kambi",
     "type": "Effect Monster",
@@ -92881,7 +92881,7 @@
     "isInExtraDeck": false,
     "value": 3
   },
-      {
+  {
     "id": 11851647,
     "name": "[DK] Rookie Warrior Lady",
     "type": "Effect Monster",
@@ -92896,7 +92896,7 @@
     "isInExtraDeck": false,
     "value": 3
   },
-    {
+  {
     "id": 25789292,
     "name": "Forbidden Chalice",
     "type": "Spell Card",
@@ -92917,7 +92917,7 @@
     "isInExtraDeck": false,
     "value": 300
   },
-    {
+  {
     "id": 96864811,
     "name": "Forbidden Dress",
     "type": "Spell Card",
@@ -92959,7 +92959,7 @@
     "isInExtraDeck": false,
     "value": 2
   },
-   {
+  {
     "id": 54773234,
     "name": "Forbidden Scripture",
     "type": "Spell Card",
@@ -92999,5 +92999,40 @@
     "isSelected": true,
     "value": 2,
     "isInExtraDeck": false
+  },
+  {
+    "id": 11851647,
+    "name": "[DK] High Priestess of Prophecy",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Cannot be Normal Summoned/Set, and must be Special Summoned by its own effect. You can Special Summon this card (from your hand) by tributing a \"Royal Magical Library\" after you drew 3 or more times by its effect, or by banishing 9 \"Book\" Spells from your GY. Once per turn: You can banish 1 \"Book\" Spell from your hand or GY, then target 1 card on the field; destroy that target.",
+    "atk": 2500,
+    "def": 2100,
+    "level": 7,
+    "race": "Spellcaster",
+    "attribute": "LIGHT",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+    {
+    "id": 4825390,
+    "name": "Ichiroku's Ledger Book",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Target up to 2 monsters your opponent controls; banish them until the End Phase, then your opponent gains 1000 LP for each monster that left the field by this effect.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/ichiroku-s-ledger-book-13046",
+    "card_images": [
+      {
+        "id": 4825390,
+        "image_url": "https://images.ygoprodeck.com/images/cards/4825390.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/4825390.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/4825390.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
   }
 ]
