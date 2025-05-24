@@ -185,9 +185,9 @@ async function uploadFile() {
                 const rule2Result = document.getElementById('mainDeckResult');
                 rule2Value.textContent = `${mainDeckCount}`;
                 if (mainDeckCount < 45) {
-                    rule2Tip.textContent = `Dein Main Deck braucht noch ${45 - mainDeckCount} Karten mehr!`;
+                    rule2Tip.textContent = `Dein Main Deck braucht noch ${45 - mainDeckCount} Karte${(mainDeckCount - 45) !== 1 ? 'n' : ''} mehr!`;
                 } else if (mainDeckCount > 45) {
-                    rule2Tip.textContent = `Dein Main Deck hat ${mainDeckCount - 45} Karten zu viel!`;
+                    rule2Tip.textContent = `Dein Main Deck hat ${mainDeckCount - 45} Karte${(mainDeckCount - 45) !== 1 ? 'n' : ''} zu viel!`;
                 } else {
                     rule2Tip.textContent = 'Perfekt!';
                 }
