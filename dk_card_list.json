@@ -24574,7 +24574,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -42119,7 +42119,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 1
   },
   {
     "id": 40173854,
@@ -51519,7 +51519,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 72237166,
@@ -93146,7 +93146,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 41255165,
@@ -93248,5 +93248,64 @@
     "isSelected": true,
     "isInExtraDeck": false,
     "value": 3
+  },
+  {
+    "name": "[DK] Ninja Commando Kabuki",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card is Summoned: Special Summon 1 Level 3 or lower \"Ninja\" monster from your Deck, in face-up or face-down Defense Position.",
+    "atk": 700,
+    "def": 700,
+    "level": 3,
+    "race": "Warrior",
+    "attribute": "EARTH",
+    "archetype": "Ninja",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "name": "[DK] Ninja Soldier Katana",
+    "type": "Normal Monster",
+    "frameType": "normal",
+    "desc": "This stealth ninja isn't much on brute strength but rather attacks in a group.",
+    "atk": 400,
+    "def": 400,
+    "level": 3,
+    "race": "Warrior",
+    "attribute": "EARTH",
+    "isSelected": true,
+    "value": 0,
+    "isInExtraDeck": true
+  },
+  {
+    "name": "[DK] Ninja Master Shogun",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Can only be Summoned while \"Ninja Commander Ikusa\" and \"Ninja Soldier Katana\" are in your GY. When this card is Summoned: You can Special Summon 1 \"Ninja Soldier Katana\" and 1 \"Ninja Commando Kabuki\" from your Deck or Extra Deck in face-up Attack Position.",
+    "atk": 1600,
+    "def": 1600,
+    "level": 5,
+    "race": "Warrior",
+    "attribute": "DARK",
+    "archetype": "Ninja",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "name": "[DK] Ninja Commander Ikusa",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card is Summoned in face-up Attack Position: You can Special Summon 1 \"Ninja Soldier Katana\" from your Extra Deck in face-up Attack Position.",
+    "atk": 700,
+    "def": 700,
+    "level": 3,
+    "race": "Warrior",
+    "attribute": "DARK",
+    "archetype": "Ninja",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
   }
 ]
