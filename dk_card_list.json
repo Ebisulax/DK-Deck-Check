@@ -21674,7 +21674,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -21943,7 +21943,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -22076,7 +22076,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -22369,7 +22369,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -23414,7 +23414,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -23483,7 +23483,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -93298,6 +93298,41 @@
     "type": "Effect Monster",
     "frameType": "effect",
     "desc": "When this card is Summoned in face-up Attack Position: You can Special Summon 1 \"Ninja Soldier Katana\" from your Extra Deck in face-up Attack Position.",
+    "atk": 700,
+    "def": 700,
+    "level": 3,
+    "race": "Warrior",
+    "attribute": "DARK",
+    "archetype": "Ninja",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+    {
+    "id": 296499,
+    "name": "[DK] Ninjitsu Art of Super Transformation",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Target 2 face-up monsters you control, including at least 1 \"Ninja\" monster; send them to the GY, then Special Summon 1 Dragon, Dinosaur, or Sea Serpent monster from your Deck whose Level is less than or equal to the combined original Levels of the sent monster(s). When this card leaves the field, banish that monster.",
+    "race": "Continuous",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/the-regulation-of-tribe-32",
+    "card_images": [
+      {
+        "id": 296499,
+        "image_url": "https://images.ygoprodeck.com/images/cards/296499.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/296499.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/296499.jpg"
+      }
+    ],
+    "isSelected": true,
+    "value": 2,
+    "isInExtraDeck": false
+  },
+    {
+    "name": "[DK] White Dragon Ninja",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Cannot be Summoned, except by the effect of a \"Ninjitsu Art\" card, and only if a card(s) left your opponent's field by the effect of a \"Ninja\" monster this turn. Spells/Traps you control cannot be destroyed by card effects.",
     "atk": 700,
     "def": 700,
     "level": 3,
