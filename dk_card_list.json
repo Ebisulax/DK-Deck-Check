@@ -93390,5 +93390,259 @@
     "isSelected": true,
     "isInExtraDeck": false,
     "value": 3
+  },
+  {
+    "id": 12338068,
+    "name": "Legendary Maju Garzett",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Cannot be Normal Summoned/Set. Must be Special Summoned (from your hand) by Tributing all monsters you control. This card's ATK becomes the combined original ATK of the Tributed monsters. If this card attacks a Defense Position monster, inflict piercing battle damage.",
+    "atk": 0,
+    "def": 0,
+    "level": 8,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/the-cuckoo-commanded-to-croon-13890",
+    "card_images": [
+      {
+        "id": 48386462,
+        "image_url": "https://images.ygoprodeck.com/images/cards/48386462.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/48386462.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/48386462.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 84341431,
+    "name": "Archfiend Giant",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this face-up card on the field would be destroyed by a card effect, you can pay 500 LP instead. This effect can only be used once while this card is face-up on the field. If this card is destroyed by a card effect and sent to the Graveyard: You can Special Summon 1 \"Archfiend\" monster from your hand.",
+    "atk": 2400,
+    "def": 1600,
+    "level": 6,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/the-cuckoo-commanded-to-croon-13890",
+    "card_images": [
+      {
+        "id": 48386462,
+        "image_url": "https://images.ygoprodeck.com/images/cards/48386462.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/48386462.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/48386462.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 4
+  },
+  {
+    "id": 43730887,
+    "name": "Holding Arms",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this card is Normal or Special Summoned: Target 1 face-up monster your opponent controls; while this card is face-up on the field, that face-up monster cannot attack, also its effects are negated. While that face-up monster is on the field, this card cannot be destroyed by battle or card effects.",
+    "atk": 500,
+    "def": 1200,
+    "level": 4,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/holding-arms-3735",
+    "card_images": [
+      {
+        "id": 43730887,
+        "image_url": "https://images.ygoprodeck.com/images/cards/43730887.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/43730887.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/43730887.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 50185950,
+    "name": "Relinkuriboh",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this card is Tributed: Draw 1 card. If your monster would be destroyed by battle, you can banish this card from your GY instead.",
+    "atk": 300,
+    "def": 200,
+    "level": 1,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "archetype": "Kuriboh",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/relinkuriboh-4276",
+    "card_images": [
+      {
+        "id": 50185950,
+        "image_url": "https://images.ygoprodeck.com/images/cards/50185950.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/50185950.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/50185950.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 23898021,
+    "name": "Lilith, Lady of Lament",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this card is Normal Summoned, its original ATK becomes 1000. (Quick Effect): You can Tribute 1 DARK monster; reveal 3 Normal Traps from your Deck, your opponent randomly chooses 1 for you to Set on your field, and you shuffle the rest back into your Deck. You can only use this effect of \"Lilith, Lady of Lament\" once per turn.",
+    "atk": 2000,
+    "def": 0,
+    "level": 3,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "archetype": "Lady of Lament",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/lilith-lady-of-lament-9326",
+    "card_images": [
+      {
+        "id": 23898021,
+        "image_url": "https://images.ygoprodeck.com/images/cards/23898021.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/23898021.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/23898021.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 4
+  },
+  {
+    "id": 13521194,
+    "name": "Stygian Street Patrol",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this card destroys a monster by battle and sends it to the GY: Inflict damage to your opponent equal to the original Level of that monster in the GY x 100. You can banish this card from your GY; Special Summon 1 Fiend monster with 2000 or less ATK from your hand.",
+    "atk": 1600,
+    "def": 1200,
+    "level": 4,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/stygian-street-patrol-1160",
+    "card_images": [
+      {
+        "id": 13521194,
+        "image_url": "https://images.ygoprodeck.com/images/cards/13521194.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/13521194.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/13521194.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 72714226,
+    "name": "Assault Dog",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card is destroyed by battle and sent to the Graveyard: You can Special Summon any number of \"Assault Dog\" from your Deck.",
+    "atk": 1200,
+    "def": 800,
+    "level": 4,
+    "race": "Beast",
+    "attribute": "EARTH",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/assault-dog-6105",
+    "card_images": [
+      {
+        "id": 72714226,
+        "image_url": "https://images.ygoprodeck.com/images/cards/72714226.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/72714226.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/72714226.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 60990740,
+    "name": "Absolute King Back Jack",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "During your opponent's turn (Quick Effect): You can banish this card from the GY; excavate the top card of your Deck, and if it is a Normal Trap, Set it to your field. Otherwise, send it to the GY. That Set card can be activated during this turn. If this card is sent to the GY: You can look at 3 cards from the top of your Deck, then place them on the top of the Deck in any order. You can only use each effect of \"Absolute King Back Jack\" once per turn.",
+    "atk": 0,
+    "def": 0,
+    "level": 1,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/absolute-king-back-jack-5173",
+    "card_images": [
+      {
+        "id": 60990740,
+        "image_url": "https://images.ygoprodeck.com/images/cards/60990740.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/60990740.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/60990740.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 50078509,
+    "name": "Fiendish Chain",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Activate this card by targeting 1 Effect Monster on the field; negate the effects of that face-up monster while it is on the field, also that face-up monster cannot attack. When it is destroyed, destroy this card.",
+    "race": "Continuous",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/fiendish-chain-4266",
+    "card_images": [
+      {
+        "id": 50078509,
+        "image_url": "https://images.ygoprodeck.com/images/cards/50078509.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/50078509.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/50078509.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 16947147,
+    "name": "Speedroid Menko",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When an opponent's monster declares a direct attack while this card is in your hand: You can Special Summon this card in Attack Position, and if you do, change all face-up monsters your opponent controls to Defense Position.",
+    "atk": 100,
+    "def": 2000,
+    "level": 4,
+    "race": "Machine",
+    "attribute": "WIND",
+    "archetype": "Roid",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/speedroid-menko-1462",
+    "card_images": [
+      {
+        "id": 16947147,
+        "image_url": "https://images.ygoprodeck.com/images/cards/16947147.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/16947147.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/16947147.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 34475451,
+    "name": "Construction Train Signal Red",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When an opponent's monster declares an attack: You can Special Summon this card from your hand, and if you do, change the attack target to this card and proceed to damage calculation. This card cannot be destroyed by that battle.",
+    "atk": 1000,
+    "def": 1300,
+    "level": 3,
+    "race": "Machine",
+    "attribute": "EARTH",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
   }
 ]
