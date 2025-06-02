@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fetch Example</title>
+</head>
+<body>
+  <h1>Fetch Result</h1>
+  <pre id="output">Loading...</pre>
+
+  <script>
+    fetch('https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Undaunted Bumpkin Beast')
+      .then(response => {
+        console.log('Status:', response.status);
+        return response.json();
+      })
+      .then(data => {
+        console.log('Data:', data);
+        document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+      })
+      .catch(error => {
+        console.error('Fetch error:', error);
+        document.getElementById('output').textContent = 'Error: ' + error;
+      });
+  </script>
+</body>
+</html>
