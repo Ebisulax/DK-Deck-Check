@@ -16252,7 +16252,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16341,7 +16341,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16608,7 +16608,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16692,7 +16692,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16712,7 +16712,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16732,7 +16732,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16772,7 +16772,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16852,7 +16852,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16872,7 +16872,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16952,7 +16952,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -17044,7 +17044,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -17740,7 +17740,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -17784,7 +17784,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -17804,7 +17804,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -17868,7 +17868,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -23463,7 +23463,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -26514,7 +26514,7 @@
       }
     ],
     "isSelected": true,
-    "value": 4,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -28114,7 +28114,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -31100,7 +31100,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -34542,7 +34542,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -42119,7 +42119,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 1
+    "value": 2
   },
   {
     "id": 40173854,
@@ -46122,7 +46122,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 4
   },
   {
     "id": 80604091,
@@ -59197,7 +59197,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 77207191,
@@ -63329,7 +63329,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 84569017,
@@ -65033,31 +65033,6 @@
     "value": 2
   },
   {
-    "id": 99212922,
-    "name": "White Dragon Ninja",
-    "type": "Effect Monster",
-    "frameType": "effect",
-    "desc": "Cannot be Special Summoned, except with a \"Ninjitsu Art\" card's effect. Spells/Traps you control cannot be destroyed by card effects.",
-    "atk": 2700,
-    "def": 1200,
-    "level": 7,
-    "race": "Dragon",
-    "attribute": "LIGHT",
-    "archetype": "Ninja",
-    "ygoprodeck_url": "https://ygoprodeck.com/card/white-dragon-ninja-8238",
-    "card_images": [
-      {
-        "id": 99212922,
-        "image_url": "https://images.ygoprodeck.com/images/cards/99212922.jpg",
-        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/99212922.jpg",
-        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/99212922.jpg"
-      }
-    ],
-    "isSelected": true,
-    "isInExtraDeck": false,
-    "value": 2
-  },
-  {
     "id": 20193924,
     "name": "White Night Queen",
     "type": "Effect Monster",
@@ -65603,7 +65578,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 1
   },
   {
     "id": 87557188,
@@ -66995,7 +66970,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 5
+    "value": 4
   },
   {
     "id": 82432018,
@@ -67792,7 +67767,7 @@
     "race": "Normal",
     "ygoprodeck_url": "https://ygoprodeck.com/card/reinforcement-of-the-army-2794",
     "banlist_info": {
-      "ban_tcg": "Limited", 
+      "ban_tcg": "Limited",
       "ban_ocg": "Limited",
       "ban_goat": "Semi-Limited"
     },
@@ -70377,7 +70352,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 1
+    "value": 2
   },
   {
     "id": 15717011,
@@ -73739,7 +73714,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 28985331,
@@ -77293,7 +77268,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 1
   },
   {
     "id": 27243130,
@@ -77696,7 +77671,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 63485233,
@@ -81000,7 +80975,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 36569343,
@@ -81157,7 +81132,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 18658572,
@@ -81177,7 +81152,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 1
   },
   {
     "id": 10532969,
@@ -88776,7 +88751,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 6783559,
@@ -90727,7 +90702,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 90359458,
@@ -91262,7 +91237,7 @@
     "value": 2
   },
   {
-    "name": "(DM) Card of Sanctity",
+    "name": "[DK] Card of Sanctity",
     "type": "Spell Card",
     "race": "Continuous",
     "desc": "Each player draws until they have 6 cards in their hand.",
@@ -93171,7 +93146,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 31887806,
@@ -93333,11 +93308,11 @@
     "type": "Effect Monster",
     "frameType": "effect",
     "desc": "Cannot be Summoned, except by the effect of a \"Ninjitsu Art\" card, and only if a card(s) left your opponent's field by the effect of a \"Ninja\" monster this turn. Spells/Traps you control cannot be destroyed by card effects.",
-    "atk": 700,
-    "def": 700,
-    "level": 3,
+    "atk": 2700,
+    "def": 1200,
+    "level": 7,
     "race": "Warrior",
-    "attribute": "DARK",
+    "attribute": "LIGHT",
     "archetype": "Ninja",
     "isSelected": true,
     "isInExtraDeck": false,
@@ -93644,5 +93619,682 @@
     "isSelected": true,
     "isInExtraDeck": false,
     "value": 2
+  },
+  {
+    "name": "[DK] Fire Fighting Daruma Doll",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card is Summoned: Destroy 1 Beast, Beast-Warrior or Winged Beast monster you control, then you can destroy 1 Spell/Trap on the field. This card gains 100 ATK for each Beast, Beast-Warrior, and Winged Beast monster on the field. When this card destroys an opponent's monster by battle: You can target 1 of your Beast, Beast-Warrior, or Winged Beast monsters, that is banished or is in your GY; add it to your hand.",
+    "atk": 1500,
+    "def": 1500,
+    "level": 4,
+    "race": "Beast-Warrior",
+    "attribute": "FIRE",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 64538914,
+    "name": "Manticore of Smashing",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "During your Main Phase: You can add 1 \"Fissure\" or 1 \"Smashing Ground\" from your Deck to your hand. If this card is in your GY: You can banish 1 \"Fissure\" or 1 \"Smashing Ground\" from your hand or GY; Special Summon this card. You can only use each effect of \"Manticore of Smashing\" once per turn.",
+    "atk": 2300,
+    "def": 1000,
+    "level": 6,
+    "race": "Beast-Warrior",
+    "attribute": "FIRE",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 8700633,
+    "name": "Undaunted Bumpkin Beast",
+    "typeline": [
+      "Beast",
+      "Effect"
+    ],
+    "type": "Effect Monster",
+    "humanReadableCardType": "Effect Monster",
+    "frameType": "effect",
+    "desc": "During the Main Phase, if your opponent Special Summoned 3 or more monsters this turn (Quick Effect): You can Special Summon this card from your hand or GY. You can only use this effect of \"Undaunted Bumpkin Beast\" once per turn. While you control no other monsters, this Attack Position card cannot be destroyed by battle.",
+    "race": "Beast",
+    "atk": 900,
+    "def": 2000,
+    "level": 2,
+    "attribute": "FIRE",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/undaunted-bumpkin-beast-12498",
+    "card_images": [
+      {
+        "id": 8700633,
+        "image_url": "https://images.ygoprodeck.com/images/cards/8700633.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/8700633.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/8700633.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 50619462,
+    "name": "Cattle Call",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Send 1 face-up monster you control to the Graveyard, whose original Type is Beast, Beast-Warrior, or Winged Beast; Special Summon 1 monster from your Extra Deck with the same original Type, but it cannot attack, its effects are negated, also it is destroyed during the End Phase. You can only activate 1 \"Cattle Call\" per turn.",
+    "race": "Quick-Play",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/cattle-call-4314",
+    "card_images": [
+      {
+        "id": 50619462,
+        "image_url": "https://images.ygoprodeck.com/images/cards/50619462.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/50619462.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/50619462.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 22993208,
+    "name": "Onslaught of the Fire Kings",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "If your opponent controls a monster and you control no monsters: Special Summon 1 FIRE Beast, Beast-Warrior, or Winged Beast monster from your Deck. Its effects are negated, also it is destroyed during the End Phase. You can only activate 1 \"Onslaught of the Fire Kings\" per turn.",
+    "race": "Normal",
+    "archetype": "Fire King",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/onslaught-of-the-fire-kings-1976",
+    "card_images": [
+      {
+        "id": 22993208,
+        "image_url": "https://images.ygoprodeck.com/images/cards/22993208.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/22993208.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/22993208.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 4
+  },
+  {
+    "name": "[DK] Burning Draw",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Target a monster opponent controls, whose Level is higher than the Levels of all monsters you control (min. 0); use the appropriate effect, based on the Level of the targeted monster:\n⬤ 1 - 4: Draw 1 card\n⬤ 5 - 6: Draw 2 cards.\n⬤ 7+: Draw 3 cards.\nYou can only activate 1 \nBurning Draw\n per turn. You cannot Normal or Special Summon monsters the turn you activate this card, except FIRE monsters.",
+    "race": "Normal",
+    "isSelected": true,
+    "value": 3,
+    "isInExtraDeck": false
+  },
+  {
+    "id": 42516299,
+    "name": "Fire Recovery",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Target 1 FIRE monster in your GY; send 1 card from your hand to the GY, and if you do, Special Summon the targeted monster. You can banish this card from your GY, then target 3 of your FIRE monsters that are banished and/or in your GY; shuffle them into the Deck, then draw 1 card. You can only use this effect of \"Fire Recovery\" once per turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/fire-recovery-14038",
+    "card_images": [
+      {
+        "id": 42516299,
+        "image_url": "https://images.ygoprodeck.com/images/cards/42516299.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/42516299.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/42516299.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 56001930,
+    "name": "The Return to the Normal",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "When exactly 1 monster is Normal or Special Summoned face-up (except during the Damage Step): Destroy all monsters on the field with less ATK than that monster. You can only activate 1 \"The Return to the Normal\" per turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/the-return-to-the-normal-10219",
+    "card_images": [
+      {
+        "id": 56001930,
+        "image_url": "https://images.ygoprodeck.com/images/cards/56001930.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/56001930.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/56001930.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 4
+  },
+  {
+    "id": 33129626,
+    "name": "Centaur Mina",
+    "type": "Fusion Monster",
+    "frameType": "fusion",
+    "desc": "1 LIGHT Warrior monster + 1 Beast monster\r\nOnce per turn, during your turn, when your opponent activates a Trap Card (Quick Effect): You can negate the activation, and if you do, Set that card. You can only use each of the following effects of \"Centaur Mina\" once per turn. During your Main Phase: You can Special Summon 1 Level 2 or lower monster from your hand or GY. If this card is sent to the GY as Synchro Material for a WIND Warrior monster: You can destroy 1 face-up monster on the field.",
+    "atk": 2200,
+    "def": 1600,
+    "level": 6,
+    "race": "Beast-Warrior",
+    "attribute": "LIGHT",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/centaur-mina-12264",
+    "card_images": [
+      {
+        "id": 33129626,
+        "image_url": "https://images.ygoprodeck.com/images/cards/33129626.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/33129626.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/33129626.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": true,
+    "value": 0
+  },
+  {
+    "id": 43464884,
+    "name": "Three Trolling Trolls",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this card is Normal or Special Summoned: You can target 1 Beast-Warrior monster in your GY; this card's Attribute and Level become the same as that monster's, until the end of this turn. During your Main Phase: You can Special Summon 1 Beast-Warrior monster with the same Attribute and Level as this card from your hand. You can only use each effect of \"Three Trolling Trolls\" once per turn. You cannot Special Summon monsters the turn you activate either of this card's effects, except Beast-Warrior monsters.",
+    "atk": 1000,
+    "def": 1300,
+    "level": 3,
+    "race": "Beast-Warrior",
+    "attribute": "WATER",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 83404468,
+    "name": "The Toil of the Normal",
+    "type": "Trap Card",
+    "humanReadableCardType": "Normal Trap",
+    "frameType": "trap",
+    "desc": "Apply these effects in sequence, based on the number of Normal Monsters with different names in your GY (skip over any that do not apply).\r\n● 1+: This turn, Normal Monsters you control gain 800 ATK.\r\n● 2+: Negate the effects of 1 Effect Monster on the field, until the end of this turn.\r\n● 3+: This turn, Normal Monsters you control cannot be destroyed by card effects.\r\n● 4+: Shuffle 1 Effect Monster on the field into the Deck.\r\n● 5+: Add 1 \"The Toil of the Normal\" from your Deck to your hand.\r\nYou can only activate 1 \"The Toil of the Normal\" per turn.",
+    "race": "Normal",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 53620899,
+    "name": "Mahjong Munia Maidens",
+    "type": "Flip Effect Monster",
+    "frameType": "effect",
+    "desc": "FLIP: You can draw 1 card, then discard 1 card.\r\nOnce per turn: You can change this card to face-down Defense Position.",
+    "atk": 200,
+    "def": 2000,
+    "level": 2,
+    "race": "Winged Beast",
+    "attribute": "WIND",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/mahjong-munia-maidens-9021",
+    "card_images": [
+      {
+        "id": 53620899,
+        "image_url": "https://images.ygoprodeck.com/images/cards/53620899.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/53620899.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/53620899.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 98649372,
+    "name": "Skull Kraken",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card is Normal Summoned: You can target 1 face-up Spell Card your opponent controls; destroy that target. Once per turn: You can change the battle position of this card.",
+    "atk": 600,
+    "def": 1600,
+    "level": 3,
+    "race": "Aqua",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/skull-kraken-8197",
+    "card_images": [
+      {
+        "id": 98649372,
+        "image_url": "https://images.ygoprodeck.com/images/cards/98649372.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/98649372.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/98649372.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 15198996,
+    "name": "Green Ninja",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If a monster(s) is Special Summoned to your field face-up (except during the Damage Step): You can target 1 of them; Special Summon this card from your hand, and if you do, change that monster to face-down Defense Position. If this card is sent from the hand or field to the GY: You can target 1 monster on the field; change it to face-up Attack Position or face-down Defense Position. You can only use each effect of \"Green Ninja\" once per turn.",
+    "atk": 600,
+    "def": 600,
+    "level": 2,
+    "race": "Warrior",
+    "attribute": "WIND",
+    "archetype": "Ninja",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/green-ninja-13418",
+    "card_images": [
+      {
+        "id": 15198996,
+        "image_url": "https://images.ygoprodeck.com/images/cards/15198996.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/15198996.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/15198996.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "name": "[DK] Stock the Noodle Ninja",
+    "type": "Normal Monster",
+    "frameType": "normal",
+    "desc": "A ninja who prides himself on being al dente. He constantly trains himself to reach the hardness of steel wire. He isn't great with water techniques.",
+    "atk": 1000,
+    "def": 1200,
+    "level": 4,
+    "race": "Warrior",
+    "attribute": "FIRE",
+    "isSelected": true,
+    "value": 0,
+    "isInExtraDeck": false
+  },
+  {
+    "name": "[DK] Tang the Noodle Ninja",
+    "type": "Normal Monster",
+    "frameType": "normal",
+    "desc": "A ninja who is proud of his chewy noodles and their unique texture. Those bound by his soup-infused noodles cannot escape.",
+    "atk": 800,
+    "def": 1000,
+    "level": 3,
+    "race": "Warrior",
+    "attribute": "FIRE",
+    "isSelected": true,
+    "value": 0,
+    "isInExtraDeck": false
+  },
+  {
+    "id": 19739265,
+    "name": "Sol and Luna",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Target 1 monster you control and 1 monster your opponent controls; apply the following effect on each monster, depending on its battle position.\r\n● Face-up: Change it to face-down Defense Position.\r\n● Face-down: Change it to face-up Defense Position.\r\nYou can only activate 1 \"Sol and Luna\" per turn.",
+    "race": "Quick-Play",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/sol-and-luna-13064",
+    "card_images": [
+      {
+        "id": 19739265,
+        "image_url": "https://images.ygoprodeck.com/images/cards/19739265.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/19739265.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/19739265.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 77007920,
+    "name": "Laser Cannon Armor",
+    "type": "Spell Card",
+    "humanReadableCardType": "Equip Spell",
+    "frameType": "spell",
+    "desc": "Equip only to an Insect monster. It gains 300 ATK/DEF.",
+    "race": "Equip",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/laser-cannon-armor-6480",
+    "card_images": [
+      {
+        "id": 77007920,
+        "image_url": "https://images.ygoprodeck.com/images/cards/77007920.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/77007920.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/77007920.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 1
+  },
+    {
+    "id": 18937875,
+    "name": "Burning Spear",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "A FIRE monster equipped with this card increases its ATK by 400 points and decreases its DEF by 200 points.",
+    "race": "Equip",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/burning-spear-1634",
+    "card_images": [
+      {
+        "id": 18937875,
+        "image_url": "https://images.ygoprodeck.com/images/cards/18937875.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/18937875.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/18937875.jpg"
+      }
+    ],
+    "isSelected": true,
+    "value": 1,
+    "isInExtraDeck": false
+  },
+      {
+      "id": 71459861,
+      "name": "Summon Storm",
+      "type": "Spell Card",
+      "humanReadableCardType": "Normal Spell",
+      "frameType": "spell",
+      "desc": "Pay 800 LP; Special Summon 1 Level 6 or lower WIND monster from your hand. During your Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; Special Summon 1 Level 4 or lower WIND monster from your hand. You can only use this effect of \"Summon Storm\" once per turn.",
+      "race": "Normal",
+      "ygoprodeck_url": "https://ygoprodeck.com/card/summon-storm-12408",
+      "card_images": [
+        {
+          "id": 71459861,
+          "image_url": "https://images.ygoprodeck.com/images/cards/71459861.jpg",
+          "image_url_small": "https://images.ygoprodeck.com/images/cards_small/71459861.jpg",
+          "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/71459861.jpg"
+        }
+      ],
+      "isSelected": true,
+      "isInExtraDeck": false,
+      "value": 3
+    },
+      {
+    "id": 8487449,
+    "name": "Jester Confit",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "You can only control 1 \"Jester Confit\". You can Special Summon this card (from your hand) in Attack Position. If Summoned this way, during your opponent's next End Phase: Target 1 face-up monster your opponent controls; return both that target and this face-up card to the hand.",
+    "atk": 0,
+    "def": 0,
+    "level": 1,
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "archetype": "Jester",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/jester-confit-719",
+    "card_images": [
+      {
+        "id": 8487449,
+        "image_url": "https://images.ygoprodeck.com/images/cards/8487449.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/8487449.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/8487449.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+      {
+    "id": 72992744,
+    "name": "Jester Lord",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "While this card is the only monster on the field, it gains 1000 ATK for each card in the Spell & Trap Card Zones.",
+    "atk": 0,
+    "def": 0,
+    "level": 1,
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "archetype": "Jester",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/jester-lord-6127",
+    "card_images": [
+      {
+        "id": 72992744,
+        "image_url": "https://images.ygoprodeck.com/images/cards/72992744.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/72992744.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/72992744.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+      {
+    "id": 25280974,
+    "name": "Legion the Fiend Jester",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "During your Main Phase, you can Tribute Summon 1 Spellcaster monster in face-up Attack Position, in addition to your Normal Summon/Set. (You can only gain this effect once per turn.) If this card is sent from the field to the GY: You can add 1 Spellcaster Normal Monster from your Deck or GY to your hand. You can only use this effect of \"Legion the Fiend Jester\" once per turn.",
+    "atk": 1300,
+    "def": 1500,
+    "level": 4,
+    "race": "Spellcaster",
+    "attribute": "DARK",
+    "archetype": "Jester",
+    "ygoprodeck_url": "https://ygoprmagical maodeck.com/card/legion-the-fiend-jester-2173",
+    "card_images": [
+      {
+        "id": 25280974,
+        "image_url": "https://images.ygoprodeck.com/images/cards/25280974.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/25280974.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/25280974.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+    {
+    "id": 48948935,
+    "name": "Masked Beast Des Gardius",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "This card cannot be Normal Summoned or Set. This card cannot be Special Summoned except by Tributing 2 monsters, including at least 1 \"Grand Tiki Elder\" or \"Melchid the Four-Face Beast\". When this card is sent from the field to the Graveyard, equip 1 \"The Mask of Remnants\" from your Deck to 1 monster on the field.",
+    "atk": 3300,
+    "def": 2500,
+    "level": 8,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "archetype": "Mask",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/masked-beast-des-gardius-4177",
+    "card_images": [
+      {
+        "id": 48948935,
+        "image_url": "https://images.ygoprodeck.com/images/cards/48948935.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/48948935.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/48948935.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+    {
+    "id": 22610082,
+    "name": "The Mask of Remnants",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Shuffle this card into its owner's Deck, OR if this card was put into play by the effect of \"Masked Beast Des Gardius\", this card is treated as an Equip Card. Control of the equipped monster is switched.",
+    "race": "Normal",
+    "archetype": "Mask",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/the-mask-of-remnants-1944",
+    "card_images": [
+      {
+        "id": 22610082,
+        "image_url": "https://images.ygoprodeck.com/images/cards/22610082.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/22610082.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/22610082.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 1
+  },
+    {
+    "id": 12021072,
+    "name": "Child's Play",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Each time your opponent Summons a monster(s), gain 300 LP. Your monsters cannot be destroyed by battle while you have 10,000 or more LP.",
+    "race": "Continuous",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/child-s-play-9849",
+    "card_images": [
+      {
+        "id": 12021072,
+        "image_url": "https://images.ygoprodeck.com/images/cards/12021072.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/12021072.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/12021072.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 1
+  },
+    {
+    "id": 2099841,
+    "name": "Smile World",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "All face-up monsters currently on the field gain 100 ATK for each monster currently on the field, until the end of this turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/smile-world-186",
+    "card_images": [
+      {
+        "id": 2099841,
+        "image_url": "https://images.ygoprodeck.com/images/cards/2099841.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/2099841.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/2099841.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+    {
+    "id": 72621670,
+    "name": "Double Magical Arm Bind",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Tribute 2 monsters, then target 2 face-up monsters your opponent controls; take control of both targets until your End Phase.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/double-magical-arm-bind-6093",
+    "card_images": [
+      {
+        "id": 72621670,
+        "image_url": "https://images.ygoprodeck.com/images/cards/72621670.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/72621670.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/72621670.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+    {
+    "id": 43791861,
+    "name": "Phoenix Beast Gairuda",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this card attacks an opponent's monster, this card gains 300 ATK during the Damage Step only.",
+    "atk": 2500,
+    "def": 1200,
+    "level": 6,
+    "race": "Winged Beast",
+    "attribute": "WIND",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/phoenix-beast-gairuda-3739",
+    "card_images": [
+      {
+        "id": 43791861,
+        "image_url": "https://images.ygoprodeck.com/images/cards/43791861.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/43791861.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/43791861.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+    {
+    "id": 18063928,
+    "name": "Tin Goldfish",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card is Normal Summoned: You can Special Summon 1 Level 4 monster from your hand.",
+    "atk": 800,
+    "def": 2000,
+    "level": 4,
+    "race": "Machine",
+    "attribute": "WATER",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/tin-goldfish-1569",
+    "card_images": [
+      {
+        "id": 18063928,
+        "image_url": "https://images.ygoprodeck.com/images/cards/18063928.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/18063928.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/18063928.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+    {
+    "id": 27980138,
+    "name": "Quill Pen of Gulldos",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Target 2 WIND monsters in your Graveyard and 1 card on the field; shuffle both of those first 2 targets into your Deck and return the other to the hand.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/quill-pen-of-gulldos-2382",
+    "card_images": [
+      {
+        "id": 27980138,
+        "image_url": "https://images.ygoprodeck.com/images/cards/27980138.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/27980138.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/27980138.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+    {
+    "id": 24673894,
+    "name": "Changing Destiny",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "When an opponent's monster declares an attack: Target the attacking monster; negate the attack, and if you do, change it to Defense Position and it cannot change its battle position while it is face-up on the field. Then, your opponent chooses 1 of these effects.\n● You (the opponent of this card's activator) gain LP equal to half the target's ATK.\n● Your opponent (the activator of this card) takes damage equal to half the target's ATK.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/changing-destiny-2133",
+    "card_images": [
+      {
+        "id": 24673894,
+        "image_url": "https://images.ygoprodeck.com/images/cards/24673894.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/24673894.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/24673894.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+    {
+    "id": 77153811,
+    "name": "Djinn Cursenchanter of Rituals",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When you Ritual Summon a monster, you can banish this card from your Graveyard as 1 of the monsters required for the Ritual Summon. While the monster Ritual Summoned using this card is face-up on the field, Synchro Monsters' effects are negated.",
+    "atk": 1700,
+    "def": 1000,
+    "level": 4,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "archetype": "Djinn",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/djinn-cursenchanter-of-rituals-6495",
+    "card_images": [
+      {
+        "id": 77153811,
+        "image_url": "https://images.ygoprodeck.com/images/cards/77153811.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/77153811.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/77153811.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
   }
 ]

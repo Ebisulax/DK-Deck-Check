@@ -2,26 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Fetch Example</title>
+  <title>Fetch YGO Card</title>
 </head>
 <body>
-  <h1>Fetch Result</h1>
-  <pre id="output">Loading...</pre>
+  <h1>Yu-Gi-Oh! Card Search</h1>
+
+  <input type="text" id="cardName" placeholder="Enter card name" />
+  <button onclick="searchCard()">Search</button>
+
+  <pre id="output">Waiting for input...</pre>
 
   <script>
-    fetch('https://db.ygoprodeck.com/api/v7/cardinfo.php?name=Undaunted Bumpkin Beast')
-      .then(response => {
-        console.log('Status:', response.status);
-        return response.json();
-      })
-      .then(data => {
-        console.log('Data:', data);
-        document.getElementById('output').textContent = JSON.stringify(data, null, 2);
-      })
-      .catch(error => {
-        console.error('Fetch error:', error);
-        document.getElementById('output').textContent = 'Error: ' + error;
-      });
+    function searchCard() {
+      const name = document.getElementById('cardName').value.trim();
+      if (!name) {
+        document.getElementById('output').textContent = 'Please enter a card name.';
+        return;
+      }
+
+      const url = `https://db.ygoprodeck.com/api/v7/cardinfo.php?fname=${encodeURIComponent(name)}`;
+
+      fetch(url)
+        .then(response => {
+          console.log('Status:', response.status);
+          if (!response.ok) {
+            throw new Error('Card not found');
+          }
+          return response.json();
+        })
+        .then(data => {
+          console.log('Data:', data);
+          document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+        })
+        .catch(error => {
+          console.error('Fetch error:', error);
+          document.getElementById('output').textContent = 'Error: ' + error.message;
+        });
+    }
   </script>
 </body>
 </html>
