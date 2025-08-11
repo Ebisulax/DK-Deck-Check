@@ -16500,7 +16500,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16672,7 +16672,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16792,7 +16792,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16892,7 +16892,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -16912,7 +16912,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -17280,7 +17280,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -17588,7 +17588,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -19224,7 +19224,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -19334,7 +19334,7 @@
       }
     ],
     "isSelected": true,
-    "value": 0,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -20488,7 +20488,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -24300,7 +24300,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -25656,7 +25656,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -25790,7 +25790,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -26579,7 +26579,7 @@
       }
     ],
     "isSelected": true,
-    "value": 2,
+    "value": 1,
     "isInExtraDeck": false
   },
   {
@@ -29378,7 +29378,7 @@
       }
     ],
     "isSelected": true,
-    "value": 3,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -33352,7 +33352,7 @@
       }
     ],
     "isSelected": true,
-    "value": 4,
+    "value": 2,
     "isInExtraDeck": false
   },
   {
@@ -43001,7 +43001,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "isBanned": true
+    "value": 2
   },
   {
     "id": 73262676,
@@ -52271,7 +52271,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 1
   },
   {
     "id": 40155554,
@@ -54392,7 +54392,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 4
   },
   {
     "id": 80955168,
@@ -56911,7 +56911,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 4
   },
   {
     "id": 25401880,
@@ -60771,7 +60771,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 1
   },
   {
     "id": 84133008,
@@ -63779,7 +63779,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 30915572,
@@ -66010,7 +66010,7 @@
   },
   {
     "id": 79759861,
-    "name": "Tribute to the Doomed",
+    "name": "Tribute to The Doomed",
     "type": "Spell Card",
     "frameType": "spell",
     "desc": "Discard 1 card, then target 1 monster on the field; destroy it.",
@@ -67566,7 +67566,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 74131780,
@@ -68713,7 +68713,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 34016756,
@@ -70421,7 +70421,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 2
   },
   {
     "id": 28649820,
@@ -91215,7 +91215,7 @@
     "value": 3
   },
   {
-    "name": "Riefenstahl the Luminated",
+    "name": "[DK] Riefenstahl the Luminated",
     "type": "Effect Monster",
     "race": "Warrior",
     "desc": "You can treat this monster as 2 Tributes for the Tribute Summon of a Warrior monster. If a Level 5 or higher Warrior would be destroyed, you can banish this monster from your GY instead.",
@@ -92831,21 +92831,6 @@
   },
   {
     "id": 11851647,
-    "name": "Dawn Angel Kambi",
-    "type": "Effect Monster",
-    "frameType": "effect",
-    "desc": "If you control no monsters, or all monsters you control are Fairy monsters: You can Special Summon this card from your hand. You can Tribute any number of Fairy monsters, including this card; Special Summon 1 Fairy monster from your Deck whose Level equals the total Levels those monsters had on the field. You cannot Special Summon the turn you activate this effect, except Fairy monsters. You can only use each effect of \"Dawn Angel Kambi\" once per turn.",
-    "atk": 500,
-    "def": 1800,
-    "level": 1,
-    "race": "Fairy",
-    "attribute": "LIGHT",
-    "isSelected": true,
-    "isInExtraDeck": false,
-    "value": 3
-  },
-  {
-    "id": 11851647,
     "name": "[DK] Rookie Warrior Lady",
     "type": "Effect Monster",
     "frameType": "effect",
@@ -93962,7 +93947,7 @@
     "isInExtraDeck": false,
     "value": 1
   },
-    {
+  {
     "id": 18937875,
     "name": "Burning Spear",
     "type": "Spell Card",
@@ -93982,28 +93967,28 @@
     "value": 1,
     "isInExtraDeck": false
   },
+  {
+    "id": 71459861,
+    "name": "Summon Storm",
+    "type": "Spell Card",
+    "humanReadableCardType": "Normal Spell",
+    "frameType": "spell",
+    "desc": "Pay 800 LP; Special Summon 1 Level 6 or lower WIND monster from your hand. During your Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; Special Summon 1 Level 4 or lower WIND monster from your hand. You can only use this effect of \"Summon Storm\" once per turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/summon-storm-12408",
+    "card_images": [
       {
-      "id": 71459861,
-      "name": "Summon Storm",
-      "type": "Spell Card",
-      "humanReadableCardType": "Normal Spell",
-      "frameType": "spell",
-      "desc": "Pay 800 LP; Special Summon 1 Level 6 or lower WIND monster from your hand. During your Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; Special Summon 1 Level 4 or lower WIND monster from your hand. You can only use this effect of \"Summon Storm\" once per turn.",
-      "race": "Normal",
-      "ygoprodeck_url": "https://ygoprodeck.com/card/summon-storm-12408",
-      "card_images": [
-        {
-          "id": 71459861,
-          "image_url": "https://images.ygoprodeck.com/images/cards/71459861.jpg",
-          "image_url_small": "https://images.ygoprodeck.com/images/cards_small/71459861.jpg",
-          "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/71459861.jpg"
-        }
-      ],
-      "isSelected": true,
-      "isInExtraDeck": false,
-      "value": 3
-    },
-      {
+        "id": 71459861,
+        "image_url": "https://images.ygoprodeck.com/images/cards/71459861.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/71459861.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/71459861.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
     "id": 8487449,
     "name": "Jester Confit",
     "type": "Effect Monster",
@@ -94028,7 +94013,7 @@
     "isInExtraDeck": false,
     "value": 3
   },
-      {
+  {
     "id": 72992744,
     "name": "Jester Lord",
     "type": "Effect Monster",
@@ -94053,7 +94038,7 @@
     "isInExtraDeck": false,
     "value": 2
   },
-      {
+  {
     "id": 25280974,
     "name": "Legion the Fiend Jester",
     "type": "Effect Monster",
@@ -94078,7 +94063,7 @@
     "isInExtraDeck": false,
     "value": 3
   },
-    {
+  {
     "id": 48948935,
     "name": "Masked Beast Des Gardius",
     "type": "Effect Monster",
@@ -94103,7 +94088,7 @@
     "isInExtraDeck": false,
     "value": 3
   },
-    {
+  {
     "id": 22610082,
     "name": "The Mask of Remnants",
     "type": "Spell Card",
@@ -94124,7 +94109,7 @@
     "isInExtraDeck": false,
     "value": 1
   },
-    {
+  {
     "id": 12021072,
     "name": "Child's Play",
     "type": "Spell Card",
@@ -94144,7 +94129,7 @@
     "isInExtraDeck": false,
     "value": 1
   },
-    {
+  {
     "id": 2099841,
     "name": "Smile World",
     "type": "Spell Card",
@@ -94164,7 +94149,7 @@
     "isInExtraDeck": false,
     "value": 2
   },
-    {
+  {
     "id": 72621670,
     "name": "Double Magical Arm Bind",
     "type": "Trap Card",
@@ -94184,7 +94169,7 @@
     "isInExtraDeck": false,
     "value": 2
   },
-    {
+  {
     "id": 43791861,
     "name": "Phoenix Beast Gairuda",
     "type": "Effect Monster",
@@ -94208,7 +94193,7 @@
     "isInExtraDeck": false,
     "value": 2
   },
-    {
+  {
     "id": 18063928,
     "name": "Tin Goldfish",
     "type": "Effect Monster",
@@ -94232,7 +94217,7 @@
     "isInExtraDeck": false,
     "value": 3
   },
-    {
+  {
     "id": 27980138,
     "name": "Quill Pen of Gulldos",
     "type": "Spell Card",
@@ -94252,7 +94237,7 @@
     "isInExtraDeck": false,
     "value": 3
   },
-    {
+  {
     "id": 24673894,
     "name": "Changing Destiny",
     "type": "Trap Card",
@@ -94272,7 +94257,7 @@
     "isInExtraDeck": false,
     "value": 2
   },
-    {
+  {
     "id": 77153811,
     "name": "Djinn Cursenchanter of Rituals",
     "type": "Effect Monster",
@@ -94296,5 +94281,1055 @@
     "isSelected": true,
     "isInExtraDeck": false,
     "value": 3
+  },
+  {
+    "id": 57662975,
+    "name": "Darkstorm Dragon",
+    "type": "Gemini Monster",
+    "frameType": "effect",
+    "desc": "This card is treated as a Normal Monster while face-up on the field or in the Graveyard. While this card is a Normal Monster on the field, you can Normal Summon it to have it become an Effect Monster with this effect.\n● Once per turn: You can send 1 face-up Spell/Trap Card you control to the Graveyard; destroy all Spell and Trap Cards on the field.",
+    "atk": 2700,
+    "def": 2500,
+    "level": 8,
+    "race": "Dragon",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/darkstorm-dragon-4908",
+    "card_images": [
+      {
+        "id": 57662975,
+        "image_url": "https://images.ygoprodeck.com/images/cards/57662975.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/57662975.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/57662975.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 5
+  },
+  {
+    "name": "[DK] Keeper of the Shrine",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "This card can be treated as 2 Tributes for the Tribute Summon of a Dragon monster. Once per duel, while this card is in your hand or GY, if a face-up Dragon monster you control is sent to your GY by a card effect or by battle: You can Special Summon this card.",
+    "atk": 0,
+    "def": 2100,
+    "level": 4,
+    "race": "Dragon",
+    "attribute": "DARK",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 6853254,
+    "name": "Return of the Dragon Lords",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Target 1 Level 7 or 8 Dragon monster in your GY; Special Summon it. If a Dragon monster(s) you control would be destroyed by battle or card effect, you can banish this card from your GY instead.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/return-of-the-dragon-lords-592",
+    "card_images": [
+      {
+        "id": 6853254,
+        "image_url": "https://images.ygoprodeck.com/images/cards/6853254.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/6853254.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/6853254.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 87571563,
+    "name": "World Legacy Guardragon",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "When this card is activated: You can target 1 Level 4 or lower Dragon monster in your GY; add it to your hand or Special Summon it. Once per turn: You can target 1 Dragon monster you control; move that monster you control to another of your Main Monster Zones. You can only activate 1 \"World Legacy Guardragon\" per turn.",
+    "race": "Continuous",
+    "archetype": "Guardragon",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/world-legacy-guardragon-9846",
+    "card_images": [
+      {
+        "id": 87571563,
+        "image_url": "https://images.ygoprodeck.com/images/cards/87571563.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/87571563.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/87571563.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 16278116,
+    "name": "Dragon's Bind",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Activate this card by targeting 1 Dragon-Type monster you control with 2500 or less ATK and DEF; neither player can Special Summon monsters with ATK less than or equal to the original ATK of that monster. When that monster leaves the field, destroy this card.",
+    "race": "Continuous",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/dragon-s-bind-1405",
+    "card_images": [
+      {
+        "id": 16278116,
+        "image_url": "https://images.ygoprodeck.com/images/cards/16278116.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/16278116.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/16278116.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 4
+  },
+  {
+    "id": 47393199,
+    "name": "Guardragon Cataclysm",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Tribute 1 Dragon monster, then target 2 cards on the field; destroy them. You can only activate 1 \"Guardragon Cataclysm\" per turn.",
+    "race": "Normal",
+    "archetype": "Guardragon",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/guardragon-cataclysm-9848",
+    "card_images": [
+      {
+        "id": 47393199,
+        "image_url": "https://images.ygoprodeck.com/images/cards/47393199.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/47393199.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/47393199.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 51043053,
+    "name": "Heliosphere Dragon",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "While your opponent has 4 or less cards in their hand and this card is the only monster you control, your opponent cannot declare an attack. Once per turn, if you control a Level 8 Dragon-Type monster: You can make this card become Level 8 until the end of this turn.",
+    "atk": 0,
+    "def": 1900,
+    "level": 4,
+    "race": "Dragon",
+    "attribute": "LIGHT",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/heliosphere-dragon-4344",
+    "card_images": [
+      {
+        "id": 51043053,
+        "image_url": "https://images.ygoprodeck.com/images/cards/51043053.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/51043053.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/51043053.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 1
+  },
+  {
+    "id": 39701395,
+    "name": "[DK] Cards of Consonance",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Discard 1 Dragon with 1000 or less ATK; draw 2 cards.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/cards-of-consonance-3363",
+    "card_images": [
+      {
+        "id": 39701395,
+        "image_url": "https://images.ygoprodeck.com/images/cards/39701395.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/39701395.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/39701395.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 89185742,
+    "name": "Lightning, Dragon Ruler of Drafts",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "You can discard this card and 1 Dragon or WIND monster; Special Summon 1 \"Tempest, Dragon Ruler of Storms\" from your Deck, but it cannot attack this turn. You can only use this effect of \"Lightning, Dragon Ruler of Drafts\" once per turn.",
+    "atk": 500,
+    "def": 1800,
+    "level": 3,
+    "race": "Dragon",
+    "attribute": "WIND",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/lightning-dragon-ruler-of-drafts-7447",
+    "card_images": [
+      {
+        "id": 89185742,
+        "image_url": "https://images.ygoprodeck.com/images/cards/89185742.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/89185742.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/89185742.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 1
+  },
+  {
+    "id": 402568,
+    "name": "Wattgiraffe",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "This card can attack your opponent directly. If this card inflicts battle damage to your opponent by a direct attack: Your opponent cannot activate cards or effects until the end of this turn.",
+    "atk": 1200,
+    "def": 100,
+    "level": 4,
+    "race": "Thunder",
+    "attribute": "LIGHT",
+    "archetype": "Watt",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/wattgiraffe-40",
+    "card_images": [
+      {
+        "id": 402568,
+        "image_url": "https://images.ygoprodeck.com/images/cards/402568.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/402568.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/402568.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 81756619,
+    "name": "Succumbing-Song Morganite",
+    "type": "Spell Card",
+    "humanReadableCardType": "Normal Spell",
+    "frameType": "spell",
+    "desc": "For the rest of this Duel, apply the following effects.\r\n● You cannot activate monster effects in the hand.\r\n● Monsters you control can make up to 2 attacks on monsters during each Battle Phase.\r\n● If your monster battles an opponent's monster, any battle damage it inflicts to your opponent is doubled.\r\nYou can banish this card from your GY; add 1 \"Morganite\" card from your Deck to your hand, then place 1 card from your hand on the bottom of the Deck.",
+    "race": "Normal",
+    "archetype": "Morganite",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/succumbing-song-morganite-14529",
+    "card_images": [
+      {
+        "id": 81756619,
+        "image_url": "https://images.ygoprodeck.com/images/cards/81756619.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/81756619.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/81756619.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 5
+  },
+  {
+    "id": 98700941,
+    "name": "Trickstar Lilybell",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this card is added to your hand, except by drawing it: You can Special Summon it from your hand. You can only use this effect of \"Trickstar Lilybell\" once per turn. This card can attack directly. When this card inflicts battle damage to your opponent: You can target 1 \"Trickstar\" monster in your GY; add it to your hand.",
+    "atk": 800,
+    "def": 2000,
+    "level": 2,
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "archetype": "Trickstar",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/trickstar-lilybell-8491",
+    "card_images": [
+      {
+        "id": 98700941,
+        "image_url": "https://images.ygoprodeck.com/images/cards/98700941.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/98700941.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/98700941.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 90311614,
+    "name": "Dewdark of the Ice Barrier",
+    "type": "Tuner Monster",
+    "frameType": "effect",
+    "desc": "If the only face-up monsters you control are Level 2 or lower, this card can attack your opponent directly.",
+    "atk": 1200,
+    "def": 800,
+    "level": 2,
+    "race": "Aqua",
+    "attribute": "WATER",
+    "archetype": "Ice Barrier",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/dewdark-of-the-ice-barrier-7541",
+    "card_images": [
+      {
+        "id": 90311614,
+        "image_url": "https://images.ygoprodeck.com/images/cards/90311614.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/90311614.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/90311614.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 1
+  },
+  {
+    "id": 17679043,
+    "name": "Penguin Torpedo",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "This card can attack directly. When this card inflicts battle damage to your opponent: You can target 1 Level 6 or lower monster your opponent controls; take control of it until the End Phase, but its effects are negated, also it cannot declare an attack, while you control it. You can only use this effect of \"Penguin Torpedo\" once per turn. At the end of the Damage Step, if this card attacked: Destroy this card.",
+    "atk": 550,
+    "def": 300,
+    "level": 3,
+    "race": "Aqua",
+    "attribute": "WATER",
+    "archetype": "Penguin",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/penguin-torpedo-11185",
+    "card_images": [
+      {
+        "id": 17679043,
+        "image_url": "https://images.ygoprodeck.com/images/cards/17679043.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/17679043.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/17679043.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 32278723,
+    "name": "Aqua Jet Surface",
+    "type": "Spell Card",
+    "humanReadableCardType": "Normal Spell",
+    "frameType": "spell",
+    "desc": "Special Summon 1 Level 4 or lower Fish, Sea Serpent, or Aqua monster from your hand or GY, but you cannot Special Summon from the Extra Deck, except Xyz Monsters, while you control that face-up monster. If your opponent controls an Attack Position monster: You can banish this card from your GY, then target 1 Fish, Sea Serpent, or Aqua monster you control; it gains 1000 ATK until the end of this turn. You can only use each effect of \"Aqua Jet Surface\" once per turn.",
+    "race": "Normal",
+    "archetype": "Aqua Jet",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/aqua-jet-surface-14656",
+    "card_images": [
+      {
+        "id": 32278723,
+        "image_url": "https://images.ygoprodeck.com/images/cards/32278723.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/32278723.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/32278723.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 92481084,
+    "name": "Temple of the Mind's Eye",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Any battle damage a player takes becomes 1000.",
+    "race": "Field",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/temple-of-the-mind-s-eye-8846",
+    "card_images": [
+      {
+        "id": 92481084,
+        "image_url": "https://images.ygoprodeck.com/images/cards/92481084.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/92481084.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/92481084.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 88610708,
+    "name": "Bashing Shield",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Equip only to a Normal Summoned/Set monster. It gains 1000 ATK. You take no battle damage from attacks involving it.",
+    "race": "Equip",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/bashing-shield-7406",
+    "card_images": [
+      {
+        "id": 88610708,
+        "image_url": "https://images.ygoprodeck.com/images/cards/88610708.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/88610708.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/88610708.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 25005816,
+    "name": "Inspiration",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Target 1 face-up monster you control; it gains 700 ATK until the end of this turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/inspiration-2152",
+    "card_images": [
+      {
+        "id": 25005816,
+        "image_url": "https://images.ygoprodeck.com/images/cards/25005816.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/25005816.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/25005816.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 88610708,
+    "name": "[DK] Negative Energy Generator",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Target 1 DARK monster with 700 or less ATK: Triple its original ATK.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/bashing-shield-7406",
+    "card_images": [
+      {
+        "id": 88610708,
+        "image_url": "https://images.ygoprodeck.com/images/cards/88610708.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/88610708.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/88610708.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 70298454,
+    "name": "Leng Ling",
+    "type": "Union Effect Monster",
+    "frameType": "effect",
+    "desc": "Once per turn, you can either: Target 1 face-up monster you control; equip this card to that target, OR: Unequip this card and Special Summon it. The original ATK of a monster equipped with this card becomes 1000, it can make a second attack during each Battle Phase, also if the equipped monster would be destroyed by battle or card effect, destroy this card instead.",
+    "atk": 1500,
+    "def": 0,
+    "level": 3,
+    "race": "Dragon",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/leng-ling-8839",
+    "card_images": [
+      {
+        "id": 70298454,
+        "image_url": "https://images.ygoprodeck.com/images/cards/70298454.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/70298454.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/70298454.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 65899613,
+    "name": "Battlewasp - Pin the Bullseye",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If you control an Insect monster: You can Special Summon this card from your hand. During your Main Phase: You can inflict 200 damage to your opponent for each \"Battlewasp - Pin the Bullseye\" you control. You can only use each effect of \"Battlewasp - Pin the Bullseye\" once per turn.",
+    "atk": 200,
+    "def": 300,
+    "level": 1,
+    "race": "Insect",
+    "attribute": "WIND",
+    "archetype": "Battlewasp",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/battlewasp-pin-the-bullseye-10335",
+    "card_images": [
+      {
+        "id": 65899613,
+        "image_url": "https://images.ygoprodeck.com/images/cards/65899613.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/65899613.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/65899613.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 3084730,
+    "name": "[DK] Bio-Insect Armor",
+    "typeline": [
+      "Insect",
+      "Effect"
+    ],
+    "type": "Effect Monster",
+    "humanReadableCardType": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this card is in your hand: You can target 1 Insect monster you control; equip this card to it, but banish it when it leaves the field, also banish this Equip Card when it leaves the field. You can only use this effect of \"Bio-Insect Armor\" once per duel. The equipped monster gains 1500 ATK/2000 DEF during the Battle Phase and Main Phase 2, only.",
+    "race": "Insect",
+    "atk": 1500,
+    "def": 2000,
+    "level": 5,
+    "attribute": "EARTH",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/bio-insect-armor-13540",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 39078434,
+    "name": "[DK] Infinite Antlion",
+    "typeline": [
+      "Insect",
+      "Effect"
+    ],
+    "type": "Effect Monster",
+    "humanReadableCardType": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Once per turn, at the start of the Damage Step, when this monster battles: You can target 1 card you control equipped to this card and 1 card your opponent controls; destroy them. When an opponent's monster declares a direct attack: You can Special Summon this card from your hand, then, you can equip 1 Insect monster from your hand to this card as an Equip Spell that gives it 500 ATK/DEF. You can only use this effect of \"Infinite Antlion\" once per turn.",
+    "race": "Insect",
+    "atk": 1200,
+    "def": 1500,
+    "level": 3,
+    "attribute": "EARTH",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/infinite-antlion-13541",
+    "isSelected": true,
+    "value": 3,
+    "isInExtraDeck": false
+  },
+  {
+    "id": 88733579,
+    "name": "[DK] Drill Bug",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If this monster inflicts battle damage: You can choose 1 player; that players adds 1 \"Parasite\" monster from their Deck to the top of their deck.",
+    "atk": 1100,
+    "def": 200,
+    "level": 2,
+    "race": "Insect",
+    "attribute": "EARTH",
+    "archetype": "Parasite",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/drill-bug-7418",
+    "card_images": [
+      {
+        "id": 88733579,
+        "image_url": "https://images.ygoprodeck.com/images/cards/88733579.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/88733579.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/88733579.jpg"
+      }
+    ],
+    "isSelected": true,
+    "value": 1,
+    "isInExtraDeck": false
+  },
+  {
+    "id": 14457896,
+    "name": "[DK] Parasite Paranoid",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "(Quick Effect): You can target 1 face-up monster on the field; equip this card from your hand to that target. The equipped monster becomes an Insect monster, cannot attack Insect monsters, also its effects that activate by targeting an Insect monster(s) are negated.",
+    "atk": 500,
+    "def": 300,
+    "level": 2,
+    "race": "Insect",
+    "attribute": "EARTH",
+    "archetype": "Parasite",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/parasite-paranoid-8943",
+    "card_images": [
+      {
+        "id": 14457896,
+        "image_url": "https://images.ygoprodeck.com/images/cards/14457896.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/14457896.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/14457896.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 3248469,
+    "name": "Wannabee!",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "During the End Phase: You can send this card from your hand or field to the GY; excavate cards from the top of your Deck, equal to the number of your opponent's unused Spell & Trap Zones, and you can Set 1 excavated Trap to your field (but send it to the GY during the next End Phase), also place the rest on the bottom of the Deck in any order. You can only use this effect of \"Wannabee!\" once per turn.",
+    "atk": 0,
+    "def": 0,
+    "level": 2,
+    "race": "Insect",
+    "attribute": "LIGHT",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/wannabee-13719",
+    "card_images": [
+      {
+        "id": 3248469,
+        "image_url": "https://images.ygoprodeck.com/images/cards/3248469.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/3248469.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/3248469.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 40633084,
+    "name": "Beetrooper Squad",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Tribute 1 non-Token Insect monster; Special Summon up to 1 \"Beetrooper Token\" (Insect/EARTH/Level 3/ATK 1000/DEF 1000) for every 1000 original ATK of that Tributed monster. You can only activate \"Beetrooper Squad\" once per turn.",
+    "race": "Normal",
+    "archetype": "Beetrooper",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/beetrooper-squad-12897",
+    "card_images": [
+      {
+        "id": 40633084,
+        "image_url": "https://images.ygoprodeck.com/images/cards/40633084.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/40633084.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/40633084.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 12500059,
+    "name": "[DK] Dawn Angel Kambi",
+    "typeline": [
+      "Fairy",
+      "Effect"
+    ],
+    "type": "Effect Monster",
+    "humanReadableCardType": "Effect Monster",
+    "frameType": "effect",
+    "desc": "You can Tribute any number of Fairy monsters, including this card; Special Summon 1 Fairy monster from your Deck whose Level equals the total Levels those monsters had on the field. You cannot Special Summon the turn you activate this effect, except Fairy monsters. You can only use each effect of \"Dawn Angel Kambi\" once per turn.",
+    "race": "Fairy",
+    "atk": 500,
+    "def": 1800,
+    "level": 1,
+    "attribute": "LIGHT",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/dawn-angel-kambi-15026",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 26842483,
+    "name": "Justice Bringer",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "Once per turn, when a Special Summoned monster your opponent controls activates its effect, you can negate the activation.",
+    "atk": 1700,
+    "def": 1000,
+    "level": 4,
+    "race": "Warrior",
+    "attribute": "EARTH",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/justice-bringer-2299",
+    "card_images": [
+      {
+        "id": 26842483,
+        "image_url": "https://images.ygoprodeck.com/images/cards/26842483.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/26842483.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/26842483.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 52253888,
+    "name": "Light Law Medium",
+    "typeline": [
+      "Fairy",
+      "Effect"
+    ],
+    "type": "Effect Monster",
+    "humanReadableCardType": "Effect Monster",
+    "frameType": "effect",
+    "desc": "At the start of your opponent's Battle Phase: You can target any number of Attack Position monsters your opponent controls; while this card is in your Monster Zone, those monsters must attack this card this turn, if able. Once per turn, when an attack is declared involving this card and an opponent's Attack Position monster: You can negate the attack, and if you do, inflict damage to your opponent equal to half the original ATK of that opponent's monster.",
+    "race": "Fairy",
+    "atk": 400,
+    "def": 300,
+    "level": 2,
+    "attribute": "LIGHT",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/light-law-medium-13007",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 2
+  },
+  {
+    "id": 26285788,
+    "name": "Trial and Tribulation",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "You can only activate 1 \"Trial and Tribulation\" per turn. During the End Phase of the turn this card was activated, apply this effect, depending on the number of monsters you Tributed from the field and from your hand this turn, except Tokens.\n● 1: Draw 1 card.\n● 2: Add 2 monsters from your Graveyard to your hand.\n● 3+: Destroy up to 3 face-up cards on the field.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/trial-and-tribulation-2258",
+    "card_images": [
+      {
+        "id": 26285788,
+        "image_url": "https://images.ygoprodeck.com/images/cards/26285788.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/26285788.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/26285788.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 63854005,
+    "name": "Ready Fusion",
+    "type": "Spell Card",
+    "humanReadableCardType": "Normal Spell",
+    "frameType": "spell",
+    "desc": "Pay 1000 LP; Special Summon 1 Level 6 or lower non-Effect Fusion Monster from your Extra Deck, but it cannot attack, also destroy it during the End Phase. (This is treated as a Fusion Summon.) You can only activate 1 \"Ready Fusion\" per turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/ready-fusion-12165",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+  {
+    "id": 67443336,
+    "name": "Balance of Judgment",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "If your opponent controls more cards than the combined number of cards in your hand and that you control: Draw cards equal to their surplus. You can only activate 1 \"Balance of Judgment\" per turn.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/balance-of-judgment-5667",
+    "card_images": [
+      {
+        "id": 67443336,
+        "image_url": "https://images.ygoprodeck.com/images/cards/67443336.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/67443336.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/67443336.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "name": "[DK] Dazzling Radiance",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "When your opponent declares an attack while they control 2 or more monsters: Negate the attack, and your opponent must immediately declare an attack with the monster they control with the lowest ATK in face-up Attack Position, targeting another 1 of their monsters as the new attack target.",
+    "race": "Normal",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "id": 52253888,
+    "name": "[DK] Judge's Familiar",
+    "typeline": [
+      "Fairy",
+      "Effect"
+    ],
+    "type": "Effect Monster",
+    "humanReadableCardType": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If your opponent activates a Card or an effect: You can tribute this monster; they can discard a card of the same type (Monster, Spell, Trap) to negate this card's effect, otherwise negate the activation of their Card or effect, and if you do, destroy it.",
+    "race": "Fairy",
+    "atk": 300,
+    "def": 1000,
+    "level": 1,
+    "attribute": "LIGHT",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/light-law-medium-13007",
+    "isInExtraDeck": false,
+    "isSelected": true,
+    "value": 3
+  },
+  {
+    "id": 38143903,
+    "name": "Head Judging",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "When a monster on the field activates its effect: You can make the activating player toss a coin and call it. If they call it right, send this card to the GY. If they call it wrong, negate that effect's activation, and if you do, change control of that monster to their opponent. You can only use this effect of \"Head Judging\" once per turn.",
+    "race": "Continuous",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/head-judging-10662",
+    "card_images": [
+      {
+        "id": 38143903,
+        "image_url": "https://images.ygoprodeck.com/images/cards/38143903.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/38143903.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/38143903.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "name": "[DK] Heaven's Judgment",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "When an opponent's monster declares an attack: Target the attacking monster; send 1 Fairy monster from your deck to the GY with the same Level as the target, and if you do, destroy that target.",
+    "race": "Normal",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+    {
+    "name": "[DK] Wotan's Judgment",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "When an opponent's monster declares an attack: Negate the attack, end the Battle Phase, then draw 1 card, and if you do, shuffle 1 Spell from your hand into the Deck.",
+    "race": "Counter",
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+  {
+    "name": "[DK] Flavor Judge",
+    "type": "Normal Monster",
+    "frameType": "normal",
+    "desc": "\"... and now they're trying to make a brick wall on my property fight a dinosaur to the death.\"",
+    "atk": 1600,
+    "def": 1200,
+    "level": 4,
+    "race": "Winged Beast",
+    "attribute": "EARTH",
+    "isSelected": true,
+    "value": 0,
+    "isInExtraDeck": false
+  },
+   {
+    "id": 51849482,
+    "name": "Finis Terrae, Tower of the Necroworld",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "If you control a Level 10 monster, you can Special Summon this card (from your hand). You can only Special Summon \"Finis Terrae, Tower of the Necroworld\" once per turn this way. If this card is sent to the GY: You can target 1 face-up card on the field; that card cannot be destroyed by card effects this turn. You can only use this effect of \"Finis Terrae, Tower of the Necroworld\" once per turn.",
+    "atk": 1000,
+    "def": 2800,
+    "level": 10,
+    "race": "Zombie",
+    "attribute": "WATER",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/finis-terrae-tower-of-the-necroworld-14069",
+    "card_images": [
+      {
+        "id": 51849482,
+        "image_url": "https://images.ygoprodeck.com/images/cards/51849482.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/51849482.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/51849482.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+    {
+    "id": 26905245,
+    "name": "Metal Reflect Slime",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Special Summon this card in Defense Position as an Effect Monster (Aqua/WATER/Level 10/ATK 0/DEF 3000). (This card is also still a Trap.) This card cannot attack.",
+    "race": "Continuous",
+    "archetype": "Slime",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/metal-reflect-slime-2303",
+    "card_images": [
+      {
+        "id": 26905245,
+        "image_url": "https://images.ygoprodeck.com/images/cards/26905245.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/26905245.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/26905245.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+    {
+    "id": 44682448,
+    "name": "Garbage Lord",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "You can Special Summon this card (from your hand) by paying 2000 Life Points. This card cannot be used as an Xyz Material for an Xyz Summon, except for the Xyz Summon of a DARK monster.",
+    "atk": 0,
+    "def": 2400,
+    "level": 5,
+    "race": "Fiend",
+    "attribute": "DARK",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/garbage-lord-3804",
+    "card_images": [
+      {
+        "id": 44682448,
+        "image_url": "https://images.ygoprodeck.com/images/cards/44682448.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/44682448.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/44682448.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+    {
+    "id": 46009906,
+    "name": "[DK] Double Wild",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Target 1 Level 5 monster you control; add 1 Level 10 monster from your Deck to your hand with the same original Type, then you can discard 1 card, and if you do, Special Summon 1 monster from your hand with that same Type, in Defense Position. You cannot Special Summon for the rest of this turn after this card resolves. You can only activate 1 \"Double Wild\" per turn.",
+    "race": "Normal",
+    "isSelected": true,
+    "value": 3,
+    "isInExtraDeck": false
+  },
+      {
+    "id": 72589042,
+    "name": "Goddess of Sweet Revenge",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "While you control no cards and this is the only card in your hand, when an opponent's monster declares an attack: You can discard this card; destroy as many cards as possible your opponent controls, then you can Special Summon 1 monster from your Deck.",
+    "atk": 1800,
+    "def": 2000,
+    "level": 6,
+    "race": "Fairy",
+    "attribute": "LIGHT",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/goddess-of-sweet-revenge-9333",
+    "card_images": [
+      {
+        "id": 72589042,
+        "image_url": "https://images.ygoprodeck.com/images/cards/72589042.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/72589042.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/72589042.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 3
+  },
+    {
+    "id": 55557574,
+    "name": "Thunderspeed Summon",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "During the Main or Battle Phase: Immediately after this effect resolves, Normal Summon 1 Level 10 monster, or, if you control \"Queen's Knight\", \"King's Knight\", and \"Jack's Knight\", you can apply this effect instead.\r\n● Add 1 Level 10 non-DARK monster with ? ATK from your Deck to your hand, then, immediately after this effect resolves, you can Normal Summon 1 Level 10 monster.\r\nYou can only activate 1 \"Thunderspeed Summon\" per turn.",
+    "race": "Quick-Play",
+    "archetype": "Knight",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/thunderspeed-summon-12439",
+    "card_images": [
+      {
+        "id": 55557574,
+        "image_url": "https://images.ygoprodeck.com/images/cards/55557574.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/55557574.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/55557574.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+      {
+      "id": 32484853,
+      "name": "Singularity Fiend",
+      "typeline": [
+        "Fiend",
+        "Effect"
+      ],
+      "type": "Effect Monster",
+      "humanReadableCardType": "Effect Monster",
+      "frameType": "effect",
+      "desc": "When your opponent Special Summons a monster(s) (except during the Damage Step): You can discard this card and 1 Spell; destroy that monster(s). You can only use this effect of \"Singularity Fiend\" once per turn.",
+      "race": "Fiend",
+      "atk": 0,
+      "def": 0,
+      "level": 1,
+      "attribute": "DARK",
+      "isSelected": true,
+      "isInExtraDeck": false,
+      "value": 3
+    },
+      {
+    "id": 91711547,
+    "name": "Flamvell Fiend",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card inflicts Battle Damage to your opponent, inflict 200 damage to your opponent for each Pyro-Type monster in your Graveyard.",
+    "atk": 2100,
+    "def": 1200,
+    "level": 5,
+    "race": "Fiend",
+    "attribute": "FIRE",
+    "archetype": "Flamvell",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/flamvell-fiend-7648",
+    "card_images": [
+      {
+        "id": 91711547,
+        "image_url": "https://images.ygoprodeck.com/images/cards/91711547.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/91711547.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/91711547.jpg"
+      }
+    ],
+    "isSelected": true,
+    "isInExtraDeck": false,
+    "value": 2
+  },
+    {
+    "id": 97687912,
+    "name": "[DK] Cocoon of Ultra Evolution",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "(This card is always treated as a \"Cocoon of Evolution\" card.)\n\nEquip only to a \"Petit Moth\" monster you control. It's original ATK becomes 0, and it's original DEF becomes 2000. During the Draw Phase: Treat the equipped \"Petit Moth\" monster as 1 turn longer on the field. Once per turn (Quick Effect): Tribute 1 Insect monster other than the equipped monster; apply the appropriate effects, in sequence: \n● You can tribute the equipped \"Petit Moth\"; Special Summon 1 \"Moth\" Insect EARTH Monster from your Extra Deck, whose summon condition is met.\n● The equipeed \"Petit Moth\" monster, this card, or any monster summoned by this card's effect cannot be destroyed by battle or card effects this turn.\n\nYou can banish this card from your GY, and target 1 Insect monster in your GY; put the target at the bottom of your deck, then draw 1 card.",
+    "race": "Equip",
+    "isSelected": true,
+    "value": 2,
+    "isInExtraDeck": false
+  },
+    {
+    "id": 27911549,
+    "name": "[DK] Parasite Paracide",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "At the start of the first Draw Phase (before the draw): Reveal this card from your Heart of the Cards Deck; shuffle it face-up into the opponent's Deck. If you draw this card after it was added to your Deck by its effect: Activate it as a Continuos Spell, and if you do, take 1000 damage. All monsters controlled by the player that controls this Continuos Spell become Insect monsters.",
+    "atk": 500,
+    "def": 300,
+    "level": 2,
+    "race": "Insect",
+    "attribute": "EARTH",
+    "archetype": "Parasite",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/parasite-paracide-2374",
+    "isSelected": true,
+    "value": 2,
+    "isInExtraDeck": false
+  },
+      {
+    "id": 27911549,
+    "name": "[DK] Pheromone Wasp",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "When this card inflicts battle damage to your opponent by a direct attack: Special Summon 1 Level 4 or lower Insect monster form your Deck at the end of the Battle Phase.",
+    "atk": 800,
+    "def": 800,
+    "level": 3,
+    "race": "Insect",
+    "attribute": "WIND",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/parasite-paracide-2374",
+    "isSelected": true,
+    "value": 3,
+    "isInExtraDeck": false
+  },
+   {
+      "id": 48805472,
+      "name": "Traptantalizing Tune",
+      "type": "Spell Card",
+      "humanReadableCardType": "Normal Spell",
+      "frameType": "spell",
+      "desc": "Discard 1 Level 4 Insect or Plant monster, or 1 Normal Trap; draw 2 cards. You can banish this card from your GY, then target 1 of your banished Level 4 Insect or Plant monsters, or Normal Traps; place it on the bottom of the Deck. You can only use each effect of \"Traptantalizing Tune\" once per turn.",
+      "race": "Normal",
+      "ygoprodeck_url": "https://ygoprodeck.com/card/traptantalizing-tune-13595",
+      "isSelected": true,
+      "isInExtraDeck": false,
+      "value": 2
+    },
+      {
+    "id": 83887306,
+    "name": "[DK] Parasite Worm",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "When your opponent summons a monster(s), while an opponent's monster is equipped with a \"Parasite\" card, or while your opponent controls a face-up \"Parasite Paracide\" card: Destroy one of them, and if you do, inflict damage to your opponent equal to the destroyed monster's ATK.",
+    "race": "Normal",
+    "isSelected": true,
+    "value": 3,
+    "isInExtraDeck": false
+  },
+        {
+    "name": "[DK] Mimesis",
+    "type": "Trap Card",
+    "frameType": "trap",
+    "desc": "Activate only when a face-up Insect monster you control is targeted for an attack: Return that monster to the hand, and if you do, Special Summon 1 Level 4 or lower Insect monster from your hand. That monster becomes the new attack target.",
+    "race": "Normal",
+    "isSelected": true,
+    "value": 2,
+    "isInExtraDeck": false
   }
 ]

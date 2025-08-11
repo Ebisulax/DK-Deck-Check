@@ -253,16 +253,16 @@ async function uploadFile() {
                 } else {
                     rule6Tip.textContent = '';
                 }
-                if (highAtkSum < 3650) {
-                    rule6Tip.textContent += ` Sie dürften noch ${3650 - highAtkSum} ATK mehr haben!`;
-                } else if (highAtkSum > 3650) {
-                    rule6Tip.textContent += ` Sie müssten ${highAtkSum - 3650} ATK weniger haben!`;
+                if (highAtkSum < 3700) {
+                    rule6Tip.textContent += ` Sie dürften noch ${3700 - highAtkSum} ATK mehr haben!`;
+                } else if (highAtkSum > 3700) {
+                    rule6Tip.textContent += ` Sie müssten ${highAtkSum - 3700} ATK weniger haben!`;
                 }
-                if (highAtkCount === 2 && highAtkSum === 3650) {
+                if (highAtkCount === 2 && highAtkSum === 3700) {
                     rule6Tip.textContent = 'Perfekt!';
                 }
                 rule6Result.innerHTML = '';
-                rule6Result.appendChild(createIcon(highAtkCount <= 2 && highAtkSum <= 3650));
+                rule6Result.appendChild(createIcon(highAtkCount <= 2 && highAtkSum <= 3700));
                 
                 // Check rule 7: 1500-1650 Monsters
                 const rule7Value = document.getElementById('midAtkCount');
