@@ -29949,8 +29949,7 @@
         "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/95286165.jpg"
       }
     ],
-    "isSelected": true,
-    "value": 3,
+    "isSelected": false,
     "isInExtraDeck": false
   },
   {
@@ -95417,6 +95416,25 @@
     ],
     "isSelected": true,
     "value": 3,
+    "isInExtraDeck": false
+  },
+    {
+    "id": 95286165,
+    "name": "[DK] De-Fusion",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Target 1 Fusion Monster on the field; return that target to the Extra Deck, then, if all the Fusion Materials that were used for its Fusion Summon are in the GYs, you can Special Summon all of them to the controller of the Fusion monster's field.",
+    "race": "Quick-Play",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/de-fusion-7933",
+    "card_images": [
+      {
+        "id": 95286165,
+        "image_url": "https://images.ygoprodeck.com/images/cards/95286165.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/95286165.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/95286165.jpg"
+      }
+    ],
+    "isSelected": false,
     "isInExtraDeck": false
   }
 ]
