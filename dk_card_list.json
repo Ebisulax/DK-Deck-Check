@@ -67913,7 +67913,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 3
+    "value": 4
   },
   {
     "id": 14087893,
@@ -95399,5 +95399,24 @@
     "isSelected": true,
     "isInExtraDeck": false,
     "value": 5
+  },
+    {
+    "name": "[DK] The Shallow Grave",
+    "type": "Spell Card",
+    "frameType": "spell",
+    "desc": "Each player targets 1 monster in their own GY; each player Special Summons the target from their GY in face-up Defense Position.",
+    "race": "Normal",
+    "ygoprodeck_url": "https://ygoprodeck.com/card/the-shallow-grave-3705",
+    "card_images": [
+      {
+        "id": 43434803,
+        "image_url": "https://images.ygoprodeck.com/images/cards/43434803.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/43434803.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/43434803.jpg"
+      }
+    ],
+    "isSelected": true,
+    "value": 3,
+    "isInExtraDeck": false
   }
 ]
