@@ -95370,7 +95370,7 @@
     "name": "[DK] Adamantine Sword Revival",
     "type": "Spell Card",
     "race": "Quick-Play",
-    "desc": "If a Dragon monster(s) is Special Summoned from the GY: Tribute 1 of them; Special Summon 1 \"Diamond Head Dragon\" from your Deck in face-up Attack Position, under the control of the tributed monster's controller.",
+    "desc": "If a Dragon monster(s) is Special Summoned from the GY: Tribute 1 of them; Special Summon 1 \"Diamond Head Dragon\" from your Hand or Deck in face-up Attack Position, under the control of the tributed monster's controller.",
     "isInExtraDeck": false,
     "isSelected": true,
     "value": 3
