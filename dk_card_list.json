@@ -95462,5 +95462,18 @@
   "isInExtraDeck": false,
   "isSelected": true,
   "value": 4
+},
+{
+  "name": "[DK] VARefar, the Judge of Ball",
+  "type": "Effect Monster",
+  "race": "Fiend",
+  "desc": "When your opponent activates a monster effect on their field that targets a \"Ball\"-monster(s) you control, or their monster targets one for an attack (Quick Effect): You can Special Summon this card from your hand, then you can choose 1 of those opponent's monsters and reveal 1 card in your hand, then apply the following effect to that monster based on the revealed card type: ●Monster: Change it to Defense Position. ●Spell: Double its ATK. ●Trap: Banish it until your opponent's 3rd End Phase.",
+  "atk": 2100,
+  "def": 800,
+  "level": 11,
+  "attribute": "EARTH",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 3
 }
 ]
