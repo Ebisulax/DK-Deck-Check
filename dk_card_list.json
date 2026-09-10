@@ -95475,5 +95475,18 @@
   "isInExtraDeck": false,
   "isSelected": true,
   "value": 3
+},
+{
+  "name": "[DK] Lightstorm Dragon",
+  "type": "Effect Monster",
+  "race": "Dragon",
+  "desc": "Can only be Tribute Summoned using Normal Dragon Monsters, with at least 1 Level 5 or higher monster, as Tributes. If this card is Tribute Summoned: Target Spells/Traps on the field, up to the number of Normal Dragon Monsters in your GY; Destroy them. If this Tribute Summoned monster is destroyed by battle or card effect: You can target 1 Spell/Trap in your GY; Set it, but it cannot be activated unless you control a Normal Dragon Monster. You can only use each effect of \"Lightstorm Dragon\" once per turn.",
+  "atk": 2700,
+  "def": 3000,
+  "level": 10,
+  "attribute": "LIGHT",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 4
 }
 ]
