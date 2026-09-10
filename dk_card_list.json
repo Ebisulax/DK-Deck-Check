@@ -95454,13 +95454,13 @@
   "name": "[DK] Guivre",
   "type": "Effect Monster",
   "race": "Dragon",
-  "desc": "Gains 400 ATK for each other Dragon monster you control. When this card destroys a monster by battle: You can Special Summon 1 \"Wyvern Token\" (Dragon/LIGHT/Level 1/ATK 400/DEF 400). During the opponent's Battle Phase, or Main Phase 2, you can (Quick Effect): Immediately after this effect resolves, Tribute Summon 1 Dragon monster by tributing at least 1 \"Guivre\" or \"Wyvern Token\". You can only use this effect of \"Guivre\" once per turn.",
+  "desc": "Gains 200 ATK for each other Dragon monster you control. When this card destroys a monster by battle: You can Special Summon 1 \"Wyvern Token\" (Dragon/LIGHT/Level 1/ATK 400/DEF 400). During the opponent's Battle Phase, or Main Phase 2, you can (Quick Effect): Immediately after this effect resolves, Tribute Summon 1 Dragon monster by using \"Guivre\" and/or \"Wyvern Token\" as a Tribute(s). You can only use this effect of \"Guivre\" once per turn.",
   "atk": 1300,
   "def": 400,
   "level": 4,
   "attribute": "DARK",
   "isInExtraDeck": false,
   "isSelected": true,
-  "value": 3
+  "value": 4
 }
 ]
