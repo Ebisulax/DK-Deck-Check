@@ -95488,5 +95488,18 @@
   "isInExtraDeck": false,
   "isSelected": true,
   "value": 4
+},
+{
+  "name": "[DK] Ruby Dragon",
+  "type": "Normal Monster",
+  "race": "Dragon",
+  "desc": "A very beautiful dragon covered with ruby. It does not like fights, but has incredibly high defense power.",
+  "atk": 1600,
+  "def": 1300,
+  "level": 4,
+  "attribute": "WIND",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 0
 }
 ]
