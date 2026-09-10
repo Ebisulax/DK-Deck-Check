@@ -95378,12 +95378,12 @@
   {
   "name": "[DK] Diamond Head Dragon",
   "type": "Effect Monster",
-  "race": "Dinosaur",
+  "race": "Dragon",
   "desc": "Can only be summoned by the effect of \"Adamantine Sword Revival\". This card's original ATK becomes the original ATK of the monster tributed for \"Adamantine Sword Revival\" + 1000.",
-  "atk": 800,
-  "def": 600,
-  "level": 3,
-  "attribute": "EARTH",
+  "atk": 0,
+  "def": 2800,
+  "level": 8,
+  "attribute": "LIGHT",
   "isInExtraDeck": false,
   "isSelected": true,
   "value": 2
