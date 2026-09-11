@@ -95501,5 +95501,18 @@
   "isInExtraDeck": false,
   "isSelected": true,
   "value": 0
+},
+{
+  "name": "[DK] Exploder Dragonwing",
+  "type": "Effect Monster",
+  "race": "Dragon",
+  "desc": "You can Special Summon this monster by tributing an \"Exploder Dragon\" that destroyed 3+ cards this game, either by its own effect, or if it used cards that mention Dragon monsters in effects that destroy cards. At the start of the Damage Step, if this card battles a monster: You can destroy that monster, and if you do, inflict damage to your opponent equal to the ATK the destroyed monster had on the field. This card's ATK must be greater than or equal to the ATK of that monster to activate and to resolve this effect.",
+  "atk": 2400,
+  "def": 1600,
+  "level": 7,
+  "attribute": "DARK",
+  "isInExtraDeck": true,
+  "isSelected": true,
+  "value": 0
 }
 ]
