@@ -95514,5 +95514,49 @@
   "isInExtraDeck": true,
   "isSelected": true,
   "value": 0
+},
+{
+  "name": "Mimicking Man-Eater Bug",
+  "type": "Flip Effect Monster",
+  "race": "Insect",
+  "desc": "FLIP: Target 1 monster on the field; destroy it, and if you do, this card gains ATK equal to that monster's original ATK, then you can change this card's Type to that monster's original Type. Cannot be destroyed by battle. Cannot be destroyed by the effects of monsters with its same Type.",
+  "atk": 450,
+  "def": 600,
+  "level": 4,
+  "attribute": "EARTH",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 3
+},
+{
+  "name": "Snowman Eater",
+  "type": "Flip Effect Monster",
+  "race": "Aqua",
+  "desc": "FLIP: Target 1 face-up monster on the field; destroy that target.",
+  "atk": 0,
+  "def": 1900,
+  "level": 3,
+  "attribute": "WATER",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 3
+},
+{
+  "name": "Pot of Acquisitiveness",
+  "type": "Spell Card",
+  "race": "Quick-Play",
+  "desc": "Target 3 banished monsters; shuffle all 3 into the Deck, then draw 1 card.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 3
+},
+{
+  "name": "The Golden Apples",
+  "type": "Trap Card",
+  "race": "Normal",
+  "desc": "When you take battle damage while you control no monsters: Gain LP equal to the battle damage you took, and if you do, Special Summon 1 \"Malus Token\" (Fiend/DARK/Level 1/ATK ?/DEF ?). Its ATK/DEF are each equal to the amount of LP you gained by this effect.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 3
 }
 ]
