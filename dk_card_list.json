@@ -68210,7 +68210,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 5
+    "value": 3
   },
   {
     "id": 23205979,
@@ -95555,6 +95555,126 @@
   "type": "Trap Card",
   "race": "Normal",
   "desc": "When you take battle damage while you control no monsters: Gain LP equal to the battle damage you took, and if you do, Special Summon 1 \"Malus Token\" (Fiend/DARK/Level 1/ATK ?/DEF ?). Its ATK/DEF are each equal to the amount of LP you gained by this effect.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 3
+},
+{
+  "name": "[DK] Altar of Restoration",
+  "type": "Spell Card",
+  "race": "Normal",
+  "desc": "Banish the top 2 cards of your Deck, and target 1 card in your GY; add that target to your hand.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 5
+},
+{
+  "name": "[DK] Divine Wind",
+  "type": "Trap Card",
+  "race": "Counter",
+  "desc": "If the effect of a monster would inflict effect damage to you: Your opponent takes that effect damage + 500 instead.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 2
+},
+{
+  "name": "[DK] Spider Web",
+  "type": "Spell Card",
+  "race": "Normal",
+  "desc": "Target a card in your opponent's GY that was sent there during the last turn: Add that target to your hand.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 5
+},
+{
+  "name": "[DK] Cell Division",
+  "type": "Spell Card",
+  "race": "Normal",
+  "desc": "Target 1 Level 3 or lower Insect monster you control; Special Summon 1 \"Cell Division Token\" that has the same original Level, Type, Attribute, ATK and DEF as the targeted monster.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 3
+},
+{
+  "name": "[DK] Spiritualistic Medium",
+  "type": "Spell Card",
+  "race": "Normal",
+  "desc": "Discard all cards from your hand (min. 1), and target 1 face-up monster you control: It gains 500 ATK for each discarded card, until the End Phase.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 1
+},
+{
+  "name": "[DK] Mirror Tablet",
+  "type": "Trap Card",
+  "race": "Normal",
+  "desc": "If a monster you control was destroyed b,y battle during this Battle Phase: Target 1 face-up monster you control, and 1 face-up opponent's monster that destroyed a monster you controlled by battle; during the battle between these monsters, your monster gains ATK equal to half the original ATK of the opponent's monster. Those monsters must battle this turn, if able.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 2
+},
+{
+  "name": "[DK] Grief Tablet",
+  "type": "Spell Card",
+  "race": "Equip",
+  "desc": "The equipped monster cannot attack or change its battle position, and its effect(s) are negated. When this equipped card is destroyed and sent to the Graveyard: Inflict 500 damage to the controller of the monster that was equipped with this card.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 3
+},
+{
+  "name": "[DK] Rebirth Tablet",
+  "type": "Trap Card",
+  "race": "Normal",
+  "desc": "When a monster you control is destroyed by battle: Target 1 monster in your GY; Special Summon it.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 4
+},
+{
+  "name": "[DK] Spirit Illusion",
+  "type": "Spell Card",
+  "race": "Equip",
+  "desc": "After this card resolves, Special Summon 1 \"Doppelganger Token\" with the same Level, ATK, DEF, Attribute, and Type as the equipped monster. This Token gains the same effects as the equipped monster. If this card leaves the field: Destroy the Special Summoned \"Doppelganger Token\".",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 4
+},
+{
+  "name": "[DK] Disgraced Mage",
+  "type": "Effect Monster",
+  "race": "Zombie",
+  "desc": "If this card destroys an opponent's monster by battle: Shuffle that monster back into the Deck instead of sending it to the GY. If this card is destroyed by battle and you would take Battle Damage: You can shuffle this card and all the cards in your hand into the Deck instead.",
+  "atk": 1700,
+  "def": 1400,
+  "level": 4,
+  "attribute": "DARK",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 1
+},
+{
+  "name": "[DK] Necro Jar",
+  "type": "Effect Monster",
+  "race": "Rock",
+  "desc": "This card is unaffected by the effects of Spell Cards. If this card is destroyed by battle: Your opponent sends cards from the top of their Deck to the GY for each 300 Battle Damage this card's controller took from that battle.",
+  "atk": 1100,
+  "def": 300,
+  "level": 3,
+  "attribute": "DARK",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 1
+},
+{
+  "name": "[DK] Necro Wall",
+  "type": "Effect Monster",
+  "race": "Zombie",
+  "desc": "During your End Phase: You can Special Summon 1 \"Necro Wall Token\" (Zombie-Type/DARK/Level 1/ATK 0/DEF 0) for each face-up Zombie monster on the field, except this card.",
+  "atk": 0,
+  "def": 0,
+  "level": 3,
+  "attribute": "DARK",
   "isInExtraDeck": false,
   "isSelected": true,
   "value": 3
