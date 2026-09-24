@@ -95700,5 +95700,31 @@
   "isInExtraDeck": false,
   "isSelected": true,
   "value": 5
+},
+{
+  "name": "[DK] Ascension Sky Dragon",
+  "type": "Effect Monster",
+  "race": "Dragon",
+  "desc": "You can Special Summon this monster by tributing a \"Muka Muka\"-monster, or a \"Tragoedia\", after you gained LP 10+ times by the effect of \"Solemn Wishes\". This card gains 800 ATK for each card in your hand. If this card is destroyed: Special Summon the monster tributed for this monster's Special Summon.",
+  "atk": 0,
+  "def": 3000,
+  "level": 10,
+  "attribute": "LIGHT",
+  "isInExtraDeck": true,
+  "isSelected": true,
+  "value": 0
+},
+{
+  "name": "[DK] Bazoo the Soul-Devourer",
+  "type": "Effect Monster",
+  "race": "Beast",
+  "desc": "You can Special Summon this monster by tributing a \"Bazoo the Soul-Eater\" who has eaten 7 or more cards (Transfer the count). Any monster destroyed by this monster by battle is banished instead, and gets eaten.",
+  "atk": 2500,
+  "def": 900,
+  "level": 7,
+  "attribute": "EARTH",
+  "isInExtraDeck": true,
+  "isSelected": true,
+  "value": 0
 }
 ]
