@@ -95678,5 +95678,27 @@
   "isInExtraDeck": false,
   "isSelected": true,
   "value": 3
+},
+{
+  "name": "[DK] Spirit Shield",
+  "type": "Trap Card",
+  "race": "Continuous",
+  "desc": "Once per battle, when an opponent monster declares an attack: You can banish 1 Fiend or Zombie monster from your GY; negate the attack. Once per turn, during the End Phase, if you do not control a Fiend or Zombie monster: Send this card to the GY.",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 4
+},
+{
+  "name": "[DK] Revival Jam",
+  "type": "Effect Monster",
+  "race": "Aqua",
+  "desc": "If this card on the field is destroyed and sent to the GY: Special Summon it to the field of the player who controlled it when it was destroyed.",
+  "atk": 1500,
+  "def": 500,
+  "level": 4,
+  "attribute": "WATER",
+  "isInExtraDeck": false,
+  "isSelected": true,
+  "value": 5
 }
 ]
