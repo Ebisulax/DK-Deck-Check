@@ -19399,7 +19399,7 @@
       }
     ],
     "isSelected": true,
-    "value": 4,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -21879,7 +21879,7 @@
       }
     ],
     "isSelected": true,
-    "value": 4,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -30401,7 +30401,7 @@
       }
     ],
     "isSelected": true,
-    "value": 4,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -31192,7 +31192,7 @@
       }
     ],
     "isSelected": true,
-    "value": 4,
+    "value": 3,
     "isInExtraDeck": false
   },
   {
@@ -40979,7 +40979,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 2
+    "value": 3
   },
   {
     "id": 90140980,
@@ -43766,7 +43766,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 61166988,
@@ -44838,7 +44838,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "isBanned": true
+    "value": 2
   },
   {
     "id": 501000006,
@@ -56433,7 +56433,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "isBanned": true
+    "value": 3
   },
   {
     "id": 7576264,
@@ -66293,7 +66293,7 @@
     ],
     "isSelected": true,
     "isInExtraDeck": false,
-    "value": 4
+    "value": 3
   },
   {
     "id": 4849037,
@@ -95526,7 +95526,7 @@
   "attribute": "EARTH",
   "isInExtraDeck": false,
   "isSelected": true,
-  "value": 3
+  "value": 4
 },
 {
   "name": "Snowman Eater",
